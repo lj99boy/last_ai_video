@@ -1,0 +1,12 @@
+{
+  "asset_id": "R001",
+  "relative_path": "media/references/R001-user-photo-original.jpg",
+  "source": "user-provided photograph",
+  "received_date": "2026-10-11",
+  "width": 8064,
+  "height": 6048,
+  "bytes": 9263271,
+  "sha256": "054251a7935389aa92b4a10def22a7286e095b58cbc8e5730de4e1c738b3d9fa",
+  "processing": "Unmodified byte-for-byte copy; not perspective-corrected or color-corrected",
+  "git_storage": "Ignored local media; separate backup not yet configured"
+}

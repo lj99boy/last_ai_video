@@ -1,0 +1,2 @@
+asset_id,shot_id,kind,relative_path,source_url,source_or_creator,usage_notes,version,selection_status,notes
+R001,,source_photo,media/references/R001-user-photo-original.jpg,,user-provided,画作识别与视觉参考;原样保留,original,source_selected,8064x6048;指纹见source-asset.json;本地媒体未上传Git

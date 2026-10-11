@@ -10,7 +10,7 @@
 docs/                    通用流程、工具选型与调研依据
 templates/work/          新作品模板，复制后独立使用
 works/                   作品索引与各作品目录
-  0001-untitled/         第一部作品占位，尚未选题
+  0001-in-london/        第一部作品：《在伦敦》改编探索
     development/        解读、主题、故事
     preproduction/      视觉参考、分镜
     production/         素材清单、生成与费用记录
@@ -22,10 +22,11 @@ works/                   作品索引与各作品目录
 ## 从这里开始
 
 - [作品索引](works/README.md)
-- [第一部作品](works/0001-untitled/README.md)
+- [第一部作品](works/0001-in-london/README.md)
 - [整体流程与分工](docs/workflow.md)
 - [第一版工具选型](docs/tooling.md)
 - [调研依据](docs/research.md)
+- [创作实践记录](docs/practice-notes.md)
 - [仓库协作约定](AGENTS.md)
 
 新作品从 `templates/work/` 复制到 `works/0002-short-name/`，更新作品 README 和索引。作品编号稳定，标题可随创作调整。
