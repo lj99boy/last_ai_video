@@ -1,1 +1,2 @@
 run_id,shot_id,take_id,date,platform,model,reference_ids,prompt_file,resolved_prompt_file,parameters_file,task_id,status,output_asset_ids,estimated_credits,actual_credits,actual_cny,usable_seconds,defects,selection_reason
+VIS001,,V001,2026-10-11,Codex built-in imagegen,not_exposed,R001,V001-prompt.txt,,,,completed,V001,,,,,环境人物过抢眼;服务接触不清;登场偏摆姿;银色偏暖,仅供视觉讨论;未选为制作参考
