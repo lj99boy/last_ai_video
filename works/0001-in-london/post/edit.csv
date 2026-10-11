@@ -1,7 +1,9 @@
 timeline_order,shot_id,asset_id,source_in_s,source_out_s,timeline_in_s,transition,audio_asset_ids,subtitle,notes
-1,S001,,,,0,cut,,,v0.7目标3秒;非已渲染时间线;新静帧或动作待验收
-2,S002,,,,3,cut,,,v0.7目标3秒;非已渲染时间线;现有服务候选入出点待定
-3,S003,,,,6,cut,,,v0.7目标7秒;非已渲染时间线;新静帧或动作待验收
-4,S004,,,,13,cut,,,v0.7目标5秒;非已渲染时间线;新静帧或动作待验收
-5,S005,,,,18,cut,,,v0.7目标6秒;非已渲染时间线;新静帧或动作待验收
-6,S006,,,,24,match_to_existing_ending,,,v0.7目标6秒;非已渲染时间线;复用PV006A04方向;接头待验
+1,S001,K00101,,,0,cut,,,v0.8已渲染无声预演;held_storyboard_frame;2秒;取景及限制见story-v08-render.json;非正式成片
+2,S002,S002_take01,1,4,2,cut,,,v0.8已渲染无声预演;existing_generated_motion;3秒;取景及限制见story-v08-render.json;非正式成片
+3,S003,V003,,,5,cut,,,v0.8已渲染无声预演;held_storyboard_frame;6秒;取景及限制见story-v08-render.json;非正式成片
+4,S004a,V00402,,,11,cut,,,v0.8已渲染无声预演;held_storyboard_frame;2秒;取景及限制见story-v08-render.json;非正式成片
+5,S004b,V00402,,,13,cut,,,v0.8已渲染无声预演;held_storyboard_frame;2秒;取景及限制见story-v08-render.json;非正式成片
+6,S005a,V00402,,,15,cut,,,v0.8已渲染无声预演;held_storyboard_frame;3秒;取景及限制见story-v08-render.json;非正式成片
+7,S005b,V00402,,,18,cut,,,v0.8已渲染无声预演;held_storyboard_frame;6秒;取景及限制见story-v08-render.json;非正式成片
+8,S006,PV006A04,0,6,24,cut,,,v0.8已渲染无声预演;existing_local_composite;6秒;取景及限制见story-v08-render.json;非正式成片

@@ -14,3 +14,6 @@ T03,S002,take01,2026-10-11,LibTV,kling-video-o3,K00201,motion-test-plan-v01.json
 T01,S003,take01,2026-10-11,LibTV,kling-video-o3,K00301,motion-test-plan-v01.json,,motion-test-readback-v01.json,20261011233403467227550,completed,S003_take01,,,,,后半段前景桌椅遮挡裙身;未完全达到全身持续抓眼,partial_candidate_needs_review
 VIS002,,V002,2026-10-12,Codex built-in imagegen,not_exposed,R002;K00101;K00301,V002-prompt.txt,,visual-study-v07.json,,completed,V002,,,,,旧主题已撤回,archive_only
 VIS003,,V003,2026-10-12,Codex built-in imagegen,not_exposed,R002;K00101;K00301,V003-prompt.txt,,visual-study-v07.json,,completed,V003,,,,,银裙偏金属;裙摆余量不足;目光待修;角色连续待验,candidate_pending_user_review
+VIS004,,V00401,2026-10-12,Codex built-in imagegen,not_exposed,V003;R002,V004-prompt.txt,,,,completed,V00401,,,,,目光低垂;松手手势摆拍,定向修订前版本保留
+VIS005,,V00402,2026-10-12,Codex built-in imagegen,not_exposed,V00401,V004-revision-prompt.txt,,,,completed,V00402,,,,,可能读成普通整理披肩;交接运动未验证;目光偏镜头,用于30秒分镜预演
+EDITSTORY08,,PVSTORY08,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V003;V00402;PV006A04,,,../post/render-story-v08.py,,completed,PVSTORY08,0,0,0,,21秒静帧;无声;24秒构图跳变,顺序和取景预演;不证明运动通过

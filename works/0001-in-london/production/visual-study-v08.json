@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "tool": "Codex built-in imagegen",
+  "model": "not_exposed",
+  "cost": "not_exposed",
+  "image_calls": 2,
+  "new_libtv_runs": 0,
+  "assets": [
+    {
+      "asset_id": "V00401",
+      "path": "media/stills/V004-wrap-action-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "411814dda02dc92c46ba8dabea4ccf49e3d286dedd52f8668b3f1c0eda84dc9e",
+      "status": "superseded"
+    },
+    {
+      "asset_id": "V00402",
+      "path": "media/stills/V004-wrap-action-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "5953622904a581220164e7367df58b7cc3511812c95e9aeadb8842c1ce1d62ff",
+      "status": "candidate_partial_action_readability"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "output": "media/exports/story-v08/story-v08-silent-animatic.mp4",
+  "duration_s": 30,
+  "audio": "none",
+  "motion_generated_this_run": false,
+  "held_still_seconds": 21,
+  "sha256": "3c8a6c88957f1c60bd0181adc1165f2887b6f2f03631475d6fe0f538e1bf8ed9",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "720"
+      }
+    ],
+    "format": {
+      "duration": "30.000000"
+    }
+  },
+  "segments": [
+    {
+      "shot": "S001",
+      "source": "media/stills/K001-restaurant-v01.png",
+      "start_s": 0,
+      "duration_s": 2,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": null
+    },
+    {
+      "shot": "S002",
+      "source": "media/clips/S002_take01.mp4",
+      "start_s": 2,
+      "duration_s": 3,
+      "evidence": "existing_generated_motion",
+      "source_in_s": 1,
+      "crop": null
+    },
+    {
+      "shot": "S003",
+      "source": "media/stills/V003-old-and-modern-v01.png",
+      "start_s": 5,
+      "duration_s": 6,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:840:4"
+    },
+    {
+      "shot": "S004a",
+      "source": "media/stills/V004-wrap-action-v02.png",
+      "start_s": 11,
+      "duration_s": 2,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:4:4"
+    },
+    {
+      "shot": "S004b",
+      "source": "media/stills/V004-wrap-action-v02.png",
+      "start_s": 13,
+      "duration_s": 2,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:840:4"
+    },
+    {
+      "shot": "S005a",
+      "source": "media/stills/V004-wrap-action-v02.png",
+      "start_s": 15,
+      "duration_s": 3,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:4:476"
+    },
+    {
+      "shot": "S005b",
+      "source": "media/stills/V004-wrap-action-v02.png",
+      "start_s": 18,
+      "duration_s": 6,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:840:476"
+    },
+    {
+      "shot": "S006",
+      "source": "media/exports/ending-v04/A-slow-reveal-fullbleed.mp4",
+      "start_s": 24,
+      "duration_s": 6,
+      "evidence": "existing_local_composite",
+      "source_in_s": 0,
+      "crop": null
+    }
+  ]
+}

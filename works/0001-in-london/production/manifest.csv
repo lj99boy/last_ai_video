@@ -16,3 +16,6 @@ S003_take01,S003,generated_video,media/clips/S003_take01.mp4,,LibTV Kling 3.0,�
 ASSEMBLY01,,rough_cut,media/exports/assembly-v01/opening-service-entrance-silent.mp4,,FFmpeg editing,前14秒顺序与节奏预演;无声音,v01,pending_review,不是完整30秒成片;时间线post/assembly-v01.csv
 V002,,concept_board,media/stills/V002-unhurried-withdrawn-v01.png,,Codex built-in imagegen,旧主题撤回仅归档,v01,withdrawn_theme,自检见visual-study-v07-review.md;媒体仅本地
 V003,,concept_board,media/stills/V003-old-and-modern-v01.png,,Codex built-in imagegen,v0.7新旧张力四格;非视频起帧,v01,candidate_pending_user_review,自检见visual-study-v07-review.md;媒体仅本地
+V00401,,action_storyboard,media/stills/V004-wrap-action-v01.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v01,superseded,1672x941;指纹见visual-study-v08.json;费用未知
+V00402,,action_storyboard,media/stills/V004-wrap-action-v02.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v02,candidate_partial_action_readability,1672x941;指纹见visual-study-v08.json;费用未知
+PVSTORY08,,silent_animatic,media/exports/story-v08/story-v08-silent-animatic.mp4,,local FFmpeg,30秒无声;21秒静帧+3秒既有动作+6秒后期;非成片,v08,pending_review,接原画跳变待修;无新视频生成
