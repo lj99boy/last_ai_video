@@ -12,3 +12,5 @@ RUNPV006A03,S006,PV006A03,2026-10-11,local FFmpeg,not_applicable,R001;R002;P0060
 RUNPV006A04,S006,PV006A04,2026-10-11,local FFmpeg,not_applicable,R001;R002;P00602,,,../post/render-ending-fullbleed.py,,completed,PV006A04,0,0,0,,A方向已获认可;无黑边修正版待观看,candidate_revision
 T03,S002,take01,2026-10-11,LibTV,kling-video-o3,K00201,motion-test-plan-v01.json,,motion-test-readback-v01.json,20261011233303241547550,completed,S002_take01,,,,,前半动作等待较长;手部抽帧初检通过;待整体观看,candidate
 T01,S003,take01,2026-10-11,LibTV,kling-video-o3,K00301,motion-test-plan-v01.json,,motion-test-readback-v01.json,20261011233403467227550,completed,S003_take01,,,,,后半段前景桌椅遮挡裙身;未完全达到全身持续抓眼,partial_candidate_needs_review
+VIS002,,V002,2026-10-12,Codex built-in imagegen,not_exposed,R002;K00101;K00301,V002-prompt.txt,,visual-study-v07.json,,completed,V002,,,,,旧主题已撤回,archive_only
+VIS003,,V003,2026-10-12,Codex built-in imagegen,not_exposed,R002;K00101;K00301,V003-prompt.txt,,visual-study-v07.json,,completed,V003,,,,,银裙偏金属;裙摆余量不足;目光待修;角色连续待验,candidate_pending_user_review

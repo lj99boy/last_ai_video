@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-12",
+  "tool": "Codex built-in imagegen",
+  "model": "not_exposed",
+  "references": [
+    "R002",
+    "K00101",
+    "K00301"
+  ],
+  "image_calls": 2,
+  "new_libtv_runs": 0,
+  "cost": "not_exposed",
+  "assets": [
+    {
+      "asset_id": "V002",
+      "path": "media/stills/V002-unhurried-withdrawn-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "5e6a4deced06556bd1cdd11baf6360a35b9e47a79189f726362a919b8115c7d5",
+      "status": "withdrawn_theme"
+    },
+    {
+      "asset_id": "V003",
+      "path": "media/stills/V003-old-and-modern-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "6c10aab8a231984756bb7317d7530fdde050152a1db1643518c2b15f07476c5a",
+      "status": "candidate_pending_user_review"
+    }
+  ]
+}

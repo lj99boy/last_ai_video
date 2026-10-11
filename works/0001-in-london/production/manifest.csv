@@ -14,3 +14,5 @@ PV006A04,S006,editing_preview,media/exports/ending-v04/A-slow-reveal-fullbleed.m
 S002_take01,S002,generated_video,media/clips/S002_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,candidate,任务与SHA256见motion-test-results-v01.json
 S003_take01,S003,generated_video,media/clips/S003_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,partial_candidate_needs_review,任务与SHA256见motion-test-results-v01.json
 ASSEMBLY01,,rough_cut,media/exports/assembly-v01/opening-service-entrance-silent.mp4,,FFmpeg editing,前14秒顺序与节奏预演;无声音,v01,pending_review,不是完整30秒成片;时间线post/assembly-v01.csv
+V002,,concept_board,media/stills/V002-unhurried-withdrawn-v01.png,,Codex built-in imagegen,旧主题撤回仅归档,v01,withdrawn_theme,自检见visual-study-v07-review.md;媒体仅本地
+V003,,concept_board,media/stills/V003-old-and-modern-v01.png,,Codex built-in imagegen,v0.7新旧张力四格;非视频起帧,v01,candidate_pending_user_review,自检见visual-study-v07-review.md;媒体仅本地
