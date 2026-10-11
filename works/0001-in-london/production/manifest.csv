@@ -19,3 +19,6 @@ V003,,concept_board,media/stills/V003-old-and-modern-v01.png,,Codex built-in ima
 V00401,,action_storyboard,media/stills/V004-wrap-action-v01.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v01,superseded,1672x941;指纹见visual-study-v08.json;费用未知
 V00402,,action_storyboard,media/stills/V004-wrap-action-v02.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v02,candidate_partial_action_readability,1672x941;指纹见visual-study-v08.json;费用未知
 PVSTORY08,,silent_animatic,media/exports/story-v08/story-v08-silent-animatic.mp4,,local FFmpeg,30秒无声;21秒静帧+3秒既有动作+6秒后期;非成片,v08,pending_review,接原画跳变待修;无新视频生成
+V00501,,spatial_storyboard,media/stills/V005-window-threshold-v01.png,,Codex built-in imagegen,窗外门槛末镜;仅供分镜和剪辑取景,v01,superseded,指纹见visual-study-v09.json;费用未知
+V00502,,spatial_storyboard,media/stills/V005-window-threshold-v02.png,,Codex built-in imagegen,窗外门槛末镜;仅供分镜和剪辑取景,v02,spatial_board_candidate,指纹见visual-study-v09.json;费用未知
+PVSTORY09,,silent_animatic,media/exports/story-v09/story-v09-silent-animatic.mp4,,local FFmpeg,34秒为当前排布结果;25秒静帧;无声非成片,v09,pending_review,片长未锁定;无新视频模型生成

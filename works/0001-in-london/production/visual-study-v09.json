@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "tool": "Codex built-in imagegen",
+  "model": "not_exposed",
+  "cost": "not_exposed",
+  "image_calls": 2,
+  "new_libtv_runs": 0,
+  "assets": [
+    {
+      "asset_id": "V00501",
+      "path": "media/stills/V005-window-threshold-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "73ae4fd40b448e751848dc812190cc8b73a0c4ad7ef4374844895c7a5b65203b",
+      "status": "superseded"
+    },
+    {
+      "asset_id": "V00502",
+      "path": "media/stills/V005-window-threshold-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "2f3955b453f07ce7dbe3cc47e7b8050ffae72347d596dfce797c6c91eebfa30b",
+      "status": "spatial_board_candidate"
+    }
+  ]
+}

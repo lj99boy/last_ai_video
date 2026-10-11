@@ -17,3 +17,6 @@ VIS003,,V003,2026-10-12,Codex built-in imagegen,not_exposed,R002;K00101;K00301,V
 VIS004,,V00401,2026-10-12,Codex built-in imagegen,not_exposed,V003;R002,V004-prompt.txt,,,,completed,V00401,,,,,目光低垂;松手手势摆拍,定向修订前版本保留
 VIS005,,V00402,2026-10-12,Codex built-in imagegen,not_exposed,V00401,V004-revision-prompt.txt,,,,completed,V00402,,,,,可能读成普通整理披肩;交接运动未验证;目光偏镜头,用于30秒分镜预演
 EDITSTORY08,,PVSTORY08,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V003;V00402;PV006A04,,,../post/render-story-v08.py,,completed,PVSTORY08,0,0,0,,21秒静帧;无声;24秒构图跳变,顺序和取景预演;不证明运动通过
+VIS006,,V00501,2026-10-12,Codex built-in imagegen,not_exposed,V00402;R002,V005-prompt.txt,,,,completed,V00501,,,,,门外可能读成经过门口,定向修订前保留
+VIS007,,V00502,2026-10-12,Codex built-in imagegen,not_exposed,V00501,V005-revision-prompt.txt,,,,completed,V00502,,,,,门窗拓扑及动作连续未验证;末镜原画仍有差异,用于整体空间预演
+EDITSTORY09,,PVSTORY09,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V00402;V00502;PV006A04,,,../post/render-story-v09.py,,completed,PVSTORY09,0,0,0,,25秒静帧;无声;原画接点待修,空间与顺序预演;时长非锁定

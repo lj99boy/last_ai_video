@@ -1,19 +1,19 @@
 # 0001 · 在伦敦（来源画作；短片片名待定）
 
 - 来源：Charles Hoffbauer，1907，In London / In the Restaurant；用户提供展厅照片。
-- 阶段：用户明确以传统餐厅与摩登女郎的一点新旧冲突为主题，授权继续。当前工作版v0.8“她，让夜晚换了节奏”，用户同意继续披肩微事件；V00402动作板和30秒无声预演已完成，待用户观看；A无黑边慢退显框保留。
-- **已确认顺序：餐厅氛围与侍者的专业 → 女主曼妙登场 → 夜晚美好的余韵。**
-- 当前工作规格：30秒、6镜、横版16:9，餐厅与侍者先出现、女主为视觉高潮；具体美术和表演待预演验收。
-- 用户已授权的两次 LibTV 试拍均已完成，实际积分未返回；内置图片工具的计费数据未返回。每月新增工具预算仍为 100 元以内。
+- 阶段：用户接受窗外/门槛扩展，当前v0.9；V00502空间板及34秒无声分镜预演已制作，待审阅。
+- 已确认顺序：餐厅与专业服务先行，再经临窗/门外进入女主完整登场，最后夜晚余韵和无黑边回墙。
+- 时长服务内容，30秒和40秒均非固定要求；34秒仅是本轮预演结果。横版16:9，静帧25秒，不是完整动作成片。
+- 两次LibTV试拍授权已用完，本轮无新增运行；内置图片生成费用未暴露。新增工具月预算100元以内。
 - 更新：2026-10-12。
 
 ## 先读这里
 
-1. [当前动作提案 v0.8](development/story-assessment-v0.8.md)：调研、微事件与验证边界；[v0.7](development/proposal-v0.7.md)为历史基线；[v0.4](development/proposal-v0.4.md)保留历史。
+1. [当前整体提案 v0.9](development/proposal-v0.9.md)：空间、动作与切点依据；[v0.8](development/story-assessment-v0.8.md)保留故事调研；[v0.4](development/proposal-v0.4.md)保留历史。
 2. [画作考据与观察](development/research.md)：证据、解读、虚构分开。
 3. [创作简报](development/brief.md) / [故事版本](development/story.md)。
 4. [视觉设定](preproduction/visual-bible.md) / [分镜表](preproduction/shots.csv)。
-5. [试拍与成本计划](production/test-plan.md) / [当前执行意图](production/prompts-v0.8.md)。
+5. [试拍与成本计划](production/test-plan.md) / [当前执行意图](production/prompts-v0.9.md)。
 6. [素材清单](production/manifest.csv) / [生成记录](production/runs.csv)。
 7. [剪辑表](post/edit.csv) / [声音设计](post/sound.md) / [交付](delivery/README.md)。
 8. [决策与推进记录](development/decisions.md)。
@@ -26,11 +26,12 @@
 15. [情节与表演探索 v0.6](development/emotional-story-v0.6.md)：三个微事件候选、画风取舍与最小验证。
 16. [v0.7四格与自检](production/visual-study-v07-review.md)：V003当前候选；V002撤回主题仅归档。
 17. [故事感复核 v0.8](development/story-assessment-v0.8.md)：扩展案例调研、叙事缺口与披肩微事件；用户同意继续验证。
-18. [V004与30秒预演自检](production/visual-study-v08-review.md)：当前最先观看的结果、素材性质和未解决问题。
+18. [V004与30秒预演自检](production/visual-study-v08-review.md)：上一版动作测试与未解决问题。
+19. [V005与当前整体预演自检](production/visual-study-v09-review.md)：窗外—门槛—餐厅；时长由内容决定。
 
 ## 当前下一步
 
-先审阅30秒无声预演的顺序与动作意图；本轮整板停止迭代。后续集中准备独立松手起帧和接近原画的末镜构图，再配置最少量运动试拍。当前预演21秒是静帧，心理选择与24秒回画接点未通过；不把本轮结果写成成片认可。v0.5/v0.6/v0.7保留历史，“今夜不必赶时间”已撤回。不自动新增LibTV付费运行。
+先审阅当前空间扩展预演。后续重点是稳定门窗关系的独立跨门起帧、松手动作和原画末镜构图；本轮不继续抽整板。不按30或40秒补镜/拉长，具体片长随动作和观看节奏调整。原画接点仍未通过，不自动新增LibTV付费运行。
 
 ## 本地素材与原始参考
 
