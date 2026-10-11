@@ -15,10 +15,13 @@ S002_take01,S002,generated_video,media/clips/S002_take01.mp4,,LibTV Kling 3.0,�
 S003_take01,S003,generated_video,media/clips/S003_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,partial_candidate_needs_review,任务与SHA256见motion-test-results-v01.json
 ASSEMBLY01,,rough_cut,media/exports/assembly-v01/opening-service-entrance-silent.mp4,,FFmpeg editing,前14秒顺序与节奏预演;无声音,v01,pending_review,不是完整30秒成片;时间线post/assembly-v01.csv
 V002,,concept_board,media/stills/V002-unhurried-withdrawn-v01.png,,Codex built-in imagegen,旧主题撤回仅归档,v01,withdrawn_theme,自检见visual-study-v07-review.md;媒体仅本地
-V003,,concept_board,media/stills/V003-old-and-modern-v01.png,,Codex built-in imagegen,v0.7新旧张力四格;非视频起帧,v01,candidate_pending_user_review,自检见visual-study-v07-review.md;媒体仅本地
+V003,,concept_board,media/stills/V003-old-and-modern-v01.png,,Codex built-in imagegen,v0.7新旧张力四格;非视频起帧,v01,wardrobe_drift_keep_for_shot_reference,自检见visual-study-v07-review.md;媒体仅本地;用户指出服装偏离;不可作为服装最高依据
 V00401,,action_storyboard,media/stills/V004-wrap-action-v01.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v01,superseded,1672x941;指纹见visual-study-v08.json;费用未知
-V00402,,action_storyboard,media/stills/V004-wrap-action-v02.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v02,candidate_partial_action_readability,1672x941;指纹见visual-study-v08.json;费用未知
+V00402,,action_storyboard,media/stills/V004-wrap-action-v02.png,,Codex built-in imagegen,四格动作讨论;只裁入剪辑预演;不能直接生视频,v02,wardrobe_drift_keep_for_shot_reference,1672x941;指纹见visual-study-v08.json;费用未知;用户指出服装偏离;不可作为服装最高依据
 PVSTORY08,,silent_animatic,media/exports/story-v08/story-v08-silent-animatic.mp4,,local FFmpeg,30秒无声;21秒静帧+3秒既有动作+6秒后期;非成片,v08,pending_review,接原画跳变待修;无新视频生成
 V00501,,spatial_storyboard,media/stills/V005-window-threshold-v01.png,,Codex built-in imagegen,窗外门槛末镜;仅供分镜和剪辑取景,v01,superseded,指纹见visual-study-v09.json;费用未知
-V00502,,spatial_storyboard,media/stills/V005-window-threshold-v02.png,,Codex built-in imagegen,窗外门槛末镜;仅供分镜和剪辑取景,v02,spatial_board_candidate,指纹见visual-study-v09.json;费用未知
+V00502,,spatial_storyboard,media/stills/V005-window-threshold-v02.png,,Codex built-in imagegen,窗外门槛末镜;仅供分镜和剪辑取景,v02,wardrobe_drift_keep_for_shot_reference,指纹见visual-study-v09.json;费用未知;用户指出服装偏离;不可作为服装最高依据
 PVSTORY09,,silent_animatic,media/exports/story-v09/story-v09-silent-animatic.mp4,,local FFmpeg,34秒为当前排布结果;25秒静帧;无声非成片,v09,pending_review,片长未锁定;无新视频模型生成
+V006,,costume_corrected_storyboard,media/stills/V006-costume-spatial-v01.png,,Codex built-in imagegen,新镜头保留;以R001回溯衣装;仍有披肩层叠与材质偏差,v01,costume_correction_candidate_pending_user_review,指纹见costume-correction-v01.json;费用未知
+V007,,costume_corrected_storyboard,media/stills/V007-costume-action-v01.png,,Codex built-in imagegen,新镜头保留;以R001回溯衣装;仍有披肩层叠与材质偏差,v01,costume_correction_candidate_pending_user_review,指纹见costume-correction-v01.json;费用未知
+PVSTORY09C01,,silent_animatic,media/exports/story-v09-costume-v01/story-v09-costume-v01-silent-animatic.mp4,,local FFmpeg,34秒沿用既有时序仅换服装修正图;25秒静帧;无声,costume-v01,pending_review,服装未最终认可;回画接点待修

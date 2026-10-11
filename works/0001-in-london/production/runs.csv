@@ -20,3 +20,6 @@ EDITSTORY08,,PVSTORY08,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01
 VIS006,,V00501,2026-10-12,Codex built-in imagegen,not_exposed,V00402;R002,V005-prompt.txt,,,,completed,V00501,,,,,门外可能读成经过门口,定向修订前保留
 VIS007,,V00502,2026-10-12,Codex built-in imagegen,not_exposed,V00501,V005-revision-prompt.txt,,,,completed,V00502,,,,,门窗拓扑及动作连续未验证;末镜原画仍有差异,用于整体空间预演
 EDITSTORY09,,PVSTORY09,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V00402;V00502;PV006A04,,,../post/render-story-v09.py,,completed,PVSTORY09,0,0,0,,25秒静帧;无声;原画接点待修,空间与顺序预演;时长非锁定
+VIS008,,V006,2026-10-12,Codex built-in imagegen,not_exposed,V00502;R001;V001,V006-prompt.txt,,,,completed,V006,,,,,披肩仍层叠;银面偏金属;背面非原画证据,空间镜头衣装修正候选
+VIS009,,V007,2026-10-12,Codex built-in imagegen,not_exposed,V00402;R001;V006,V007-prompt.txt,,,,completed,V007,,,,,披肩仍层叠;银面偏金属,同步中段服装修正候选
+EDITSTORY09C01,,PVSTORY09C01,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V006;V007;PV006A04,,,../post/render-story-v09-costume-v01.py,,completed,PVSTORY09C01,0,0,0,,静帧25秒;无声;原画接点待修,保留时序比较衣装

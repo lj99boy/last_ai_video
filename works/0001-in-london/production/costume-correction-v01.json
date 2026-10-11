@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-12",
+  "tool": "Codex built-in imagegen",
+  "model": "not_exposed",
+  "cost": "not_exposed",
+  "image_calls": 2,
+  "new_libtv_runs": 0,
+  "source_authority": "R001",
+  "assets": [
+    {
+      "asset_id": "V006",
+      "path": "media/stills/V006-costume-spatial-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "818f971dad822207dbec8da0b8658dd4dbf79d211ef424c3ea6d8bc2651768c3",
+      "status": "costume_correction_candidate_pending_user_review"
+    },
+    {
+      "asset_id": "V007",
+      "path": "media/stills/V007-costume-action-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "45e07af77c4db2596bff5f8bd1005d80e35d02477773f89a2e792c7714f57f90",
+      "status": "costume_correction_candidate_pending_user_review"
+    }
+  ]
+}
