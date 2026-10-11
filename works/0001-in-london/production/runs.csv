@@ -1,3 +1,5 @@
 run_id,shot_id,take_id,date,platform,model,reference_ids,prompt_file,resolved_prompt_file,parameters_file,task_id,status,output_asset_ids,estimated_credits,actual_credits,actual_cny,usable_seconds,defects,selection_reason
 VIS001,,V001,2026-10-11,Codex built-in imagegen,not_exposed,R001,V001-prompt.txt,,,,completed,V001,,,,,环境人物过抢眼;服务接触不清;登场偏摆姿;银色偏暖,仅供视觉讨论;未选为制作参考
 PREP001,,R002,2026-10-11,Codex built-in imagegen,not_exposed,R001,R002-prompt.txt,,,,completed,R002,,,,,AI编辑可能改变局部人物器物笔触;非纯几何矫正,候选正视参考;待对照验收
+EDITPV006A02,S006,PV006A02,2026-10-11,local FFmpeg,not_applicable,R001;R002,,,../post/render-ending-previews.py,,completed,PV006A02,0,0,0,,静帧无声;黑色侧边;R002与原作有细节明暗差异,仅预演;尚未选入成片
+EDITPV006B02,S006,PV006B02,2026-10-11,local FFmpeg,not_applicable,R001;R002,,,../post/render-ending-previews.py,,completed,PV006B02,0,0,0,,静帧无声;黑色侧边;R002与原作有细节明暗差异,仅预演;尚未选入成片

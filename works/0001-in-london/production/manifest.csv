@@ -2,3 +2,5 @@ asset_id,shot_id,kind,relative_path,source_url,source_or_creator,usage_notes,ver
 R001,,source_photo,media/references/R001-user-photo-original.jpg,,user-provided,画作识别与视觉参考;原样保留,original,source_selected,8064x6048;指纹见source-asset.json;本地媒体未上传Git
 V001,,concept_board,media/stills/V001-visual-board-v01.png,,Codex built-in image generation,三格视觉讨论;不是正式关键帧,v01,pending_review,1881x836;参考R001;自检见V001-review.md;媒体仅本地
 R002,,processed_reference,media/references/R002-front-painting-ai-v01.png,,Codex built-in image edit,正视去框参考候选;AI编辑可能重绘;源R001,v01,pending_review,1536x1024;已通过CLI上传LibTV;见R002-review.md
+PV006A02,S006,editing_preview,media/exports/ending-v02/A-slow-reveal-silent.mp4,,FFmpeg from R001+R002,回墙节奏比较;静帧无声;非视频模型结果,v02,pending_review,指纹与边界见post/ending-preview-v02.md;已上传LibTV
+PV006B02,S006,editing_preview,media/exports/ending-v02/B-direct-cut-silent.mp4,,FFmpeg from R001+R002,回墙节奏比较;静帧无声;非视频模型结果,v02,pending_review,指纹与边界见post/ending-preview-v02.md;已上传LibTV

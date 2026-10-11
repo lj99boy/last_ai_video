@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "asset_id": "PV006A02",
+      "path": "media/exports/ending-v02/A-slow-reveal-silent.mp4",
+      "bytes": 1982698,
+      "sha256": "22ba555526adb24f2a38057793787cda868b7782c08f35f42e7fc7f8490952ee",
+      "duration_seconds": 6,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 144,
+      "audio": false,
+      "decode_check": "passed",
+      "inputs": [
+        "R001",
+        "R002"
+      ],
+      "selection_status": "pending_review",
+      "libtv_node_id": "93a7e15c-9827-4daa-92bd-45c288c07627"
+    },
+    {
+      "asset_id": "PV006B02",
+      "path": "media/exports/ending-v02/B-direct-cut-silent.mp4",
+      "bytes": 624939,
+      "sha256": "f16d1aa37b1140276a5b6f136e84c279d6609ba156fb91b2e8cedbdbd8974acd",
+      "duration_seconds": 6,
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "frames": 144,
+      "audio": false,
+      "decode_check": "passed",
+      "inputs": [
+        "R001",
+        "R002"
+      ],
+      "selection_status": "pending_review",
+      "libtv_node_id": "09e25c67-e6ce-4cfd-9771-4ad27eda851a"
+    }
+  ],
+  "generation_tasks": 0,
+  "libtv_generation_credits": 0
+}
