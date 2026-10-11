@@ -18,13 +18,14 @@
 7. [剪辑表](post/edit.csv) / [声音设计](post/sound.md) / [交付](delivery/README.md)。
 8. [决策与推进记录](development/decisions.md)。
 9. [V001 首张探索板与自检](production/V001-review.md)。
+10. [R002 正视参考处理](production/R002-review.md) / [CLI 接入与画布](production/libtv-connection.md)。
 
 ## 当前下一步
 
-先看 V001 的光线、气质与裙装方向，再制作独立餐厅环境、侍者服务、女主登场关键帧。女主优雅性感的身段与银裙依然是中段亮点；不再开场就突出她，也不以离席故事为默认剧情。LibTV 插件已安装，等待账户授权，接通后查询能力与报价，再验证服务动作与登场步伐。
+先看 V001 的光线、气质与裙装方向，再制作独立餐厅环境、侍者服务、女主登场关键帧。女主优雅性感的身段与银裙依然是中段亮点；不再开场就突出她，也不以离席故事为默认剧情。LibTV 官方 CLI 已接通并读取模型规范，正视参考 R002 已上传；接下来验收处理图和独立关键帧草稿，再核对单次报价并验证服务动作与登场步伐。
 
 ## 本地素材与原始参考
 
-用户上传的 8064×6048 原图已原样保存为 `media/references/R001-user-photo-original.jpg`，指纹见 [来源记录](production/source-asset.json)。未裁切、未修复、未上传 GitHub；仓库记录索引，媒体需独立备份。
+用户上传的 8064×6048 原图已原样保存为 `media/references/R001-user-photo-original.jpg`，指纹见 [来源记录](production/source-asset.json)。原始本地文件未裁切、未修复，已作为来源素材上传 LibTV；未上传 GitHub，媒体需独立备份。AI 正视编辑另存 R002，不覆盖原片。
 
 此前[列宾视频](https://www.xiaohongshu.com/explore/6ab3cf5a0000000012035c3e)仅作为“从画面扩展故事”的效果参考，本作品有独立的主题、节奏与结尾。

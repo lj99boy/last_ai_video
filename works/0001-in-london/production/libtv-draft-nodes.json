@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-11",
+  "projectUuid": "6b6cccb8f0d5497881f0058650000fb2",
+  "status": "configured_not_generated",
+  "nodes": [
+    {
+      "asset": "K001",
+      "nodeKey": "d23389e5-8f49-4859-b1b4-67e97f266bb9",
+      "savedParams": {
+        "prompt": "以 {{Image 1}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。视线从一张空置前景餐桌进入室内，白桌布与细口杯引导视线到红灯、拱门和低声交谈的远景宾客。空间是主角，前景没有显眼女子，银裙女主尚未出现。宾客只是小尺度环境人物，不看镜头，不做时装肖像。保留桌间可行走的通道。",
+        "model": "nebula-ultra",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      },
+      "incomingReferences": [
+        "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+      ],
+      "readbackParams": {
+        "prompt": "以 {{Node 66267ac2-09ab-48ee-bd94-34dffb5b2be3}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。视线从一张空置前景餐桌进入室内，白桌布与细口杯引导视线到红灯、拱门和低声交谈的远景宾客。空间是主角，前景没有显眼女子，银裙女主尚未出现。宾客只是小尺度环境人物，不看镜头，不做时装肖像。保留桌间可行走的通道。",
+        "model": "General image Pro",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      }
+    },
+    {
+      "asset": "K002",
+      "nodeKey": "41692823-581a-48cc-82db-8cc05be6ac25",
+      "savedParams": {
+        "prompt": "以 {{Image 1}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。虚构成年专业侍者，白色高领制服和朴素白色头饰，以画中白衣人物的服装气质为设计参考，但不宣称其身份。中景包括头、躯干、双手和桌面。身体从容直立略前倾，一手稳定握住一只高脚杯的杯梗，杯底刚接触桌布；手指在杯梗外，不穿过玻璃，另一手自然靠近身体。准确轻稳的服务，不夸张鞠躬。桌面留出杯子位置，不堆叠器物。镜头中没有银裙女主。",
+        "model": "nebula-ultra",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      },
+      "incomingReferences": [
+        "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+      ],
+      "readbackParams": {
+        "prompt": "以 {{Node 66267ac2-09ab-48ee-bd94-34dffb5b2be3}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。虚构成年专业侍者，白色高领制服和朴素白色头饰，以画中白衣人物的服装气质为设计参考，但不宣称其身份。中景包括头、躯干、双手和桌面。身体从容直立略前倾，一手稳定握住一只高脚杯的杯梗，杯底刚接触桌布；手指在杯梗外，不穿过玻璃，另一手自然靠近身体。准确轻稳的服务，不夸张鞠躬。桌面留出杯子位置，不堆叠器物。镜头中没有银裙女主。",
+        "model": "General image Pro",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      }
+    },
+    {
+      "asset": "K003",
+      "nodeKey": "88387879-a3ac-4987-aee6-c4769d29af4c",
+      "savedParams": {
+        "prompt": "以 {{Image 1}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。画中的成年银裙女子位于同一餐厅桌间通道，以全身三分之四侧面出场。保留原画面貌气质、深色盘发、红花、原有领口与银灰亮片长裙，身段优雅且性感，身体自然舒展。她正在走一小步进入暖光，前后脚与重心关系可信，肩颈放松，双臂低位自然摆动，不复制原画举手摸头姿势，不叉腰、不走夸张模特台步。头到裙摆完整，暖光只产生局部金暖反射，裙身主体仍为银灰，布料有重量，不是婚纱或液体金属。她是此镜视觉中心，餐厅仍可辨，无全场注视或男性抢戏。",
+        "model": "nebula-ultra",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      },
+      "incomingReferences": [
+        "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+      ],
+      "readbackParams": {
+        "prompt": "以 {{Node 66267ac2-09ab-48ee-bd94-34dffb5b2be3}} 作为餐厅色彩、家具、服装时代和油画质感参考。这是画中世界的镜头改编，不是博物馆照片。横版16:9，保持自然人体比例，暖白桌布、暗绿棕色空间、红色小台灯、玻璃银器反光，亲密而有层次的1907年前后高级餐厅，保留细腻油画笔触。无画框、展墙、展签、现代物品，不照搬原画整体构图。画中的成年银裙女子位于同一餐厅桌间通道，以全身三分之四侧面出场。保留原画面貌气质、深色盘发、红花、原有领口与银灰亮片长裙，身段优雅且性感，身体自然舒展。她正在走一小步进入暖光，前后脚与重心关系可信，肩颈放松，双臂低位自然摆动，不复制原画举手摸头姿势，不叉腰、不走夸张模特台步。头到裙摆完整，暖光只产生局部金暖反射，裙身主体仍为银灰，布料有重量，不是婚纱或液体金属。她是此镜视觉中心，餐厅仍可辨，无全场注视或男性抢戏。",
+        "model": "General image Pro",
+        "count": 1,
+        "modeType": "image2image",
+        "settings": {
+          "quality": "2K",
+          "ratio": "16:9"
+        },
+        "advancedSettings": {
+          "searchable": 0
+        },
+        "imageListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ],
+        "mixedListOrder": [
+          "66267ac2-09ab-48ee-bd94-34dffb5b2be3"
+        ]
+      }
+    }
+  ],
+  "verification": "remote_readback_matches_plan; no outputs; three reference edges only from R002"
+}
