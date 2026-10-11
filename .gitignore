@@ -1,0 +1,37 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+tokens*.json
+.venv/
+__pycache__/
+node_modules/
+.cache/
+models/
+*.safetensors
+*.ckpt
+*.gguf
+
+# 所有作品及模板中的媒体只在本地保存；保留目录占位。
+**/media/**
+!**/media/**/
+!**/media/**/.gitkeep
+
+# 防止误把视频、音频和大型剪辑工程放到其他目录后提交。
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.drp
+*.dra
+*.prproj
+*.blend
