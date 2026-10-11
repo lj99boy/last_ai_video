@@ -28,6 +28,7 @@ works/                   作品索引与各作品目录
 - [调研依据](docs/research.md)
 - [创作实践记录](docs/practice-notes.md)
 - [导演方法公开调研](docs/directing-research-2026-10-11.md) / [导演检查表](docs/directing-review.md)
+- [列宾参考短片画面复核](docs/reference-repin-screen-review-2026-10-12.md)：人物回应、身体感受与回画结尾。
 - [仓库协作约定](AGENTS.md)
 
 新作品从 `templates/work/` 复制到 `works/0002-short-name/`，更新作品 README 和索引。作品编号稳定，标题可随创作调整。
