@@ -1,0 +1,112 @@
+{
+  "output": "media/exports/story-v09-camera-v01/story-v09-camera-v01-diagnostic.mp4",
+  "duration_s": 31.75,
+  "audio": "none",
+  "motion_generated_this_run": false,
+  "source_motion_generation_tests": [
+    "T04",
+    "T05"
+  ],
+  "editorial_status": "diagnostic_not_final_T05_action_failed",
+  "held_still_seconds": 15,
+  "sha256": "749998521fa8e072633b26fe514e734cb57a1a8ce9ed068b80ba582dd30d1c8a",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "762"
+      }
+    ],
+    "format": {
+      "duration": "31.750000"
+    }
+  },
+  "segments": [
+    {
+      "shot": "S001",
+      "source": "media/stills/K001-restaurant-v01.png",
+      "start_s": 0,
+      "duration_s": 3,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": null
+    },
+    {
+      "shot": "S002",
+      "source": "media/clips/S002_take01.mp4",
+      "start_s": 3,
+      "duration_s": 3,
+      "evidence": "existing_generated_motion",
+      "source_in_s": 1,
+      "crop": null
+    },
+    {
+      "shot": "S007",
+      "source": "media/stills/V006-costume-spatial-v01.png",
+      "start_s": 6,
+      "duration_s": 2,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:4:4"
+    },
+    {
+      "shot": "S008",
+      "source": "media/stills/V006-costume-spatial-v01.png",
+      "start_s": 8,
+      "duration_s": 4,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:840:4"
+    },
+    {
+      "shot": "S003",
+      "source": "media/clips/S003_take02.mp4",
+      "start_s": 12,
+      "duration_s": 3.5,
+      "evidence": "new_generated_motion_candidate_not_final",
+      "source_in_s": 0,
+      "crop": null
+    },
+    {
+      "shot": "S004",
+      "source": "media/clips/S005a_take01.mp4",
+      "start_s": 15.5,
+      "duration_s": 1.5,
+      "evidence": "new_generated_motion_candidate_not_final",
+      "source_in_s": 0,
+      "crop": null
+    },
+    {
+      "shot": "S005a",
+      "source": "media/clips/S005a_take01.mp4",
+      "start_s": 17.0,
+      "duration_s": 2.75,
+      "evidence": "new_generated_motion_candidate_not_final",
+      "source_in_s": 1.5,
+      "crop": null
+    },
+    {
+      "shot": "S005b",
+      "source": "media/stills/V006-costume-spatial-v01.png",
+      "start_s": 19.75,
+      "duration_s": 6,
+      "evidence": "held_storyboard_frame",
+      "source_in_s": null,
+      "crop": "crop=828:460:840:476"
+    },
+    {
+      "shot": "S006",
+      "source": "media/exports/ending-v04/A-slow-reveal-fullbleed.mp4",
+      "start_s": 25.75,
+      "duration_s": 6,
+      "evidence": "existing_local_composite",
+      "source_in_s": 0,
+      "crop": null
+    }
+  ]
+}

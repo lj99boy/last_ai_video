@@ -1,0 +1,74 @@
+[
+  {
+    "testId": "T04",
+    "shot": "S003",
+    "asset_id": "S003_take02",
+    "taskId": "20261012055103546247550",
+    "nodeId": "ed9b628a-8747-4d63-b445-ec35187d3ed3",
+    "platformStatus": 2,
+    "modelName": "Kling 3.0",
+    "modelKey": "kling-video-o3",
+    "settings": {
+      "quality": "low",
+      "duration": 5,
+      "enableSound": "off",
+      "multi_shot": false
+    },
+    "actual_credits": null,
+    "actual_cny": null,
+    "resolved_backend_prompt": "not_exposed",
+    "relative_path": "media/clips/S003_take02.mp4",
+    "bytes": 8280005,
+    "sha256": "5ad51af5121795e71b74604cd3d7ef964cf79180ceab959f7fbe12f6c5bec57e",
+    "duration": "5.041667",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "121"
+      }
+    ],
+    "full_decode": "passed",
+    "selected_usable_seconds": null,
+    "selection_status": "partial_candidate_walking_no_settle"
+  },
+  {
+    "testId": "T05",
+    "shot": "S005a",
+    "asset_id": "S005a_take01",
+    "taskId": "20261012055303197967550",
+    "nodeId": "12994f17-f7de-48c4-b860-ffd0bf763062",
+    "platformStatus": 2,
+    "modelName": "Kling 3.0",
+    "modelKey": "kling-video-o3",
+    "settings": {
+      "quality": "low",
+      "duration": 5,
+      "enableSound": "off",
+      "multi_shot": false
+    },
+    "actual_credits": null,
+    "actual_cny": null,
+    "resolved_backend_prompt": "not_exposed",
+    "relative_path": "media/clips/S005a_take01.mp4",
+    "bytes": 6268338,
+    "sha256": "54dabc613c9587f314acd046a5b9e1a259a90bef5e860c362e35e4168acf765f",
+    "duration": "5.041667",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "121"
+      }
+    ],
+    "full_decode": "passed",
+    "selected_usable_seconds": null,
+    "selection_status": "failed_target_action_keep_for_review"
+  }
+]
