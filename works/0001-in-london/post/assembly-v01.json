@@ -1,0 +1,16 @@
+{
+  "asset_id": "ASSEMBLY01",
+  "relative_path": "media/exports/assembly-v01/opening-service-entrance-silent.mp4",
+  "bytes": 5130750,
+  "sha256": "c036c308899b4729fcb73f2abbdaa887b5748c22dd606d3c1a7b62c0ead81988",
+  "duration_seconds": 14,
+  "audio": false,
+  "decode_check": "passed",
+  "kind": "partial_rough_cut_not_final",
+  "source_assets": [
+    "K00101",
+    "S002_take01",
+    "S003_take01"
+  ],
+  "libtv_node_id": "658fcf06-a643-4783-af72-07e434b0eff8"
+}

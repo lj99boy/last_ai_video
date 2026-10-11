@@ -1,0 +1,4 @@
+shot_id,source,in_seconds,out_seconds,timeline_start,timeline_end,notes
+S001,media/stills/K001-restaurant-v01.png,0,4,0,4,静帧占位;尚未做环境微动
+S002,media/clips/S002_take01.mp4,0,5,4,9,服务动作候选
+S003,media/clips/S003_take01.mp4,0,5,9,14,登场试拍;后半前景遮挡待讨论

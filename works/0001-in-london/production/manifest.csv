@@ -4,3 +4,13 @@ V001,,concept_board,media/stills/V001-visual-board-v01.png,,Codex built-in image
 R002,,processed_reference,media/references/R002-front-painting-ai-v01.png,,Codex built-in image edit,正视去框参考候选;AI编辑可能重绘;源R001,v01,pending_review,1536x1024;已通过CLI上传LibTV;见R002-review.md
 PV006A02,S006,editing_preview,media/exports/ending-v02/A-slow-reveal-silent.mp4,,FFmpeg from R001+R002,回墙节奏比较;静帧无声;非视频模型结果,v02,pending_review,指纹与边界见post/ending-preview-v02.md;已上传LibTV
 PV006B02,S006,editing_preview,media/exports/ending-v02/B-direct-cut-silent.mp4,,FFmpeg from R001+R002,回墙节奏比较;静帧无声;非视频模型结果,v02,pending_review,指纹与边界见post/ending-preview-v02.md;已上传LibTV
+P00601,,wall_extension_intermediate,media/references/P006-wall-extension-ai-v01.png,,Codex built-in imagegen,R001,P00601,rejected_for_direct_use,AI改动中心;展签重复风险;只供背景
+P00602,,wall_extension_intermediate,media/references/P006-wall-extension-ai-v02.png,,Codex built-in imagegen,P00601,P00602,background_only,已清理展签;必须合成R001覆盖画作
+K00101,S001,keyframe,media/stills/K001-restaurant-v01.png,,Codex built-in imagegen,R002,K00101,pending_review,环境先行;女主不在前景
+K00201,S002,keyframe,media/stills/K002-service-v01.png,,Codex built-in imagegen,R002;K00101,K00201,pending_review,杯底已触桌;试拍松手收回
+K00301,S003,keyframe,media/stills/K003-entrance-v01.png,,Codex built-in imagegen,R002;K00101,K00301,pending_review,银裙红花;自然低位手臂;步态待验证
+PV006A03,S006,editing_preview,media/exports/ending-v03/A-slow-reveal-fullbleed.mp4,,FFmpeg compositing,R001;R002;P00601,PV006A03,rejected,展签重叠;保留历史
+PV006A04,S006,editing_preview,media/exports/ending-v04/A-slow-reveal-fullbleed.mp4,,FFmpeg compositing,R001;R002;P00602,PV006A04,candidate_revision,A方向已获认可;无黑边修正版待观看
+S002_take01,S002,generated_video,media/clips/S002_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,candidate,任务与SHA256见motion-test-results-v01.json
+S003_take01,S003,generated_video,media/clips/S003_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,partial_candidate_needs_review,任务与SHA256见motion-test-results-v01.json
+ASSEMBLY01,,rough_cut,media/exports/assembly-v01/opening-service-entrance-silent.mp4,,FFmpeg editing,前14秒顺序与节奏预演;无声音,v01,pending_review,不是完整30秒成片;时间线post/assembly-v01.csv

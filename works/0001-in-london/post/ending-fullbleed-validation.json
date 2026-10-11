@@ -1,0 +1,16 @@
+{
+  "duration": 6,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 144,
+  "audio": false,
+  "full_decode": "passed",
+  "minimum_outer_8_column_gray_means": [
+    34.67534722222222,
+    37.23072916666667
+  ],
+  "original_hash_unchanged": true
+}

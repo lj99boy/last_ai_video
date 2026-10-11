@@ -1,0 +1,58 @@
+[
+  {
+    "testId": "T03",
+    "nodeId": "aafc3aa9-7bce-4ff6-9e82-f93e3bd2b76e",
+    "name": "T03 服务落杯｜5秒试拍待运行",
+    "params": {
+      "prompt": "参考 {{Node 7479774f-8121-4050-b0f8-3bcde2fc9f8c}}。固定机位，一个连续镜头。以参考图为第一帧，保持侍者身份、手指、杯子、桌面、餐厅与油画笔触。杯底开始已接触桌布：侍者轻稳完成放杯，先松开握杯梗的手指，再自然把右手收回身侧；杯子留在原处，直立不滑动、不弹跳。侍者从容站直，另一只手不新增动作。背景宾客只有轻微自然动作。无运镜，无切镜，无新增杯子，无倒酒，无夸张鞠躬，手指不穿过玻璃，器物不变形。",
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "count": 1,
+      "settings": {
+        "quality": "low",
+        "duration": 5,
+        "enableSound": "off",
+        "multi_shot": false
+      },
+      "advancedSettings": {},
+      "imageListOrder": [
+        "7479774f-8121-4050-b0f8-3bcde2fc9f8c"
+      ],
+      "mixedListOrder": [
+        "7479774f-8121-4050-b0f8-3bcde2fc9f8c"
+      ],
+      "textList": []
+    },
+    "mediaNodeIds": [
+      "7479774f-8121-4050-b0f8-3bcde2fc9f8c"
+    ]
+  },
+  {
+    "testId": "T01",
+    "nodeId": "2f52751c-1b8e-49a2-acbb-ee46f0779751",
+    "name": "T01 女主登场｜5秒试拍待运行",
+    "params": {
+      "prompt": "参考 {{Node 5702b14a-d0d1-4aec-aada-b558d7dd32e4}}。固定机位，一个连续镜头。以参考图为第一帧，保持成年女主面孔、盘发、红花、银灰亮片长裙、披肩、自然身段与油画笔触。她在通道里沿画面方向向前自然走一小步，重心平稳转移，再轻轻停住；肩颈放松，双臂维持低位，披肩有很小的随动。裙摆有重量，银灰裙面只随身体运动产生局部暖光反射，不能整裙闪烁或变金色。餐厅保持原有布局，背景宾客不过度关注她。无运镜，无切镜，无举手摸头，无叉腰，无夸张模特步，无突然转身，无五官和身体变形。",
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "count": 1,
+      "settings": {
+        "quality": "low",
+        "duration": 5,
+        "enableSound": "off",
+        "multi_shot": false
+      },
+      "advancedSettings": {},
+      "imageListOrder": [
+        "5702b14a-d0d1-4aec-aada-b558d7dd32e4"
+      ],
+      "mixedListOrder": [
+        "5702b14a-d0d1-4aec-aada-b558d7dd32e4"
+      ],
+      "textList": []
+    },
+    "mediaNodeIds": [
+      "5702b14a-d0d1-4aec-aada-b558d7dd32e4"
+    ]
+  }
+]

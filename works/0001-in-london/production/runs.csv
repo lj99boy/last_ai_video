@@ -3,3 +3,12 @@ VIS001,,V001,2026-10-11,Codex built-in imagegen,not_exposed,R001,V001-prompt.txt
 PREP001,,R002,2026-10-11,Codex built-in imagegen,not_exposed,R001,R002-prompt.txt,,,,completed,R002,,,,,AI编辑可能改变局部人物器物笔触;非纯几何矫正,候选正视参考;待对照验收
 EDITPV006A02,S006,PV006A02,2026-10-11,local FFmpeg,not_applicable,R001;R002,,,../post/render-ending-previews.py,,completed,PV006A02,0,0,0,,静帧无声;黑色侧边;R002与原作有细节明暗差异,仅预演;尚未选入成片
 EDITPV006B02,S006,PV006B02,2026-10-11,local FFmpeg,not_applicable,R001;R002,,,../post/render-ending-previews.py,,completed,PV006B02,0,0,0,,静帧无声;黑色侧边;R002与原作有细节明暗差异,仅预演;尚未选入成片
+RUNP00601,,P00601,2026-10-11,Codex built-in imagegen,not_exposed,R001,keyframe-prompts-v02.json,,,,completed,P00601,,,,,AI改动中心;展签重复风险;只供背景,rejected_for_direct_use
+RUNP00602,,P00602,2026-10-11,Codex built-in imagegen,not_exposed,P00601,P006-clean-wall-prompt.txt,,,,completed,P00602,,,,,已清理展签;必须合成R001覆盖画作,background_only
+RUNK00101,S001,K00101,2026-10-11,Codex built-in imagegen,not_exposed,R002,keyframe-prompts-v02.json,,,,completed,K00101,,,,,环境先行;女主不在前景,pending_review
+RUNK00201,S002,K00201,2026-10-11,Codex built-in imagegen,not_exposed,R002;K00101,keyframe-prompts-v02.json,,,,completed,K00201,,,,,杯底已触桌;试拍松手收回,pending_review
+RUNK00301,S003,K00301,2026-10-11,Codex built-in imagegen,not_exposed,R002;K00101,keyframe-prompts-v02.json,,,,completed,K00301,,,,,银裙红花;自然低位手臂;步态待验证,pending_review
+RUNPV006A03,S006,PV006A03,2026-10-11,local FFmpeg,not_applicable,R001;R002;P00601,,,../post/render-ending-fullbleed.py,,completed,PV006A03,0,0,0,,展签重叠;保留历史,rejected
+RUNPV006A04,S006,PV006A04,2026-10-11,local FFmpeg,not_applicable,R001;R002;P00602,,,../post/render-ending-fullbleed.py,,completed,PV006A04,0,0,0,,A方向已获认可;无黑边修正版待观看,candidate_revision
+T03,S002,take01,2026-10-11,LibTV,kling-video-o3,K00201,motion-test-plan-v01.json,,motion-test-readback-v01.json,20261011233303241547550,completed,S002_take01,,,,,前半动作等待较长;手部抽帧初检通过;待整体观看,candidate
+T01,S003,take01,2026-10-11,LibTV,kling-video-o3,K00301,motion-test-plan-v01.json,,motion-test-readback-v01.json,20261011233403467227550,completed,S003_take01,,,,,后半段前景桌椅遮挡裙身;未完全达到全身持续抓眼,partial_candidate_needs_review

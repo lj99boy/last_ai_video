@@ -1,0 +1,74 @@
+[
+  {
+    "testId": "T03",
+    "shot": "S002",
+    "asset_id": "S002_take01",
+    "taskId": "20261011233303241547550",
+    "nodeId": "aafc3aa9-7bce-4ff6-9e82-f93e3bd2b76e",
+    "platformStatus": 2,
+    "modelName": "Kling 3.0",
+    "modelKey": "kling-video-o3",
+    "settings": {
+      "quality": "low",
+      "duration": 5,
+      "enableSound": "off",
+      "multi_shot": false
+    },
+    "actual_credits": null,
+    "actual_cny": null,
+    "resolved_backend_prompt": "not_exposed",
+    "relative_path": "media/clips/S002_take01.mp4",
+    "bytes": 5273458,
+    "sha256": "f0544709a449aeefce5a8134955e49af39f37a3b56a7845f64bf804fd1c3b96d",
+    "duration": "5.041667",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "121"
+      }
+    ],
+    "full_decode": "passed",
+    "selected_usable_seconds": null,
+    "selection_status": "candidate"
+  },
+  {
+    "testId": "T01",
+    "shot": "S003",
+    "asset_id": "S003_take01",
+    "taskId": "20261011233403467227550",
+    "nodeId": "2f52751c-1b8e-49a2-acbb-ee46f0779751",
+    "platformStatus": 2,
+    "modelName": "Kling 3.0",
+    "modelKey": "kling-video-o3",
+    "settings": {
+      "quality": "low",
+      "duration": 5,
+      "enableSound": "off",
+      "multi_shot": false
+    },
+    "actual_credits": null,
+    "actual_cny": null,
+    "resolved_backend_prompt": "not_exposed",
+    "relative_path": "media/clips/S003_take01.mp4",
+    "bytes": 6594369,
+    "sha256": "c4de2e7b372371951865e0d969831836653c75044d0a6a2668a9dfcd33a5740d",
+    "duration": "5.041667",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "121"
+      }
+    ],
+    "full_decode": "passed",
+    "selected_usable_seconds": null,
+    "selection_status": "partial_candidate_needs_review"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "asset_id": "P00601",
+    "relative_path": "media/references/P006-wall-extension-ai-v01.png",
+    "bytes": 2173228,
+    "sha256": "42b1f831badaf34289cc91329a7ba4b8741d9e01c9dae2b26c1bd5c90dd638aa",
+    "references": [
+      "R001"
+    ],
+    "status": "rejected_for_direct_use",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "asset_id": "P00602",
+    "relative_path": "media/references/P006-wall-extension-ai-v02.png",
+    "bytes": 2033948,
+    "sha256": "ab235aad7425de7274e31538b9e02e1df1d48388aa4326ddab7c2656d58821e1",
+    "references": [
+      "P00601"
+    ],
+    "status": "background_only",
+    "size": [
+      1672,
+      941
+    ]
+  },
+  {
+    "asset_id": "K00101",
+    "relative_path": "media/stills/K001-restaurant-v01.png",
+    "bytes": 3029902,
+    "sha256": "4d1ccf39bd60c9fe7db9ed592677d7f45e908201856b8e0963b9d8eda96fe95f",
+    "references": [
+      "R002"
+    ],
+    "status": "pending_review",
+    "size": [
+      1672,
+      941
+    ],
+    "libtv_node_id": "cbb9bcdb-20c9-430a-890e-dd2728693f57"
+  },
+  {
+    "asset_id": "K00201",
+    "relative_path": "media/stills/K002-service-v01.png",
+    "bytes": 2878253,
+    "sha256": "469e2bab1b17c527a43a9bb54c40cfabb9ed29646bb88cc7265988d079fbafb0",
+    "references": [
+      "R002",
+      "K00101"
+    ],
+    "status": "pending_review",
+    "size": [
+      1672,
+      941
+    ],
+    "libtv_node_id": "7479774f-8121-4050-b0f8-3bcde2fc9f8c"
+  },
+  {
+    "asset_id": "K00301",
+    "relative_path": "media/stills/K003-entrance-v01.png",
+    "bytes": 3074490,
+    "sha256": "4d2b78fe52f5ffa39fd0101a41a12d250c4c33144f723477ae747800888b509d",
+    "references": [
+      "R002",
+      "K00101"
+    ],
+    "status": "pending_review",
+    "size": [
+      1672,
+      941
+    ],
+    "libtv_node_id": "5702b14a-d0d1-4aec-aada-b558d7dd32e4"
+  },
+  {
+    "asset_id": "PV006A03",
+    "relative_path": "media/exports/ending-v03/A-slow-reveal-fullbleed.mp4",
+    "bytes": 1921418,
+    "sha256": "2b602e08718275d6b4672ec6018fc256c0eb207f63061032e712d87b74313479",
+    "references": [
+      "R001",
+      "R002",
+      "P00601"
+    ],
+    "status": "rejected",
+    "libtv_node_id": "1095f34d-9b76-413b-a4f3-62c9ec8bfcb4"
+  },
+  {
+    "asset_id": "PV006A04",
+    "relative_path": "media/exports/ending-v04/A-slow-reveal-fullbleed.mp4",
+    "bytes": 1918098,
+    "sha256": "92e50a5e443c6e15d9ed9aa246c8a6c41671b710eed1d5dbda4c2c3a56bbf8a7",
+    "references": [
+      "R001",
+      "R002",
+      "P00602"
+    ],
+    "status": "candidate_revision",
+    "libtv_node_id": "f31341ff-008a-446b-8258-5598f96cfb3d"
+  }
+]
