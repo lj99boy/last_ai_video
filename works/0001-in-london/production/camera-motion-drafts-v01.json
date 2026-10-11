@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-12",
+  "projectUuid": "6b6cccb8f0d5497881f0058650000fb2",
+  "status": "drafts_readback_verified_not_run",
+  "model": "Kling 3.0",
+  "imagegenCallsThisTurn": 3,
+  "newLibtvRuns": 0,
+  "newRunAuthorization": false,
+  "estimatedCredits": null,
+  "items": [
+    {
+      "testId": "T04",
+      "shot": "S003",
+      "name": "T04 跨门入光后退跟随｜5秒草稿 未运行",
+      "referenceNode": "40aa6f53-0316-4b4b-9cef-56833c3e4727",
+      "promptFile": "T04-motion-prompt-v01.txt",
+      "nodeId": "ed9b628a-8747-4d63-b445-ec35187d3ed3",
+      "assetId": "K00303"
+    },
+    {
+      "testId": "T05",
+      "shot": "S005a",
+      "name": "T05 女主松开披肩｜5秒草稿 未运行",
+      "referenceNode": "76e8218b-694f-4e4c-82c6-4b06cacbbce6",
+      "promptFile": "T05-motion-prompt-v01.txt",
+      "nodeId": "12994f17-f7de-48c4-b860-ffd0bf763062",
+      "assetId": "K005A01"
+    }
+  ],
+  "authorizationNote": "Prior two-run authorization exhausted; no authorization for T04/T05 paid execution yet.",
+  "settings": {
+    "quality": "low",
+    "duration": 5,
+    "enableSound": "off",
+    "multi_shot": false
+  }
+}

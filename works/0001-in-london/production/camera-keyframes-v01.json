@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-12",
+  "tool": "Codex built-in imagegen",
+  "imageCalls": 3,
+  "model": "not_exposed",
+  "cost": "not_exposed",
+  "newLibtvRuns": 0,
+  "sourceAuthority": "R001",
+  "assets": [
+    {
+      "assetId": "K00302",
+      "shot": "S003",
+      "path": "media/stills/S003-keyframe-v02.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "348c0890bd85dda3641e3d3b8009483c3e343aca5253df8acc30c6932ee09595",
+      "promptFile": "S003-keyframe-v02-prompt.txt",
+      "referenceIds": [
+        "R001",
+        "V006"
+      ],
+      "status": "rejected_wardrobe_keep_for_comparison",
+      "observations": "全身通道清楚;新增肩部串珠;披肩层叠;银面偏箔"
+    },
+    {
+      "assetId": "K00303",
+      "shot": "S003",
+      "path": "media/stills/S003-keyframe-v03.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "59a3c992acf9c8ea8a5d6983616dab72e561a14e9ac9338236bd1d903a34d2c9",
+      "promptFile": "S003-keyframe-v03-prompt.txt",
+      "referenceIds": [
+        "K00302",
+        "R001"
+      ],
+      "status": "candidate_pending_user_review",
+      "observations": "肩链移除;全身无遮挡;披肩边缘仍折叠;银面偏亮;背后同伴后续需站位衔接"
+    },
+    {
+      "assetId": "K005A01",
+      "shot": "S005a",
+      "path": "media/stills/S005a-keyframe-v01.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "3ade88c938f56a2d4fc74073ba0438f300be42d6b5423d91594bfeecd25735f6",
+      "promptFile": "S005a-keyframe-v01-prompt.txt",
+      "referenceIds": [
+        "R001",
+        "K00303"
+      ],
+      "status": "candidate_pending_user_review",
+      "observations": "握布与托布清楚;帽饰贴上缘;披肩层叠;非准确原画复原"
+    }
+  ]
+}

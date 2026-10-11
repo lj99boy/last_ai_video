@@ -23,3 +23,6 @@ EDITSTORY09,,PVSTORY09,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01
 VIS008,,V006,2026-10-12,Codex built-in imagegen,not_exposed,V00502;R001;V001,V006-prompt.txt,,,,completed,V006,,,,,披肩仍层叠;银面偏金属;背面非原画证据,空间镜头衣装修正候选
 VIS009,,V007,2026-10-12,Codex built-in imagegen,not_exposed,V00402;R001;V006,V007-prompt.txt,,,,completed,V007,,,,,披肩仍层叠;银面偏金属,同步中段服装修正候选
 EDITSTORY09C01,,PVSTORY09C01,2026-10-12,local FFmpeg,not_applicable,K00101;S002_take01;V006;V007;PV006A04,,,../post/render-story-v09-costume-v01.py,,completed,PVSTORY09C01,0,0,0,,静帧25秒;无声;原画接点待修,保留时序比较衣装
+VIS010,S003,K00302,2026-10-12,Codex built-in imagegen,not_exposed,R001;V006,S003-keyframe-v02-prompt.txt,,,,completed,K00302,,,,,全身通道清楚;新增肩部串珠;披肩层叠;银面偏箔,rejected_wardrobe_keep_for_comparison
+VIS011,S003,K00303,2026-10-12,Codex built-in imagegen,not_exposed,K00302;R001,S003-keyframe-v03-prompt.txt,,,,completed,K00303,,,,,肩链移除;全身无遮挡;披肩边缘仍折叠;银面偏亮;背后同伴后续需站位衔接,candidate_pending_user_review
+VIS012,S005a,K005A01,2026-10-12,Codex built-in imagegen,not_exposed,R001;K00303,S005a-keyframe-v01-prompt.txt,,,,completed,K005A01,,,,,握布与托布清楚;帽饰贴上缘;披肩层叠;非准确原画复原,candidate_pending_user_review

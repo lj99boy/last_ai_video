@@ -25,3 +25,6 @@ PVSTORY09,,silent_animatic,media/exports/story-v09/story-v09-silent-animatic.mp4
 V006,,costume_corrected_storyboard,media/stills/V006-costume-spatial-v01.png,,Codex built-in imagegen,新镜头保留;以R001回溯衣装;仍有披肩层叠与材质偏差,v01,costume_correction_candidate_pending_user_review,指纹见costume-correction-v01.json;费用未知
 V007,,costume_corrected_storyboard,media/stills/V007-costume-action-v01.png,,Codex built-in imagegen,新镜头保留;以R001回溯衣装;仍有披肩层叠与材质偏差,v01,costume_correction_candidate_pending_user_review,指纹见costume-correction-v01.json;费用未知
 PVSTORY09C01,,silent_animatic,media/exports/story-v09-costume-v01/story-v09-costume-v01-silent-animatic.mp4,,local FFmpeg,34秒沿用既有时序仅换服装修正图;25秒静帧;无声,costume-v01,pending_review,服装未最终认可;回画接点待修
+K00302,S003,independent_keyframe,media/stills/S003-keyframe-v02.png,,Codex built-in imagegen,运镜v01独立首帧候选;衣装最高依据R001,v02,rejected_wardrobe_keep_for_comparison,全身通道清楚;新增肩部串珠;披肩层叠;银面偏箔;指纹见camera-keyframes-v01.json;费用未知
+K00303,S003,independent_keyframe,media/stills/S003-keyframe-v03.png,,Codex built-in imagegen,运镜v01独立首帧候选;衣装最高依据R001,v03,candidate_pending_user_review,肩链移除;全身无遮挡;披肩边缘仍折叠;银面偏亮;背后同伴后续需站位衔接;指纹见camera-keyframes-v01.json;费用未知
+K005A01,S005a,independent_keyframe,media/stills/S005a-keyframe-v01.png,,Codex built-in imagegen,运镜v01独立首帧候选;衣装最高依据R001,v01,candidate_pending_user_review,握布与托布清楚;帽饰贴上缘;披肩层叠;非准确原画复原;指纹见camera-keyframes-v01.json;费用未知
