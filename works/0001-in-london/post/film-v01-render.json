@@ -1,0 +1,89 @@
+{
+  "output": "media/exports/film-v01/in-london-first-film-with-audio.mp4",
+  "sha256": "ac8909b4bc2dd0df866e2004a0ce88899c123b8af6b539a737e6407c01127e11",
+  "duration_seconds": 35.5,
+  "fps": 24,
+  "audio": true,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "duration": "35.499000",
+        "nb_read_frames": "852"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "35.500000",
+        "nb_read_frames": "1665"
+      }
+    ],
+    "format": {
+      "duration": "35.500000",
+      "size": "18084997"
+    }
+  },
+  "full_decode": "passed",
+  "sound": "Generated original instrumental + generated native ambience/foley; no separately recorded voiceover",
+  "human_listening_acceptance": false,
+  "user_artistic_acceptance": false,
+  "source_files": [
+    {
+      "path": "media/clips/film-v02/S001_take01.mp4",
+      "sha256": "66837097ed637ed9fa82af1474e5792299e612e8efeac09b62370b9b770f1fd2"
+    },
+    {
+      "path": "media/clips/film-v02/S002_take01.mp4",
+      "sha256": "a84cfe16b89883a76828ba309fed065b7713e82bd73ba3fc60b8a7438bb3a940"
+    },
+    {
+      "path": "media/clips/film-v02/S007_take01.mp4",
+      "sha256": "0690f716f39c5322f16cd2dd1016b0243265c515cd307863dcd8a19b7c15d049"
+    },
+    {
+      "path": "media/clips/film-v02/S008_take01.mp4",
+      "sha256": "d891155665bf09e65a55969a55fa03af71779bb7f9f7dcb3fd58dbbe5bb07d80"
+    },
+    {
+      "path": "media/clips/film-v02/S003_take01.mp4",
+      "sha256": "fffbd510e6a7274f445d059362819a90baa71469c00046bb8dedddc17ffa8365"
+    },
+    {
+      "path": "media/clips/film-v02/S004a_take01.mp4",
+      "sha256": "3100cb32eef1295d6a79cbd070f446ef53c182e7ac0756bf47b6c8597229edd2"
+    },
+    {
+      "path": "media/clips/film-v02/S005b_take01.mp4",
+      "sha256": "c077c2c7a3e2a5b5eb217663aefc0be93fcbbc09bfcbc6c5504e60769f388fb6"
+    },
+    {
+      "path": "media/exports/ending-v04/A-slow-reveal-fullbleed.mp4",
+      "sha256": "92e50a5e443c6e15d9ed9aa246c8a6c41671b710eed1d5dbda4c2c3a56bbf8a7"
+    },
+    {
+      "path": "media/audio/film-v01/music-original.mp3",
+      "sha256": "32b2abbbf961bc7b1d8554ce0ba41eade2b77cde0471ee133a456293a178aaad"
+    }
+  ],
+  "loudness_pass1": {
+    "input_i": "-17.60",
+    "input_tp": "-4.33",
+    "input_lra": "2.40",
+    "input_thresh": "-27.74",
+    "output_i": "-16.76",
+    "output_tp": "-3.84",
+    "output_lra": "1.70",
+    "output_thresh": "-26.84",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.24"
+  }
+}

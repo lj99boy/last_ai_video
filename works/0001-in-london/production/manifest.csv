@@ -53,3 +53,37 @@ ST03HAND01,S004;S005a,independent_keyframe,media/stills/style-v03/S004-S005a-pos
 ST03ENT02,S003,independent_keyframe,media/stills/style-v03/S003-wardrobe-v02.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,superseded_flower_hand_ambiguity,指纹见style-v03/assets.json;非视频验证
 ST03ENT03,S003,independent_keyframe,media/stills/style-v03/S003-wardrobe-v03.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,wardrobe_corrected_pose_preserved_candidate,指纹见style-v03/assets.json;非视频验证
 ST04ENT01,S003,independent_keyframe,media/stills/style-v04/S003-global-paint-v01.png,,Codex built-in imagegen,全画面风格与姿态/花手联合验证,style-v04,joint_constraints_static_candidate_pending_user_review,笔触偏粗碎;无运动验证;指纹见style-v04/result.json
+R004,,style_reference,media/references/R004-user-selected-quiet-paint.png,,user-provided,完整有声首片过程与结果,film-v02,style_selected,只控制自然绘画语言，不控制姿态或构图
+FILMV01_MUSIC,MUSIC,audio,media/audio/film-v01/music-original.mp3,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV01_S001,S001,video,media/clips/film-v01/S001_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,superseded_texture,实际积分未知;不是用户审美定稿
+FILMV01_S002,S002,video,media/clips/film-v01/S002_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,superseded_texture,实际积分未知;不是用户审美定稿
+FILMV01_S003,S003,video,media/clips/film-v01/S003_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,superseded_texture,实际积分未知;不是用户审美定稿
+FILMV01_S007,S007,video,media/clips/film-v01/S007_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,superseded_texture,实际积分未知;不是用户审美定稿
+FILMV01_S008,S008,video,media/clips/film-v01/S008_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,superseded_texture,实际积分未知;不是用户审美定稿
+FILMV01_IMG_S001,S001,generated_still,media/stills/film-v01/S001.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S002,S002,generated_still,media/stills/film-v01/S002.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S003-end,S003,generated_still,media/stills/film-v01/S003-end.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S003,S003,generated_still,media/stills/film-v01/S003.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S004a-start,S004a,generated_still,media/stills/film-v01/S004a-start.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S007,S007,generated_still,media/stills/film-v01/S007.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV01_IMG_S008,S008,generated_still,media/stills/film-v01/S008.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_S001,S001,video,media/clips/film-v02/S001_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S002,S002,video,media/clips/film-v02/S002_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S003,S003,video,media/clips/film-v02/S003_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S004a,S004a,video,media/clips/film-v02/S004a_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S005b,S005b,video,media/clips/film-v02/S005b_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S007,S007,video,media/clips/film-v02/S007_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_S008,S008,video,media/clips/film-v02/S008_take01.mp4,,LibTV official CLI,完整有声首片过程与结果,film-v02,used_in_first_review_film,实际积分未知;不是用户审美定稿
+FILMV02_IMG_S001,S001,generated_still,media/stills/film-v02/S001.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S002,S002,generated_still,media/stills/film-v02/S002.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S003-candidate01,S003,generated_still,media/stills/film-v02/S003-candidate01.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S003-end,S003,generated_still,media/stills/film-v02/S003-end.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S003,S003,generated_still,media/stills/film-v02/S003.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S004a-contact-rejected,S004a,generated_still,media/stills/film-v02/S004a-contact-rejected.png,,builtin imagegen,完整有声首片过程与结果,film-v02,rejected_or_superseded,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S004a-end,S004a,generated_still,media/stills/film-v02/S004a-end.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S004a,S004a,generated_still,media/stills/film-v02/S004a.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S005b-end-original,S005b,generated_still,media/stills/film-v02/S005b-end-original.png,,frame extracted from ending-v04,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S005b,S005b,generated_still,media/stills/film-v02/S005b.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S007,S007,generated_still,media/stills/film-v02/S007.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILMV02_IMG_S008,S008,generated_still,media/stills/film-v02/S008.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
+FILM01,,review_film,media/exports/film-v01/in-london-first-film-with-audio.mp4,,local FFmpeg edit and mix,完整有声首片过程与结果,film-v02,complete_review_pending_user,35.5s;852frames;720p;AAC stereo;未定稿未发布

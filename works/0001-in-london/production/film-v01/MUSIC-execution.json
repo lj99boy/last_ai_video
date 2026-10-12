@@ -1,0 +1,44 @@
+{
+  "shot": "MUSIC",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [],
+  "preflightCorrection": "CLI rejected missing scene=Music before node creation; node list confirmed absent; no run attempted.",
+  "nodeId": "881c4a95-8c21-48a6-9950-2ace1fba4f80",
+  "readback": {
+    "model": "Eleven Music V3",
+    "count": 1,
+    "settings": {},
+    "advancedSettings": {
+      "music_length_ms": 60000
+    }
+  },
+  "configuredPromptMatches": null,
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261012132003022687550",
+  "platformStatus": 2,
+  "output": "media/audio/film-v01/music-original.mp3",
+  "sha256": "32b2abbbf961bc7b1d8554ce0ba41eade2b77cde0471ee133a456293a178aaad",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "2298"
+      }
+    ],
+    "format": {
+      "duration": "60.029375"
+    }
+  },
+  "fullDecode": "passed",
+  "selection_status": "used_in_first_review_film"
+}

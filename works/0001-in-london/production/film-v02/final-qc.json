@@ -1,0 +1,18 @@
+{
+  "frames_checked": 852,
+  "near_solid_black_side_edge_frames": [],
+  "black_frame_events": [],
+  "audio_encoded_loudness": {
+    "input_i": "-17.02",
+    "input_tp": "-3.73",
+    "input_lra": "2.40",
+    "input_thresh": "-27.15",
+    "output_i": "-16.76",
+    "output_tp": "-3.83",
+    "output_lra": "1.70",
+    "output_thresh": "-26.84",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.24"
+  },
+  "limits": "Edge signal check plus contact sheets; not human full-motion and listening acceptance."
+}

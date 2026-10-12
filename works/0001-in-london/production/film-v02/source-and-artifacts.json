@@ -1,0 +1,72 @@
+{
+  "reference": {
+    "id": "R004",
+    "path": "media/references/R004-user-selected-quiet-paint.png",
+    "sha256": "3c23c59d98667ccd8687d2ec7470dd774372ca29388ecdf5049d84a0c8cacc3b",
+    "role": "User selected early quiet painted texture; not shot layout or pose"
+  },
+  "image_method": "builtin imagegen; all retained images local, no media in Git",
+  "assets": [
+    {
+      "path": "media/stills/film-v02/S001.png",
+      "sha256": "47e59be29218eae62fc729e360d6f016c784760c6ec467eebcb3501870267efd",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S002.png",
+      "sha256": "dd39b2a5e55024ebd407af96d816ed318254e2e0788b910140b8bf32ef8f35e8",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S003-candidate01.png",
+      "sha256": "5376198c328e676d6fc288809f8dc83cb72007bc5bab1b0fa5325c2ae07d65b7",
+      "status": "rejected"
+    },
+    {
+      "path": "media/stills/film-v02/S003-end.png",
+      "sha256": "0b3a674c96216499570dc8bcf9dd3fcb46f4c7a7ca39616e393757276d0d0775",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S003.png",
+      "sha256": "0052956334a50ab54bb96e61594f8b5b0eff1004eff6a9a57ea91b660d0b8315",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S004a-contact-rejected.png",
+      "sha256": "6697534f74b787ec55bcae64b4c50f8af21f24f5756dca07e13ad723e4d5692c",
+      "status": "rejected"
+    },
+    {
+      "path": "media/stills/film-v02/S004a-end.png",
+      "sha256": "5f5c133d0cdab01cba39a68be49cf491db6bd4a2f3c19765b298b01059f2f146",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S004a.png",
+      "sha256": "d23b5bf182d613461cc970dc960d53f3d913b811b63d7d86dfc665c89afe671a",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S005b-end-original.png",
+      "sha256": "b1d0d2da3954acde30c1130cb87d63bd907d7e36b2723b0d5fb34e852942e92c",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S005b.png",
+      "sha256": "a03e6d6e6c563d95e3a92fa6d99d9b743c047e2e220eec6883a8a310e5e5e093",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S007.png",
+      "sha256": "aa1e78a1587d89cb56fcc5f2879509f0fc5ec72bf164f40d3f1d985078868b7f",
+      "status": "used_for_review_film"
+    },
+    {
+      "path": "media/stills/film-v02/S008.png",
+      "sha256": "a535971b9fd0d1cf547b406e95c972963eed39d4dd6e13ae03c164a7b0331c3d",
+      "status": "used_for_review_film"
+    }
+  ],
+  "source_reconstruction_note": "S005b-end-original.png is a frame extracted from ending-v04 starting with AI reconstruction R002; it is NOT the original photograph. Ending later transitions to real R001 photograph; outer wall extensions are generated."
+}

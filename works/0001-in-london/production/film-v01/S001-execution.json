@@ -1,0 +1,63 @@
+{
+  "shot": "S001",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "9c9c3ee8-3636-4b35-a6c8-f1ccd4f7e93b",
+      "path": "media/stills/film-v01/S001.png",
+      "sha256": "f8db4ab7221c5e564ee3825339d328446464e9428ced2ecaaf0d47f7d8200fd1"
+    }
+  ],
+  "nodeId": "5ea6f055-c4f1-4ecc-9d43-f4e0031619f1",
+  "readback": {
+    "model": "Kling 3.0",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "quality": "low",
+      "duration": 5,
+      "enableSound": "on",
+      "multi_shot": false
+    },
+    "advancedSettings": {},
+    "imageListOrder": [
+      "9c9c3ee8-3636-4b35-a6c8-f1ccd4f7e93b"
+    ]
+  },
+  "configuredPromptMatches": false,
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261012132103419907550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v01/S001_take01.mp4",
+  "sha256": "87d244eb7f3bbe582b9be23c0bbbe631b32949111fab20cf2836565953fdb594",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "217"
+      },
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "121"
+      }
+    ],
+    "format": {
+      "duration": "5.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "selection_status": "superseded_texture"
+}

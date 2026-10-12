@@ -1,0 +1,9 @@
+shot,input,source_start_frame,frames,timeline_start_seconds,purpose
+S001,media/clips/film-v02/S001_take01.mp4,0,84,0,餐厅与秩序
+S002,media/clips/film-v02/S002_take01.mp4,6,108,3.5,落杯、松指、撤手
+S007,media/clips/film-v02/S007_take01.mp4,12,72,8.0,窗内望向夜晚
+S008,media/clips/film-v02/S008_take01.mp4,6,96,11.0,从街边走入门槛
+S003,media/clips/film-v02/S003_take01.mp4,0,120,15.0,完整银裙、入场、停稳
+S004a,media/clips/film-v02/S004a_take01.mp4,0,108,20.0,目光、握点解除
+S005b,media/clips/film-v02/S005b_take01.mp4,0,120,24.5,手至鬓边、回到画中姿态
+S006,media/exports/ending-v04/A-slow-reveal-fullbleed.mp4,0,144,29.5,缓退至原作与画框

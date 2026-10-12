@@ -1,0 +1,100 @@
+{
+  "MUSIC": {
+    "type": "audio",
+    "images": [],
+    "prompt": "music-prompt.txt",
+    "output": "media/audio/film-v01/music-original.mp3",
+    "y": 5500,
+    "settings": {
+      "model": "Eleven Music V3",
+      "duration": 60000,
+      "count": 1,
+      "scene": "Music"
+    }
+  },
+  "S001": {
+    "images": [
+      "media/stills/film-v01/S001.png"
+    ],
+    "prompt": "S001-motion.txt",
+    "output": "media/clips/film-v01/S001_take01.mp4",
+    "y": 3000,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S002": {
+    "images": [
+      "media/stills/film-v01/S002.png"
+    ],
+    "prompt": "S002-motion.txt",
+    "output": "media/clips/film-v01/S002_take01.mp4",
+    "y": 3300,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S003": {
+    "images": [
+      "media/stills/film-v01/S003.png",
+      "media/stills/film-v01/S003-end.png"
+    ],
+    "prompt": "S003-motion.txt",
+    "output": "media/clips/film-v01/S003_take01.mp4",
+    "y": 3600,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "frames2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "count": 1
+    }
+  },
+  "S007": {
+    "images": [
+      "media/stills/film-v01/S007.png"
+    ],
+    "prompt": "S007-motion.txt",
+    "output": "media/clips/film-v01/S007_take01.mp4",
+    "y": 3900,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "count": 1,
+      "smartStoryboard": false
+    }
+  },
+  "S008": {
+    "images": [
+      "media/stills/film-v01/S008.png"
+    ],
+    "prompt": "S008-motion.txt",
+    "output": "media/clips/film-v01/S008_take01.mp4",
+    "y": 4200,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  }
+}

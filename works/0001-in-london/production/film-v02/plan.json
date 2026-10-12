@@ -1,0 +1,121 @@
+{
+  "S001": {
+    "images": [
+      "media/stills/film-v02/S001.png"
+    ],
+    "prompt": "S001-motion.txt",
+    "output": "media/clips/film-v02/S001_take01.mp4",
+    "y": 6000,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S002": {
+    "images": [
+      "media/stills/film-v02/S002.png"
+    ],
+    "prompt": "S002-motion.txt",
+    "output": "media/clips/film-v02/S002_take01.mp4",
+    "y": 6400,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S007": {
+    "images": [
+      "media/stills/film-v02/S007.png"
+    ],
+    "prompt": "S007-motion.txt",
+    "output": "media/clips/film-v02/S007_take01.mp4",
+    "y": 6800,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S008": {
+    "images": [
+      "media/stills/film-v02/S008.png"
+    ],
+    "prompt": "S008-motion.txt",
+    "output": "media/clips/film-v02/S008_take01.mp4",
+    "y": 7200,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    }
+  },
+  "S003": {
+    "images": [
+      "media/stills/film-v02/S003.png",
+      "media/stills/film-v02/S003-end.png"
+    ],
+    "prompt": "S003-motion.txt",
+    "output": "media/clips/film-v02/S003_take01.mp4",
+    "y": 7600,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "frames2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "count": 1
+    }
+  },
+  "S004a": {
+    "images": [
+      "media/stills/film-v02/S004a.png",
+      "media/stills/film-v02/S004a-end.png"
+    ],
+    "prompt": "S004a-motion.txt",
+    "output": "media/clips/film-v02/S004a_take01.mp4",
+    "y": 8000,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "frames2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "count": 1
+    }
+  },
+  "S005b": {
+    "images": [
+      "media/stills/film-v02/S005b.png",
+      "media/stills/film-v02/S005b-end-original.png"
+    ],
+    "prompt": "S005b-motion.txt",
+    "output": "media/clips/film-v02/S005b_take01.mp4",
+    "y": 8400,
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "frames2video",
+      "duration": 5,
+      "quality": "low",
+      "enableSound": "on",
+      "count": 1
+    }
+  }
+}

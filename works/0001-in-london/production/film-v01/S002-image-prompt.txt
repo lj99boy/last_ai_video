@@ -1,0 +1,1 @@
+Image1 waiter pose/composition; Image2 film-v01 S003 whole-image painted style. Repaint all surfaces, preserve glass hover and hand geometry; no photorealistic white cloth or skin. Exact prompt saved in execution conversation.
