@@ -1,0 +1,11 @@
+{
+  "file": "media/stills/film-v04/S003-master01.png",
+  "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24",
+  "tool": "builtin imagegen",
+  "prompt": "S003-master-prompt.txt",
+  "references": [
+    "media/references/R001-user-photo-original.jpg",
+    "media/references/R004-user-selected-quiet-paint.png"
+  ],
+  "inspection": "New source, not edited v03 candidate. No dress mesh visible. Broad connected silver folds; no uniform dotted surface. Correct right corsage, empty hands, upright walking, smaller back-tilted hat. Painterly ambient highlights remain on glass/lamps; not falsely claimed pixel-exact costume reconstruction. Candidate chosen for bounded motion test, not user-approved final."
+}

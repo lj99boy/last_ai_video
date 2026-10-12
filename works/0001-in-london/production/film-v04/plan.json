@@ -1,0 +1,56 @@
+{
+  "S003A": {
+    "y": 600,
+    "images": [
+      "media/stills/film-v04/S003-master01.png"
+    ],
+    "prompt": "S003A-motion.txt",
+    "settings": {
+      "model": "Kling 3.0",
+      "modeType": "singleImage2video",
+      "duration": 8,
+      "quality": "low",
+      "enableSound": "on",
+      "smartStoryboard": false,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S003A_take01.mp4"
+  },
+  "S003D": {
+    "y": 1100,
+    "images": [
+      "media/stills/film-v04/S003-master01.png"
+    ],
+    "prompt": "S003D-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "singleImage2video",
+      "duration": 8,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "on",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S003D_take01.mp4"
+  },
+  "S003E": {
+    "y": 1600,
+    "images": [
+      "media/stills/film-v04/S003-master01.png",
+      "media/stills/film-v04/S005-tableau01.png"
+    ],
+    "prompt": "S003E-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "frames2video",
+      "duration": 12,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "on",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S003E_take01.mp4"
+  }
+}

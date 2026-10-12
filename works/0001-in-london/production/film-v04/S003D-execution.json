@@ -1,0 +1,70 @@
+{
+  "shot": "S003D",
+  "authorization": "User active goal: finish clean revised film using existing workflow; one comparative draft, no recharge or automatic retry",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "ac33790c-899f-4bed-8cf7-47dc1802173b",
+      "path": "media/stills/film-v04/S003-master01.png",
+      "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+    }
+  ],
+  "nodeId": "5c101228-23fa-4df7-82f7-8e74848e66ed",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 8,
+      "enableSound": "on"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "ac33790c-899f-4bed-8cf7-47dc1802173b"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node ac33790c-899f-4bed-8cf7-47dc1802173b}}\n这是一个真正手绘油画世界中的连续移动镜头，整段8秒始终保持参考图的柔和笔触和色块，不转成实拍、3D或摄影质感。使用参考图作为精确首帧，女主穿同一件修身银裙、佩戴同一顶紧凑向后倾斜的深色帽子，红胸花固定在她自身右胸（正面观众左侧），双手没有花。她从容走进餐厅通道，摄影机在她前侧平稳后退并向左走浅弧，保持全身，前景桌椅产生真实侧向视差，裙摆和披肩随脚步自然轻动。她自然看一眼左侧餐桌再望向前方，男伴保持落后半步。动作和运镜贯穿整段，结尾仍在行走。不要定格或摆拍停顿，不要仅放大画面，不要插入别的镜头。不要新增前景路人挡住女主。所有人物保持绘画形态，脸上可见柔和的整体笔触。帽子不可变宽、变色、变成大檐帽。衣裙用连续银色长褶光表现华丽，暗处保持完整平滑色块，不能生成网格、鱼鳞、花纹、刺绣、小点、金粉或随机闪烁。墙和地面只保留稳定的大块光影。餐厅低声氛围与脚步、布料声，无可辨对白、无音乐。",
+  "status": "completed_artistic_review_rejected",
+  "taskId": "20261012165103707237550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v04/S003D_take01.mp4",
+  "sha256": "7475e94d5db8f359d826e4e4a38c1699f67c753779d4955c7a7716ea3787bf27",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 854,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "193"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "32000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "252"
+      }
+    ],
+    "format": {
+      "duration": "8.064000"
+    }
+  },
+  "fullDecode": "passed",
+  "artisticReview": {
+    "accepted": false,
+    "reason": "Cleaner persistent painterly finish and no occluding passerby versus Kling; hat nevertheless turns into pale forward brim. Not approved as final. Next test uses two actual keyframe endpoints and limits head turning rather than repeating single-frame freedom."
+  }
+}

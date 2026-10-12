@@ -1,0 +1,134 @@
+[
+  {
+    "asset_id": "FILMV04_IMG01",
+    "shot": "S003",
+    "file": "media/stills/film-v04/S003-master01.png",
+    "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24",
+    "tool": "builtin imagegen",
+    "prompt": "S003-master-prompt.txt",
+    "references": [
+      {
+        "path": "media/references/R001-user-photo-original.jpg",
+        "sha256": "054251a7935389aa92b4a10def22a7286e095b58cbc8e5730de4e1c738b3d9fa"
+      },
+      {
+        "path": "media/references/R004-user-selected-quiet-paint.png",
+        "sha256": "3c23c59d98667ccd8687d2ec7470dd774372ca29388ecdf5049d84a0c8cacc3b"
+      }
+    ],
+    "selection_status": "motion_test_candidate"
+  },
+  {
+    "asset_id": "FILMV04_IMG02",
+    "shot": "S001",
+    "file": "media/stills/film-v04/S001-room01.png",
+    "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531",
+    "tool": "builtin imagegen",
+    "prompt": "S001-room-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S003-master01.png",
+        "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+      },
+      {
+        "path": "media/references/R004-user-selected-quiet-paint.png",
+        "sha256": "3c23c59d98667ccd8687d2ec7470dd774372ca29388ecdf5049d84a0c8cacc3b"
+      }
+    ],
+    "selection_status": "candidate"
+  },
+  {
+    "asset_id": "FILMV04_IMG03",
+    "shot": "S005",
+    "file": "media/stills/film-v04/S005-tableau01.png",
+    "sha256": "7ba669edf8dc12710c55d6f2de9f26a6fccc2931daea8584b20bee29502597a2",
+    "tool": "builtin imagegen",
+    "prompt": "S005-tableau-prompt.txt",
+    "references": [
+      {
+        "path": "media/references/R001-user-photo-original.jpg",
+        "sha256": "054251a7935389aa92b4a10def22a7286e095b58cbc8e5730de4e1c738b3d9fa"
+      },
+      {
+        "path": "media/stills/film-v04/S003-master01.png",
+        "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+      }
+    ],
+    "selection_status": "candidate"
+  },
+  {
+    "asset_id": "FILMV04_IMG04",
+    "shot": "S008",
+    "file": "media/stills/film-v04/S008-threshold01.png",
+    "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff",
+    "tool": "builtin imagegen",
+    "prompt": "S008-threshold-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S003-master01.png",
+        "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+      }
+    ],
+    "selection_status": "user_selected_visual_reference"
+  },
+  {
+    "asset_id": "FILMV04_IMG05",
+    "shot": "S007",
+    "file": "media/stills/film-v04/S007-window01.png",
+    "sha256": "a1fed35f9fcb9fb52ec8ca31c987a145bf0490c40c0d7d5bc06b134d73937326",
+    "tool": "builtin imagegen",
+    "prompt": "S007-window-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S001-room01.png",
+        "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+      }
+    ],
+    "selection_status": "candidate"
+  },
+  {
+    "asset_id": "FILMV04_IMG06",
+    "shot": "S007",
+    "file": "media/stills/film-v04/S007-window02-clean.png",
+    "sha256": "bbbe780ce479528bc322534583bae1d70e05a94f1efc9286d21e3ea07369d2a6",
+    "tool": "builtin imagegen",
+    "prompt": "S007-clean-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S007-window01.png",
+        "sha256": "a1fed35f9fcb9fb52ec8ca31c987a145bf0490c40c0d7d5bc06b134d73937326"
+      }
+    ],
+    "selection_status": "unapproved_cleanup_comparison"
+  },
+  {
+    "asset_id": "FILMV04_IMG07",
+    "shot": "S008",
+    "file": "media/stills/film-v04/S008-threshold02-clean.png",
+    "sha256": "1ab3cc4d8cc682d61f371a3b7a1e902e4b5e4ec6afab8543fb6f24d37b06dd9d",
+    "tool": "builtin imagegen",
+    "prompt": "S008-clean-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S008-threshold01.png",
+        "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff"
+      }
+    ],
+    "selection_status": "user_prefers_01_over_this"
+  },
+  {
+    "asset_id": "FILMV04_IMG08",
+    "shot": "S003",
+    "file": "media/stills/film-v04/S003-master02-overclean.png",
+    "sha256": "91c8a1aee54da9e0060a5a2dec55996e2029924716308493b9d1885a99872bf6",
+    "tool": "builtin imagegen",
+    "prompt": "S003-clean-prompt.txt",
+    "references": [
+      {
+        "path": "media/stills/film-v04/S003-master01.png",
+        "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+      }
+    ],
+    "selection_status": "overclean_not_selected"
+  }
+]

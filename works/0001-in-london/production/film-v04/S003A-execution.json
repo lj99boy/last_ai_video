@@ -1,0 +1,67 @@
+{
+  "shot": "S003A",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "ac33790c-899f-4bed-8cf7-47dc1802173b",
+      "path": "media/stills/film-v04/S003-master01.png",
+      "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+    }
+  ],
+  "nodeId": "ecf317be-757c-4280-a304-b70a4230c114",
+  "readback": {
+    "model": "Kling 3.0",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "quality": "low",
+      "duration": 8,
+      "enableSound": "on",
+      "multi_shot": false
+    },
+    "advancedSettings": {},
+    "imageListOrder": [
+      "ac33790c-899f-4bed-8cf7-47dc1802173b"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node ac33790c-899f-4bed-8cf7-47dc1802173b}}\nOne continuous 8-second oil-painted moving shot using the reference as the exact opening frame. She is already walking confidently into the restaurant. CAMERA travels smoothly backwards and slightly left with her at ordinary walking speed, maintaining a flattering full-length view; foreground chairs and table edges slide laterally with visible parallax. Her steps naturally sway the supple silver dress and long pale wrap. The gentleman follows a pace behind without covering her. She briefly glances toward a table to camera left then looks ahead, alive and composed. Continue her walking and the camera movement through the final frame; no pose hold, freeze, slow motion, zoom-only movement, cut or dissolve. Preserve the hand-painted soft joined edges, quiet dark-green wall masses, same compact swept auburn hair and tilted dark hat. Red rose stays pinned to her anatomical right chest, viewer left. Empty hands. Dress gleams in broad connected silver folds, not glitter particles, geometric scales, dots, mesh or embroidery. No new patterns appear anywhere, no photographic or 3D conversion. Warm room murmur, subtle footsteps and cloth rustle only; no speech or music.",
+  "status": "completed_artistic_review_rejected",
+  "taskId": "20261012163703210577550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v04/S003A_take01.mp4",
+  "sha256": "5e53524d1bedd156cc36eabd91ea9ee12e110e718bae89255057d3d8394041fc",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "346"
+      },
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "193"
+      }
+    ],
+    "format": {
+      "duration": "8.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "artisticReview": {
+    "accepted": false,
+    "reason": "Visible widening/grey hat drift, photoreal drift and foreground occluder at ~4.3-5.5s. Camera movement works, texture cleaner, but full shot fails costume/style gate. Do not propagate end frame."
+  }
+}
