@@ -1,0 +1,80 @@
+{
+  "shot": "S005G",
+  "authorization": "User reports recharge and authorizes meaningful economical generation; first scope one 6s480p Seedance2.5 draft after exact quote, no recharge or automatic retries.",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 120,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "6d673698-dccf-4c0f-b325-6ba7fca34f18",
+      "path": "media/stills/film-v04/S005-original-wrap-start01.png",
+      "sha256": "c8446707e1b2dc7f11e774f847d7fe68006ed7778c580a68b9983130d884b9c6"
+    },
+    {
+      "nodeId": "c41d4deb-f17b-4eb5-bca8-db43820279da",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    }
+  ],
+  "configurationError": "Model name resolver failed once; canvas list confirms only two input images and no video node. Reattempt configuration once after model search confirms exact name.",
+  "nodeId": "003929a6-8399-4210-99c3-b4b99b28a4b9",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "frames2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 6,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "6d673698-dccf-4c0f-b325-6ba7fca34f18",
+      "c41d4deb-f17b-4eb5-bca8-db43820279da"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 6d673698-dccf-4c0f-b325-6ba7fca34f18}}\n{{Node c41d4deb-f17b-4eb5-bca8-db43820279da}}\n6 seconds. Image 1 is the starting frame; Image 2 is the exact final frame. Single continuous oil-painted shot. Start and end reference images define the same woman, gentleman, clothing and dining-room geometry. At the start the pale wrap already rests on her shoulders. She relaxes her arms. The gentleman draws the fabric gently BACKWARDS, away from the shoulder caps; the contact edge leaves her shoulders rather than climbing onto them. As the cloth falls behind her upper arms, she raises her anatomical RIGHT hand toward her temple, with her elbow moving outward, reaching the pose of the end reference. The gentleman supports the fabric behind her. Stop at this mid-removal pose, not at a fully gathered bundle. Never reverse the cloth to dress her again. Keep the corsage on her anatomical right chest and the compact dark tilted headwear unchanged. The camera gently retreats; preserve the end-reference composition. No cut, time jump, costume morph or new person. Maintain coherent oil brushwork with broad silver fold highlights; no net texture, fish scales, uniformly scattered glitter or photorealistic skin. Let physical action continue until the final settling moment; no multi-second freeze.",
+  "quoteEvidence": "Authenticated visible node 003929a6-8399-4210-99c3-b4b99b28a4b9;6s480pframes2video count1 soundoff;120 credits",
+  "status": "completed_candidate_pending_playback_review",
+  "taskId": "20261012195603551947550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v04/S005G_take01.mp4",
+  "sha256": "7bf1f31f617e5ebfccf43093903b0723d636ae2f5459b4123f4ebdaaf335eba5",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 852,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "145"
+      }
+    ],
+    "format": {
+      "duration": "6.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "artisticReview": {
+    "basis": "0.5-second full-frame and upper-body contact sheets plus 8fps join contact; no direct realtime playback claim",
+    "wrap_direction": "fabric slips off shoulders; no observed reverse dressing",
+    "motion": "right hand rises progressively; gentleman cloth-hand movement weak",
+    "identity": "no obvious new hat/corsage-side drift in inspected frames",
+    "texture": "no newly imposed uniform dots or mesh observed at480p; not proof forHD",
+    "join": "no obvious geometric jump in inspected frames across hard join to exact target; final real-time review pending",
+    "accepted_for_hd": false
+  },
+  "observedBalanceBefore": 3192,
+  "observedBalanceAfter": 3072,
+  "balanceDifference": 120,
+  "billingNote": "Balance difference agrees with quote; not per-task billing receipt"
+}

@@ -1,0 +1,71 @@
+{
+  "shot": "S008H",
+  "authorization": "User recharged and authorized meaningful economical generation; single complementary threshold motion and texture test,80credits,no retries",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 80,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "1754617f-96be-4380-902f-d78073cd76cd",
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff"
+    }
+  ],
+  "nodeId": "a68d32f8-a965-497b-bb3f-e06fb7b7ccdf",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "1754617f-96be-4380-902f-d78073cd76cd"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 1754617f-96be-4380-902f-d78073cd76cd}}\n4-second single continuous low-angle oil-painted shot, starting exactly from the reference. The woman in the silver evening gown takes ONE natural measured step to screen right across the restaurant threshold, her visible shoe lands inside, then the weighted hem follows across the sill. Her male companion follows a half-step behind without touching or overtaking her. The camera makes a short smooth lateral tracking move to the RIGHT at skirt height, following the hem into warm interior light; doorway and street shift with subtle parallax. Keep the framing below their shoulders, no face reveal, no cut, no new people or objects. Preserve the same silver gown and pale pink loose wrap, silhouettes and architectural layout. Silver highlights are connected and irregular oil brush strokes that follow folds and light, flowing coherently with the cloth; quiet dark areas remain quiet. Do not add glitter particles, uniform stipple, fish scales, netting or a texture overlay. Maintain unmistakable hand-painted oil surfaces, never photorealism or 3D. Foot contact must be stable, no gliding feet or fused legs; cloth has weight and does not flap like paper. Start moving promptly, natural tempo without slow motion, no ending freeze.",
+  "quoteEvidence": "Authenticated exact S008H node controls:4s480p16:9singleImage2video1soundoff80credits",
+  "status": "completed_artistic_review_rejected",
+  "taskId": "20261012202003510437550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v04/S008H_take01.mp4",
+  "sha256": "1f4e1bef7495da88cd233a5592a37ca87bdc7cd8fd0eec0adbef6a5e5d2b2dae",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 854,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "97"
+      }
+    ],
+    "format": {
+      "duration": "4.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "artisticReview": {
+    "basis": "3fps contact sheet plus full frame0/48/96 inspection",
+    "texture": "No obvious newly added uniform mesh seen at480p; dress retains fold-based highlights",
+    "defect": "Step does not clearly finish across sill inside; walking at doorway is insufficient for intended entry beat",
+    "accepted_for_hd": false,
+    "next_step": "Define inside landing endpoint before any new paid candidate; do not repeat single-image prompt"
+  },
+  "observedBalanceBefore": 3072,
+  "observedBalanceAfter": 2992,
+  "balanceDifference": 80,
+  "billingNote": "Observed balance change agrees with quote; no separate task billing receipt"
+}

@@ -1,9 +1,9 @@
 {
   "paid_generation_enabled": false,
   "preferred_model": "Seedance 2.5",
-  "reason": "Original-painting endpoint now defined; corrected wrap motion remains untested. Balance92 cannot fund full film. Await user funding decision; no automatic retry or recharge.",
-  "balance_observed_credits": 92,
-  "balance_source": "Authenticated canvas navigation balance after S003F completion, 2026-10-12",
+  "reason": "Two complementary drafts completed for200 quoted credits. G candidate needs playback/cloth handoff review; H rejected for unclear threshold crossing. No HD upgrade or identical retry.",
+  "balance_observed_credits": 2992,
+  "balance_source": "Authenticated LibTV project page after both completed tasks",
   "single_run_quote": {
     "shot": "S003E",
     "model": "Seedance 2.5",
@@ -27,27 +27,26 @@
   ],
   "quote_registry": "docs/libtv-costs-and-operations.md",
   "allowed_shots": [],
-  "max_single_run_credits": 240,
+  "max_single_run_credits": 80,
   "scoped_quote": {
-    "shot": "S003F",
-    "duration_seconds": 12,
+    "shot": "S008H",
+    "credits": 80,
+    "duration_seconds": 4,
     "resolution": "480p",
-    "mode": "frames2video",
-    "audio": "on",
+    "audio": "off",
     "count": 1,
-    "credits": 240,
-    "observed_date": "2026-10-12",
-    "source": "Authenticated visible canvas node a7957aa2-737f-4f45-b31f-aa1986bb4853 generation control"
+    "mode": "singleImage2video",
+    "source": "Authenticated visible exact node controls"
   },
   "last_run": {
-    "shot": "S003F",
-    "task_id": "20261012182503061057550",
-    "quoted_credits": 240,
+    "shot": "S008H",
+    "task_id": "20261012202003510437550",
+    "quoted_credits": 80,
     "actual_credits": null,
-    "artistic_status": "rejected_reversed_wrap_action"
+    "artistic_status": "rejected_threshold_crossing_unclear"
   },
-  "previous_balance_observed_credits": 332,
-  "observed_balance_difference": 240,
+  "previous_balance_observed_credits": 3072,
+  "observed_balance_difference": 80,
   "balance_difference_note": "Consistent with quoted S003F cost; not a per-task billing receipt",
   "recharge_quote": {
     "credits": 1500,
@@ -56,5 +55,8 @@
     "date": "2026-10-12",
     "purchased": false
   },
-  "funding_question": "User asked whether to add100CNY/1500credits; awaiting response, do not purchase"
+  "funding_question": "Resolved: user reports recharge, verified current balance3192. No purchase by agent.",
+  "user_recharge_reported": true,
+  "current_round_quoted_credits": 200,
+  "current_round_balance_difference": 200
 }

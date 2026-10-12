@@ -111,3 +111,6 @@ FILMV04_EXACTTAIL,S005,video_frame_reference,media/stills/film-v04/S005-exact-pa
 FILMV04_MUSICE,,edited_audio,media/audio/film-v04/music-structure-E-preview.m4a,,FFmpeg with user supplied song,详情见film-v04对应记录,film-v04,pending_listening,41.1秒技术验证通过，乐句及合片未验收
 FILMV04_ORIGINALSTART,S005,generated_still,media/stills/film-v04/S005-original-wrap-start01.png,,builtin imagegen,仅末镜起帧;参考真实原画目标,film-v04,static_candidate,手臂落下和覆肩状态已检查;动态未验证;不能冒称原画像素
 FILMV04_ARRIVAL03,S003,generated_still,media/stills/film-v04/S003-wrap-arrival03.png,,builtin imagegen,仅将外披移至肩部;保留入场姿态与画面质感,film-v04,static_candidate,未验证动态;未获用户定稿;见S003-wrap-arrival03.json
+FILMV04_S005G,S005G,generated_video,media/clips/film-v04/S005G_take01.mp4,,LibTV official CLI Seedance2.5 draft,6秒480P无声动作候选,film-v04,candidate_pending_playback,披肩离肩方向改善;接布弱;不升级
+FILMV04_S008H,S008H,generated_video,media/clips/film-v04/S008H_take01.mp4,,LibTV official CLI Seedance2.5 draft,4秒480P无声门槛验证,film-v04,rejected_motion,未清楚跨过门槛进入室内;不升级不原样重跑
+FILMV04_GJOIN,END,local_video,media/exports/ending-v06/S005G-to-wall-draft-preview.mp4,,FFmpeg,13.54秒480P无声接画预演,film-v04,candidate_pending_playback,硬接无溶解;样片画质;不是完整成片

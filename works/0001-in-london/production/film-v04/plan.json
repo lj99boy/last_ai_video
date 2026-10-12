@@ -71,5 +71,42 @@
       "count": 1
     },
     "output": "media/clips/film-v04/S003F_take01.mp4"
+  },
+  "S005G": {
+    "y": 2700,
+    "images": [
+      "media/stills/film-v04/S005-original-wrap-start01.png",
+      "media/stills/film-v04/S005-exact-painting-target-v06.png"
+    ],
+    "prompt": "S005G-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "frames2video",
+      "duration": 6,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S005G_take01.mp4"
+  },
+  "S008H": {
+    "y": 3200,
+    "images": [
+      "media/stills/film-v04/S008-threshold01.png"
+    ],
+    "prompt": "S008H-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "singleImage2video",
+      "duration": 4,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S008H_take01.mp4"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "preview": "media/exports/ending-v06/S005G-to-wall-draft-preview.mp4",
+  "duration": 13.541667,
+  "width": 852,
+  "height": 480,
+  "frames": 325,
+  "fullDecode": "passed",
+  "method": "hard concatenation without dissolve of sample and local ending; ending downscaled to sample resolution",
+  "limits": [
+    "480P无声衔接预演，不是高清成片",
+    "仅抽帧视觉检查及全解码，未声称原速完整观感验收",
+    "接布动作偏弱，不自动升级"
+  ]
+}
