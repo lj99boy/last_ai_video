@@ -4,7 +4,18 @@
   "reason": "User requires economical use. Per-run quote and whole-film budget must be checked before any additional paid submission. No automatic recharge.",
   "balance_observed_credits": 332,
   "balance_source": "Authenticated LibTV canvas UI membership details, 2026-10-12",
-  "single_run_quote": null,
+  "single_run_quote": {
+    "shot": "S003E",
+    "model": "Seedance 2.5",
+    "mode": "frames2video",
+    "duration_seconds": 12,
+    "resolution": "720p",
+    "count": 1,
+    "audio": "on",
+    "credits": 552,
+    "observed_date": "2026-10-12",
+    "evidence": "Authenticated canvas node DOM, generation control; quote only, not charge"
+  },
   "additional_cash_authorized": false,
   "policy": [
     "Existing 100 CNY/month ceiling is not an instruction to purchase.",
@@ -13,5 +24,6 @@
     "No automatic retries. Diagnose failures first.",
     "Use deterministic local editing for wall reveal and sound mixing.",
     "Never disguise static pans or 480p enlargements as finished generated video."
-  ]
+  ],
+  "quote_registry": "docs/libtv-costs-and-operations.md"
 }

@@ -52,5 +52,24 @@
       "count": 1
     },
     "output": "media/clips/film-v04/S003E_take01.mp4"
+  },
+  "S003F": {
+    "y": 2100,
+    "images": [
+      "media/stills/film-v04/S003-master01.png",
+      "media/stills/film-v04/S005-tableau01.png"
+    ],
+    "prompt": "S003F-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "frames2video",
+      "duration": 12,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "on",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v04/S003F_take01.mp4"
   }
 }

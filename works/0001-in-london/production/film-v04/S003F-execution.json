@@ -1,0 +1,43 @@
+{
+  "shot": "S003F",
+  "authorization": "Prepare only: user asks economical Seedance 2.5 draft workflow; no generation until quote and budget checked",
+  "createAttempted": true,
+  "runAttempted": false,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "ac33790c-899f-4bed-8cf7-47dc1802173b",
+      "path": "media/stills/film-v04/S003-master01.png",
+      "sha256": "148e286c264b831f83adc73a1cb852972e567db9b7cdf7d41a1afc594ad87f24"
+    },
+    {
+      "nodeId": "37cc65a8-31f3-496a-832b-9b74dd9fa1dd",
+      "path": "media/stills/film-v04/S005-tableau01.png",
+      "sha256": "7ba669edf8dc12710c55d6f2de9f26a6fccc2931daea8584b20bee29502597a2"
+    }
+  ],
+  "nodeId": "a7957aa2-737f-4f45-b31f-aa1986bb4853",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "frames2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 12,
+      "enableSound": "on"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "ac33790c-899f-4bed-8cf7-47dc1802173b",
+      "37cc65a8-31f3-496a-832b-9b74dd9fa1dd"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node ac33790c-899f-4bed-8cf7-47dc1802173b}}\n{{Node 37cc65a8-31f3-496a-832b-9b74dd9fa1dd}}\n首图是精确起帧，第二图是精确结束构图。12秒单一连续镜头，世界始终是一幅有生命的油画，保留首尾图的绘画色块、柔和笔触和银色衣料，不可转成照片或3D。先由摄影机在女主前侧后退，跟随她从容走过两步，前景桌椅产生明显视差；她随后自然来到左侧餐桌旁，男伴上前半步托住她的浅粉披肩，她松开握布的手，最后女主的右手轻抬到右侧鬓边，恰好抵达第二图姿态。镜头持续平滑向右侧浅弧展开，让人物与桌面关系自然抵达尾图构图。不要切镜、溶解或形变过渡；整段靠真实走位和摄影机移动连接两个构图。动作不抢、不慢动作，尾图姿态只在最后一瞬达到，不提前定格。她头部始终大致保持首尾图三分之二侧面朝向，眼神自然，不做大幅转头。帽型、红发轮廓、脸和衣服完全一致，深色紧凑后倾帽子不可变成宽檐帽或灰色平帽。红花始终固定在自身右胸，双手从不拿花。银裙保留顺着褶皱和受光方向展开的断续油彩亮部、深浅层次与织物重量感，不能变成光滑金属薄片。排除均匀点阵、重复渔网纹和无光源依据的漂浮亮点；不要抹掉有形体依据的笔触。背景的人安静生活，不要有人从镜头前遮挡女主。柔和餐厅空间声、脚步和布料声，无对白、无音乐。"
+}
