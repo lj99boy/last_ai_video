@@ -1,0 +1,57 @@
+{
+  "imagegenCalls": 4,
+  "newLibtvRuns": 0,
+  "actualCost": null,
+  "assets": [
+    {
+      "assetId": "R003",
+      "path": "media/references/R003-user-selected-early-texture.png",
+      "creator": "user-provided",
+      "status": "wardrobe_texture_reference_only",
+      "sha256": "c1c47f1042c69a9530361f21d0b7fd8a4a1db6fe1403658bf83645a37770aa41",
+      "width": 2994,
+      "height": 1642,
+      "promptFile": null
+    },
+    {
+      "assetId": "ST03ENT01",
+      "path": "media/stills/style-v03/S003.png",
+      "creator": "Codex built-in imagegen",
+      "status": "rejected_pose_identity_transfer",
+      "sha256": "a11c041d91bfb6e4a3b55e992e7508713157b1696f7333d06e186fdcbe66ae87",
+      "width": 1672,
+      "height": 941,
+      "promptFile": "production/style-v03/S003-image-prompt.txt"
+    },
+    {
+      "assetId": "ST03HAND01",
+      "path": "media/stills/style-v03/S004-S005a-pose-rejected.png",
+      "creator": "Codex built-in imagegen",
+      "status": "rejected_inherited_pose",
+      "sha256": "9efb756894c4130ca3bb1093e38425de727b0346a028f72b6c1959b9aa70321c",
+      "width": 1672,
+      "height": 941,
+      "promptFile": "production/style-v03/S004-S005a-image-prompt.txt"
+    },
+    {
+      "assetId": "ST03ENT02",
+      "path": "media/stills/style-v03/S003-wardrobe-v02.png",
+      "creator": "Codex built-in imagegen",
+      "status": "superseded_flower_hand_ambiguity",
+      "sha256": "f627f57f3d891ad781e90d54015ac1b533404b8407f34fa376cbf12d2e3d52d5",
+      "width": 1672,
+      "height": 941,
+      "promptFile": "production/style-v03/S003-wardrobe-only-v02-prompt.txt"
+    },
+    {
+      "assetId": "ST03ENT03",
+      "path": "media/stills/style-v03/S003-wardrobe-v03.png",
+      "creator": "Codex built-in imagegen",
+      "status": "wardrobe_corrected_pose_preserved_candidate",
+      "sha256": "fcfadbff0cd349bc7e4ce89cad3b653f2e6b8d0c2541b7e438b5f10bdcde1586",
+      "width": 1672,
+      "height": 941,
+      "promptFile": "production/style-v03/S003-flower-hand-fix-prompt.txt"
+    }
+  ]
+}

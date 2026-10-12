@@ -47,3 +47,8 @@ U02_S008_draft01,S008,independent_keyframe,media/stills/unified-v02/S008-draft01
 U02_S008,S008,independent_keyframe,media/stills/unified-v02/S008.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,still_candidate,指纹与提示见unified-v02/assets.json;费用未知
 S002_take02,S002,generated_video,media/clips/S002_take02.mp4,,LibTV Kling 3.0 via official CLI,统一v02授权各一次;不自动重试,take02,motion_candidate_pending_user_review,1280x720;24fps;121frames;无声;指纹任务见unified-v02/drafts.json;费用未知
 S003_take03,S003,generated_video,media/clips/S003_take03.mp4,,LibTV Kling 3.0 via official CLI,统一v02授权各一次;不自动重试,take03,motion_failed_settle_and_texture,1280x720;24fps;121frames;无声;指纹任务见unified-v02/drafts.json;费用未知
+R003,,user_selected_reference,media/references/R003-user-selected-early-texture.png,,user-provided,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,wardrobe_texture_reference_only,指纹见style-v03/assets.json;非视频验证
+ST03ENT01,S003,independent_keyframe,media/stills/style-v03/S003.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,rejected_pose_identity_transfer,指纹见style-v03/assets.json;非视频验证
+ST03HAND01,S004;S005a,independent_keyframe,media/stills/style-v03/S004-S005a-pose-rejected.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,rejected_inherited_pose,指纹见style-v03/assets.json;非视频验证
+ST03ENT02,S003,independent_keyframe,media/stills/style-v03/S003-wardrobe-v02.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,superseded_flower_hand_ambiguity,指纹见style-v03/assets.json;非视频验证
+ST03ENT03,S003,independent_keyframe,media/stills/style-v03/S003-wardrobe-v03.png,,Codex built-in imagegen,服饰质感与动作参考职责分开;见style-v03/review.md,style-v03,wardrobe_corrected_pose_preserved_candidate,指纹见style-v03/assets.json;非视频验证
