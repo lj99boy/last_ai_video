@@ -86,4 +86,8 @@ FILMV02_IMG_S005b-end-original,S005b,generated_still,media/stills/film-v02/S005b
 FILMV02_IMG_S005b,S005b,generated_still,media/stills/film-v02/S005b.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
 FILMV02_IMG_S007,S007,generated_still,media/stills/film-v02/S007.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
 FILMV02_IMG_S008,S008,generated_still,media/stills/film-v02/S008.png,,builtin imagegen,完整有声首片过程与结果,film-v02,used_for_review_film,角色/姿态/风格参考分别见本轮prompt;部分静帧仍有衣装新增
-FILM01,,review_film,media/exports/film-v01/in-london-first-film-with-audio.mp4,,local FFmpeg edit and mix,完整有声首片过程与结果,film-v02,complete_review_pending_user,35.5s;852frames;720p;AAC stereo;未定稿未发布
+FILM01,,review_film,media/exports/film-v01/in-london-first-film-with-audio.mp4,,local FFmpeg edit and mix,完整有声首片过程与结果,film-v02,user_requested_revision,35.5s;852frames;720p;AAC stereo;未定稿未发布;用户指出停滞/造型侧别与头型/接镜/配乐需改
+FILMV03_APPEARANCE01,S003,generated_still,media/stills/film-v03/S003-appearance-candidate01.png,,builtin imagegen,定向修胸花与帽发;姿态保持,film-v03,superseded_candidate,见film-v03/appearance-candidates.json;未定装未生成视频
+FILMV03_APPEARANCE02,S003,generated_still,media/stills/film-v03/S003-appearance-candidate02.png,,builtin imagegen,定向修胸花与帽发;姿态保持,film-v03,candidate_not_approved_for_video,见film-v03/appearance-candidates.json;未定装未生成视频
+MUSICV03SRC,,audio,media/audio/film-v03/young-and-beautiful-user-source.mp3,,user-provided recording; local FFmpeg excerpt,下一版音乐节奏候选,film-v03,user_selected_song,用户提供原版人声;音频仅本地;不公开上传
+MUSICV03B,,audio,media/audio/film-v03/music-selection-B-preview-v02.mp3,,user-provided recording; local FFmpeg excerpt,下一版音乐节奏候选,film-v03,working_excerpt_pending_listening,0:39.5–1:21;41.5秒;未锁画面/未校听乐句边界;试听版降低6dB留余量

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-12",
+  "tool": "builtin imagegen",
+  "model": "not_exposed",
+  "video_generation_runs_this_revision": 0,
+  "user_artistic_acceptance": false,
+  "candidates": [
+    {
+      "id": "FILMV03_APPEARANCE01",
+      "path": "media/stills/film-v03/S003-appearance-candidate01.png",
+      "sha256": "e5be81ecdaadd4e04e0f8b13557ac4abb1903eacb05e4350fcad391185f1ab14",
+      "prompt": {
+        "path": "production/film-v03/S003-appearance-correction.txt",
+        "sha256": "2c4be81343d90240a4d3e2912ada4adc234109b2cdeb89f8d404ef6fd9130cdc"
+      },
+      "inputs": [
+        {
+          "path": "media/stills/film-v02/S003.png",
+          "sha256": "0052956334a50ab54bb96e61594f8b5b0eff1004eff6a9a57ea91b660d0b8315"
+        },
+        {
+          "path": "media/references/R001-user-photo-original.jpg",
+          "sha256": "054251a7935389aa92b4a10def22a7286e095b58cbc8e5730de4e1c738b3d9fa"
+        },
+        {
+          "path": "media/references/R004-user-selected-quiet-paint.png",
+          "sha256": "3c23c59d98667ccd8687d2ec7470dd774372ca29388ecdf5049d84a0c8cacc3b"
+        }
+      ],
+      "status": "superseded_candidate",
+      "observed_improvements": [
+        "corsage on anatomical right chest",
+        "dangling shoulder ornaments removed"
+      ],
+      "remaining": [
+        "oversized headwear and loose curls",
+        "background flecks"
+      ]
+    },
+    {
+      "id": "FILMV03_APPEARANCE02",
+      "path": "media/stills/film-v03/S003-appearance-candidate02.png",
+      "sha256": "d8ce8bc2006aa324879ab7382bb4dabdc05470d202354b18153488474b5d6e26",
+      "prompt": {
+        "path": "production/film-v03/S003-head-correction.txt",
+        "sha256": "f07f9f7b38822a618190fb5d1e5c35adc149e1b41055048680175acddf2c2e3a"
+      },
+      "inputs": [
+        {
+          "path": "media/stills/film-v03/S003-appearance-candidate01.png",
+          "sha256": "e5be81ecdaadd4e04e0f8b13557ac4abb1903eacb05e4350fcad391185f1ab14"
+        },
+        {
+          "path": "media/references/R001-user-photo-original.jpg",
+          "sha256": "054251a7935389aa92b4a10def22a7286e095b58cbc8e5730de4e1c738b3d9fa"
+        }
+      ],
+      "status": "candidate_not_approved_for_video",
+      "observed_improvements": [
+        "smaller brim",
+        "more upright rear headwear",
+        "reduced neck-side hair"
+      ],
+      "remaining": [
+        "hair still too curled relative to source",
+        "background flecks",
+        "original fidelity not fully established"
+      ]
+    }
+  ]
+}

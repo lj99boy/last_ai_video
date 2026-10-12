@@ -1,5 +1,7 @@
 # 首个完整带声音审看片
 
+> 2026-10-12用户审阅后要求修改：20–24秒停滞、胸花反侧/头型偏离、接镜生硬、换用《Young and Beautiful》原版。当前修订见[film-v03](../film-v03/revision-plan.md)。完整审看片交付不代表审美通过。
+
 状态：完整审看片已渲染，未定稿、未发布。采用用户重新指定的早期自然绘画质感，上一轮密集碎点版本不进入时间线。
 
 - 文件：`media/exports/film-v01/in-london-first-film-with-audio.mp4`

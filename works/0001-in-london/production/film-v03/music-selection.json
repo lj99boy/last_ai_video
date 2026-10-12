@@ -1,0 +1,77 @@
+{
+  "source": {
+    "path": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+    "sha256": "a29a230533909ea4787f40f2324a7201dcd7ef93e76610a1de69c33dd2e093ab"
+  },
+  "source_type": "user_provided_local_file",
+  "version": "original_vocal_requested_by_user",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 2
+      },
+      {
+        "codec_name": "mjpeg"
+      }
+    ],
+    "format": {
+      "duration": "236.081633",
+      "tags": {
+        "title": "Young And Beautiful",
+        "artist": "Lana Del Rey",
+        "album": "Young And Beautiful "
+      }
+    }
+  },
+  "reference_only_official_track": "https://www.youtube.com/watch?v=Te11UaHOHMQ",
+  "timing_hint_source": "https://www.yueting.net/song/3060.html",
+  "timing_hint_caveat": "Third-party lyric section timestamps; alignment to local audio not yet listening-verified. No lyrics reproduced.",
+  "selected_working_candidate": {
+    "id": "MUSICV03B",
+    "source_start_seconds": 39.5,
+    "source_end_seconds": 81.0,
+    "duration_seconds": 41.5,
+    "file": {
+      "path": "media/audio/film-v03/music-selection-B-preview-v02.mp3",
+      "sha256": "6d3d83471e947539b98deed92c8b449b58eabf0d081441a918d99c8ce48391ff"
+    },
+    "wav": {
+      "path": "media/audio/film-v03/music-selection-B-0395-0810.wav",
+      "sha256": "9dbfa70ae8bc143ea304c99a4528d22bd38cbf82af6f79d65c4c6e1b33f2808f"
+    },
+    "fade_in_seconds": 0.15,
+    "fade_out_seconds": 1.0,
+    "tempo_change": false,
+    "pitch_change": false,
+    "full_decode": "passed",
+    "loudness_analysis": {
+      "input_i": "-15.84",
+      "input_tp": "-5.98",
+      "input_lra": "5.20",
+      "input_thresh": "-25.87",
+      "output_i": "-15.54",
+      "output_tp": "-3.40",
+      "output_lra": "2.80",
+      "output_thresh": "-25.57",
+      "normalization_type": "dynamic",
+      "target_offset": "-1.46"
+    },
+    "status": "provisional_music_excerpt_not_picture_locked",
+    "full_audio_listening_verified": false,
+    "preview_gain_db": -6
+  },
+  "superseded_trial": {
+    "file": {
+      "path": "media/audio/film-v03/music-selection-A-028-068.wav",
+      "sha256": "c41c1d93387a30f36f2e83b8b86544c920e0ffe88d5aee16af170737b9de3a11"
+    },
+    "reason": "Initial arbitrary 40s window did not respect complete section boundary; replaced by B for review"
+  },
+  "public_upload": false,
+  "music_committed_to_git": false,
+  "synced_picture_revision_rendered": false
+}

@@ -1,5 +1,7 @@
 # 交付与复盘
 
+> 当前状态：首片收到修改意见，尚未定稿。新运镜、造型和音乐仍在制作；[修订与候选](../production/film-v03/revision-plan.md)。
+
 状态：首个完整带音频审看片已输出；未定稿、未发布。
 
 - 审看片：`media/exports/film-v01/in-london-first-film-with-audio.mp4`
