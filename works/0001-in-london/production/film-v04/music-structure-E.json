@@ -1,0 +1,65 @@
+{
+  "status": "whole_score_candidate_pending_listening_and_picture",
+  "output": "media/audio/film-v04/music-structure-E-preview.m4a",
+  "sha256": "26092b635649bd43133071c22d9403c19d13c10aada91a8d6b09abd9f2d6b74a",
+  "duration_seconds": 41.1,
+  "segments": [
+    [
+      0,
+      8.5
+    ],
+    [
+      48.5,
+      81.5
+    ]
+  ],
+  "crossfade_seconds": 1.6,
+  "music_start_seconds": 1.2,
+  "fade_in_seconds": 3,
+  "fade_out_seconds": 4,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "start_time": "0.000000"
+      }
+    ],
+    "format": {
+      "duration": "41.100000"
+    }
+  },
+  "loudness": {
+    "input_i": "-13.68",
+    "input_tp": "-3.79",
+    "input_lra": "9.60",
+    "input_thresh": "-24.31",
+    "output_i": "-15.34",
+    "output_tp": "-1.62",
+    "output_lra": "3.70",
+    "output_thresh": "-25.57",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.66"
+  },
+  "full_decode": "passed",
+  "listening_verified": false,
+  "picture_locked": false,
+  "sources": [
+    {
+      "path": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+      "sha256": "a29a230533909ea4787f40f2324a7201dcd7ef93e76610a1de69c33dd2e093ab"
+    },
+    {
+      "path": "media/clips/film-v02/S001_take01.mp4",
+      "sha256": "66837097ed637ed9fa82af1474e5792299e612e8efeac09b62370b9b770f1fd2"
+    }
+  ],
+  "limitations": [
+    "乐句边界仅为候选，需实际校听",
+    "时长服务剪辑，此版不锁定影片时长",
+    "D/D2输出时间戳异常，已拒绝，不向用户交付"
+  ]
+}

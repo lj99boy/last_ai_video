@@ -1,0 +1,21 @@
+{
+  "id": "S005-wrap-on-start01",
+  "file": "media/stills/film-v04/S005-wrap-on-start01.png",
+  "sha256": "b8d1fac1a11ba678381d6d6987ead4ec58c0b0428035a69941c809bac99e5191",
+  "source": "/Users/bytedance/.codex/generated_images/01a11267-144c-7530-b661-130342604e9c/exec-4143d4da-cf01-425a-8ab9-7484c08f2166.png",
+  "reference": "media/stills/film-v04/S005-tableau01.png",
+  "model": "built-in imagegen",
+  "status": "candidate_static_review_only",
+  "role": "start state before backward wrap removal; preserve painting-compatible endpoint",
+  "inspection": {
+    "wrap_on_shoulders": true,
+    "same_room_composition": true,
+    "right_corsage_preserved": true,
+    "motion_verified": false,
+    "user_approved": false
+  },
+  "limitations": [
+    "手和衣料动态接触尚未验证",
+    "尾帧S005-tableau01仍为AI近似，原作R001最终权威"
+  ]
+}

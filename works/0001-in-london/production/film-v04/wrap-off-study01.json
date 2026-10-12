@@ -1,0 +1,10 @@
+{
+  "id": "S003-wrap-off-study01",
+  "file": "media/stills/film-v04/S003-wrap-off-study01.png",
+  "sha256": "9fa2fa149fb6dbc1bcf285e0974ba8caccc3f72f6d56867ec01979eaf8a9332f",
+  "status": "study_only_not_film_endpoint",
+  "reason": "User requires film endpoint best matched to original painting. This fully-removed-wrap image is not approved as film endpoint and will not be used for paid generation.",
+  "source": "/Users/bytedance/.codex/generated_images/01a11267-144c-7530-b661-130342604e9c/exec-b627f60a-b903-4671-a9ff-d663d1a8a04d.png",
+  "model": "built-in imagegen",
+  "reference": "media/stills/film-v04/S003-master01.png"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "rejected_technical_timestamp_failure",
+  "duration_seconds": 41.1,
+  "output": "media/audio/film-v04/music-structure-D-preview.m4a",
+  "sha256": "f81b463ebd14a7f05650c617517e7b4afcb96e52358f739522a9da7ff8dc049e",
+  "music_segments": [
+    [
+      0,
+      8.5
+    ],
+    [
+      48.5,
+      81.5
+    ]
+  ],
+  "crossfade_seconds": 1.6,
+  "music_start_seconds": 1.2,
+  "fade_out_seconds": 4.0,
+  "full_decode": "decode_command_exited_zero_but_duration_invalid",
+  "loudness": {
+    "input_i": "-42.56",
+    "input_tp": "-32.49",
+    "input_lra": "0.00",
+    "input_thresh": "-52.56",
+    "output_i": "-17.04",
+    "output_tp": "-6.92",
+    "output_lra": "0.00",
+    "output_thresh": "-27.04",
+    "normalization_type": "linear",
+    "target_offset": "0.04"
+  },
+  "listening_verified": false,
+  "picture_locked": false,
+  "limitation": "乐句连接需要实际校听；不得把波形/响度验证称为音乐审听。环境声仅用既有餐厅音轨低电平铺开。",
+  "sources": [
+    {
+      "path": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+      "sha256": "a29a230533909ea4787f40f2324a7201dcd7ef93e76610a1de69c33dd2e093ab"
+    },
+    {
+      "path": "media/clips/film-v02/S001_take01.mp4",
+      "sha256": "66837097ed637ed9fa82af1474e5792299e612e8efeac09b62370b9b770f1fd2"
+    }
+  ],
+  "verified_media_duration_seconds": 0.006521,
+  "reason": "实际封装时长与41.1秒设计不符；不得展示此音频。"
+}

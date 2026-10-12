@@ -1,0 +1,26 @@
+{
+  "status": "ending_transition_preview_not_final_film",
+  "file": "media/exports/ending-v05/tableau-to-original-wall.mp4",
+  "sha256": "38bebe69d5e3239d2e6fa322d0748eecf3ba2c5afe6cc669e617db4d47390a49",
+  "duration_seconds": 7.5,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 180,
+  "full_decode": "passed",
+  "source_tail": "media/stills/film-v04/S005-tableau01.png",
+  "final_painting_source": "media/references/R001-user-photo-original.jpg",
+  "visual_review": {
+    "black_sidebars_observed": false,
+    "full_frame_and_wall_at_end": true,
+    "painting_and_frame_from_original_photo": true,
+    "ai_wall_extensions_only_at_sides": true,
+    "limitations": [
+      "AI尾帧与原画脸部、背景比例仍有差异，溶解阶段不能判定为无缝",
+      "无动态脱披肩衔接，不能据此验收动作",
+      "无声局部预演，不是已完成整片"
+    ]
+  }
+}
