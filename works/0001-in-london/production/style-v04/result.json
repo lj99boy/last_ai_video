@@ -1,0 +1,21 @@
+{
+  "assetId": "ST04ENT01",
+  "date": "2026-10-12",
+  "path": "media/stills/style-v04/S003-global-paint-v01.png",
+  "sha256": "ff3688783ce7a25625a2cca8a052eb759b0e1600aebd3ed8eb26ab87e262288f",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "tool": "Codex built-in imagegen",
+  "model": "not_exposed",
+  "prompt": "S003-global-paint-prompt.txt",
+  "references": [
+    "media/stills/style-v03/S003-wardrobe-v03.png",
+    "media/references/R003-user-selected-early-texture.png"
+  ],
+  "imagegenCalls": 1,
+  "newLibtvRuns": 0,
+  "actualCost": null,
+  "status": "joint_constraints_static_candidate_pending_user_review"
+}

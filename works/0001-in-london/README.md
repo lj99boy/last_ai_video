@@ -1,5 +1,7 @@
 # 0001 · 在伦敦（来源画作；短片片名待定）
 
+> 当前最新：整幅画面油画质感＋既定姿态＋胸花不手持，三项联合验证。style-v04有一张新候选，未定稿、未扩展视频。见[结果](production/style-v04/review.md)。
+
 > 最新服饰修订：早期参考只控制服饰/质感，不改变既定表演；胸花固定衣身、不手持。此前低头候选已撤销动作基准资格。见[style-v03纠错与当前入场图](production/style-v03/review.md)。
 
 - 来源：Charles Hoffbauer，1907，In London / In the Restaurant；用户提供展厅照片。
