@@ -44,6 +44,10 @@ if not opts.run:raise SystemExit(0)
 gate=json.loads((P/'budget-gate.json').read_text())
 if not gate['paid_generation_enabled']:
  raise SystemExit('Paid generation stopped: '+gate['reason'])
+# 临时开放也只允许已核价的这一镜，防止其他任务沿用同一开关。
+assert opts.shot in gate.get('allowed_shots', []), 'Shot not in scoped spending authorization'
+quote=state.get('estimatedCredits')
+assert isinstance(quote,(int,float)) and 0 < quote <= gate['max_single_run_credits'], 'Missing or excessive quote'
 if state['runAttempted']:raise SystemExit('Run already attempted; inspect existing result, never auto retry.')
 if spec.get('type','video')=='video':
  assert params['count']==1
