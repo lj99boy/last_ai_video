@@ -1,0 +1,22 @@
+{
+  "status": "static_candidate_pending_motion_validation",
+  "file": "media/stills/film-v04/S003-wrap-arrival03.png",
+  "sha256": "304cd1ed1bcdf36d7f5aa9f03ac59bf49a0a686f048db3a2b05b2cb98cb02124",
+  "tool": "builtin imagegen",
+  "prompt": "S003-wrap-arrival03-prompt.txt",
+  "reference": "media/stills/film-v04/S003-master01.png",
+  "visual_review": {
+    "wrap_on_both_shoulders": true,
+    "hands_down_empty": true,
+    "corsage_anatomical_right": true,
+    "original_scene_and_painted_fold_highlights_preserved": true,
+    "no_new_uniform_mesh_observed": true,
+    "motion_verified": false,
+    "user_approved": false
+  },
+  "limits": [
+    "仅修正覆肩连续性；动态和接回原画未验证",
+    "旧母图的造型与原画仍有差异，不能宣称全片身份已锁定",
+    "不作为付费自动执行授权"
+  ]
+}
