@@ -1,0 +1,223 @@
+{
+  "date": "2026-10-12",
+  "imagegenCalls": 14,
+  "actualCost": null,
+  "assets": [
+    {
+      "assetId": "U02_S001",
+      "shot": "S001",
+      "path": "media/stills/unified-v02/S001.png",
+      "sha256": "cfcc1f307af90fb3a5931787f08dc6cef34995d5045b53136520865f510e9938",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S001-image-prompt.txt"
+      ],
+      "status": "still_candidate"
+    },
+    {
+      "assetId": "U02_S002_draft01",
+      "shot": "S002",
+      "path": "media/stills/unified-v02/S002-draft01.png",
+      "sha256": "65e0eef5b7d34b17ed822d2475995838b81a0e63553db1a146aff013372c0b0c",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S002-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S002",
+      "shot": "S002",
+      "path": "media/stills/unified-v02/S002.png",
+      "sha256": "dbe75a75c8dae3bdc481656dee87e213ed3e6e388bdda7333a739c49a4aa6922",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S002-image-prompt.txt",
+        "production/unified-v02/S002-image-fix01.txt"
+      ],
+      "status": "new_motion_candidate"
+    },
+    {
+      "assetId": "U02_S003_draft01",
+      "shot": "S003",
+      "path": "media/stills/unified-v02/S003-draft01.png",
+      "sha256": "0dc3f1d35a45eacdbd0f0678a77bac4d5fc619bbb489273f4bbc8b8b785f1cfa",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S003-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S003",
+      "shot": "S003",
+      "path": "media/stills/unified-v02/S003.png",
+      "sha256": "cf309c9b69ae41096f376a43dd0142e3f892ec705e0d1f2b1e49830a13ca7649",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S003-image-prompt.txt",
+        "production/unified-v02/S003-image-fix01.txt"
+      ],
+      "status": "motion_failed_settle_and_texture"
+    },
+    {
+      "assetId": "U02_S004_draft01",
+      "shot": "S004",
+      "path": "media/stills/unified-v02/S004-draft01.png",
+      "sha256": "19b210c9d08e6406f6f09dd28754eb975b5f3a08c8c67cb51ad185560f4d8201",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S004-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S004",
+      "shot": "S004",
+      "path": "media/stills/unified-v02/S004.png",
+      "sha256": "2ab3db8a93b1ebf2f6c75498eab5188fbe143c8792a63a388e0f14a1f65cba9f",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S004-image-prompt.txt",
+        "production/unified-v02/S004-image-fix01.txt"
+      ],
+      "status": "needs_hand_continuity_revision"
+    },
+    {
+      "assetId": "U02_S005a_draft01",
+      "shot": "S005a",
+      "path": "media/stills/unified-v02/S005a-draft01.png",
+      "sha256": "24593913731c06e780d955089c19df8903e69320eff1f1b855988b096c899782",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S005a-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S005a",
+      "shot": "S005a",
+      "path": "media/stills/unified-v02/S005a.png",
+      "sha256": "26daf5df08ce46dd2ab58e61ee25b7f7fcb65bd80e5c26b14aed2e1426dec37b",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S005a-image-prompt.txt",
+        "production/unified-v02/S005a-image-fix01.txt"
+      ],
+      "status": "needs_framing_and_continuity_revision"
+    },
+    {
+      "assetId": "U02_S005b_draft01",
+      "shot": "S005b",
+      "path": "media/stills/unified-v02/S005b-draft01.png",
+      "sha256": "18d7f9a9fe84ca7ec7c7dc7b927f58354f255103b44adbd60143bea2c75852c7",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S005b-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S005b",
+      "shot": "S005b",
+      "path": "media/stills/unified-v02/S005b.png",
+      "sha256": "955eed9b86ff5edf927f6607dc1f90a304676a87fd822fdc60bdff8403abf676",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S005b-image-prompt.txt",
+        "production/unified-v02/S005b-image-fix01.txt"
+      ],
+      "status": "needs_painting_match"
+    },
+    {
+      "assetId": "U02_S007",
+      "shot": "S007",
+      "path": "media/stills/unified-v02/S007.png",
+      "sha256": "6c1f8cf0e2aefacf91228c93a855a6df833503d383a9ca5b74dfe7ae1d6495cf",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S007-image-prompt.txt"
+      ],
+      "status": "needs_spatial_revision"
+    },
+    {
+      "assetId": "U02_S008_draft01",
+      "shot": "S008",
+      "path": "media/stills/unified-v02/S008-draft01.png",
+      "sha256": "89b59a6b8e30296fec7996553330ddf36d71517c95d0d1526d9956f47b68b2ee",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S008-image-prompt.txt"
+      ],
+      "status": "superseded_by_targeted_fix"
+    },
+    {
+      "assetId": "U02_S008",
+      "shot": "S008",
+      "path": "media/stills/unified-v02/S008.png",
+      "sha256": "4f3ff0e57dbdf705c69bd65486d79ef38ad3854d7b2437b4e91d99a7d4b11e56",
+      "width": 1672,
+      "height": 941,
+      "tool": "Codex built-in imagegen",
+      "model": "not_exposed",
+      "promptFiles": [
+        "production/unified-v02/style-common.txt",
+        "production/unified-v02/S008-image-prompt.txt",
+        "production/unified-v02/S008-image-fix01.txt"
+      ],
+      "status": "still_candidate"
+    }
+  ]
+}

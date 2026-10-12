@@ -1,0 +1,95 @@
+{
+  "projectUuid": "6b6cccb8f0d5497881f0058650000fb2",
+  "status": "completed_two_runs_no_retries",
+  "items": [
+    {
+      "shot": "S002",
+      "referenceNode": "61f69106-0d51-48f3-9228-9789355a5921",
+      "nodeId": "fcfb13b0-5d3b-4469-942c-d51faaf20cc3",
+      "promptFile": "S002-motion-prompt.txt",
+      "executionAttempted": true,
+      "readback": {
+        "model": "Kling 3.0",
+        "modeType": "singleImage2video",
+        "count": 1,
+        "settings": {
+          "quality": "low",
+          "duration": 5,
+          "enableSound": "off",
+          "multi_shot": false
+        },
+        "imageListOrder": [
+          "61f69106-0d51-48f3-9228-9789355a5921"
+        ]
+      },
+      "taskId": "20261012112103930887550",
+      "platformStatus": 2,
+      "outputFile": "media/clips/S002_take02.mp4",
+      "sha256": "400c077a03e2124d33e57c0f12823ce4488e3b5ee8cff166adbe356e220fcdb3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "121"
+          }
+        ],
+        "format": {
+          "duration": "5.041667"
+        }
+      },
+      "fullDecode": "passed"
+    },
+    {
+      "shot": "S003",
+      "referenceNode": "be623b90-f3a4-4dd7-9d53-32a9e9fcd041",
+      "nodeId": "005f4fe3-c02a-49f2-b27f-8528a3dcbe2c",
+      "promptFile": "S003-motion-prompt.txt",
+      "executionAttempted": true,
+      "readback": {
+        "model": "Kling 3.0",
+        "modeType": "singleImage2video",
+        "count": 1,
+        "settings": {
+          "quality": "low",
+          "duration": 5,
+          "enableSound": "off",
+          "multi_shot": false
+        },
+        "imageListOrder": [
+          "be623b90-f3a4-4dd7-9d53-32a9e9fcd041"
+        ]
+      },
+      "taskId": "20261012112503242147550",
+      "platformStatus": 2,
+      "outputFile": "media/clips/S003_take03.mp4",
+      "sha256": "df0c72cd7b858aa2955a8d1c1717ad43ac5d4ec63e9ed3f152996213c02e1365",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "121"
+          }
+        ],
+        "format": {
+          "duration": "5.041667"
+        }
+      },
+      "fullDecode": "passed"
+    }
+  ],
+  "newLibtvRuns": 2,
+  "estimatedCredits": null,
+  "runAuthorization": "2026-10-12 user explicitly approved S002 and S003 once each, 5 seconds, existing credits, no recharge, no auto retry; unknown quote acknowledged",
+  "authorizationConsumed": true,
+  "executionAttemptCount": 2
+}

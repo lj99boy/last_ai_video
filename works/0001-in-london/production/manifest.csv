@@ -11,7 +11,7 @@ K00201,S002,keyframe,media/stills/K002-service-v01.png,,Codex built-in imagegen,
 K00301,S003,keyframe,media/stills/K003-entrance-v01.png,,Codex built-in imagegen,R002;K00101,K00301,pending_review,银裙红花;自然低位手臂;步态待验证
 PV006A03,S006,editing_preview,media/exports/ending-v03/A-slow-reveal-fullbleed.mp4,,FFmpeg compositing,R001;R002;P00601,PV006A03,rejected,展签重叠;保留历史
 PV006A04,S006,editing_preview,media/exports/ending-v04/A-slow-reveal-fullbleed.mp4,,FFmpeg compositing,R001;R002;P00602,PV006A04,candidate_revision,A方向已获认可;无黑边修正版待观看
-S002_take01,S002,generated_video,media/clips/S002_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,candidate,任务与SHA256见motion-test-results-v01.json
+S002_take01,S002,generated_video,media/clips/S002_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,user_rejected_rework_v02,任务与SHA256见motion-test-results-v01.json;用户要求全片新标准;不再默认复用
 S003_take01,S003,generated_video,media/clips/S003_take01.mp4,,LibTV Kling 3.0,单图生视频;授权一次;无音频,take01,partial_candidate_needs_review,任务与SHA256见motion-test-results-v01.json
 ASSEMBLY01,,rough_cut,media/exports/assembly-v01/opening-service-entrance-silent.mp4,,FFmpeg editing,前14秒顺序与节奏预演;无声音,v01,pending_review,不是完整30秒成片;时间线post/assembly-v01.csv
 V002,,concept_board,media/stills/V002-unhurried-withdrawn-v01.png,,Codex built-in imagegen,旧主题撤回仅归档,v01,withdrawn_theme,自检见visual-study-v07-review.md;媒体仅本地
@@ -31,3 +31,19 @@ K005A01,S005a,independent_keyframe,media/stills/S005a-keyframe-v01.png,,Codex bu
 S003_take02,S003,generated_video,media/clips/S003_take02.mp4,,LibTV Kling 3.0 via official CLI,本轮授权各运行一次;原始试拍保留;自检见camera-motion-review-v01.md,take02,partial_candidate_walking_no_settle,1280x720;24fps;121frames;无声;费用未知
 S005a_take01,S005a,generated_video,media/clips/S005a_take01.mp4,,LibTV Kling 3.0 via official CLI,本轮授权各运行一次;原始试拍保留;自检见camera-motion-review-v01.md,take01,failed_target_action_keep_for_review,1280x720;24fps;121frames;无声;费用未知
 PVSTORY09CAM01,,diagnostic_assembly,media/exports/story-v09-camera-v01/story-v09-camera-v01-diagnostic.mp4,,local FFmpeg,31.75秒诊断;15秒静帧;含T05未通过动作;无声非定稿,camera-v01,diagnostic_not_final,末尾无黑边;新运镜仅入场实测;原画接点待修
+U02_S001,S001,independent_keyframe,media/stills/unified-v02/S001.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,still_candidate,指纹与提示见unified-v02/assets.json;费用未知
+U02_S002_draft01,S002,independent_keyframe,media/stills/unified-v02/S002-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S002,S002,independent_keyframe,media/stills/unified-v02/S002.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,new_motion_candidate,指纹与提示见unified-v02/assets.json;费用未知
+U02_S003_draft01,S003,independent_keyframe,media/stills/unified-v02/S003-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S003,S003,independent_keyframe,media/stills/unified-v02/S003.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,motion_failed_settle_and_texture,指纹与提示见unified-v02/assets.json;费用未知
+U02_S004_draft01,S004,independent_keyframe,media/stills/unified-v02/S004-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S004,S004,independent_keyframe,media/stills/unified-v02/S004.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,needs_hand_continuity_revision,指纹与提示见unified-v02/assets.json;费用未知
+U02_S005a_draft01,S005a,independent_keyframe,media/stills/unified-v02/S005a-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S005a,S005a,independent_keyframe,media/stills/unified-v02/S005a.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,needs_framing_and_continuity_revision,指纹与提示见unified-v02/assets.json;费用未知
+U02_S005b_draft01,S005b,independent_keyframe,media/stills/unified-v02/S005b-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S005b,S005b,independent_keyframe,media/stills/unified-v02/S005b.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,needs_painting_match,指纹与提示见unified-v02/assets.json;费用未知
+U02_S007,S007,independent_keyframe,media/stills/unified-v02/S007.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,needs_spatial_revision,指纹与提示见unified-v02/assets.json;费用未知
+U02_S008_draft01,S008,independent_keyframe,media/stills/unified-v02/S008-draft01.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,superseded_by_targeted_fix,指纹与提示见unified-v02/assets.json;费用未知
+U02_S008,S008,independent_keyframe,media/stills/unified-v02/S008.png,,Codex built-in imagegen,统一重制v02候选;不代表动态通过,unified-v02,still_candidate,指纹与提示见unified-v02/assets.json;费用未知
+S002_take02,S002,generated_video,media/clips/S002_take02.mp4,,LibTV Kling 3.0 via official CLI,统一v02授权各一次;不自动重试,take02,motion_candidate_pending_user_review,1280x720;24fps;121frames;无声;指纹任务见unified-v02/drafts.json;费用未知
+S003_take03,S003,generated_video,media/clips/S003_take03.mp4,,LibTV Kling 3.0 via official CLI,统一v02授权各一次;不自动重试,take03,motion_failed_settle_and_texture,1280x720;24fps;121frames;无声;指纹任务见unified-v02/drafts.json;费用未知
