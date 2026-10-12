@@ -102,3 +102,11 @@ FILMV04_IMG07,S008,generated_still,media/stills/film-v04/S008-threshold02-clean.
 FILMV04_IMG08,S003,generated_still,media/stills/film-v04/S003-master02-overclean.png,,builtin imagegen,参考职责与哈希见film-v04/image-assets.json,film-v04,overclean_not_selected,S008原版已选;全面平滑不是目标;其余并非用户确认定稿
 FILMV04_S003A,S003A,generated_video,media/clips/film-v04/S003A_take01.mp4,,Kling 3.0,单帧运动对照;首帧约束不足,film-v04,rejected_full_shot,"Visible widening/grey hat drift, photoreal drift and foreground occluder at ~4.3-5.5s. Camera movement works, texture cleaner, but full shot fails costume/style gate. Do not propagate end frame."
 FILMV04_S003D,S003D,generated_video,media/clips/film-v04/S003D_take01.mp4,,Seedance 2.5（样片模式）,单帧运动对照;首帧约束不足,film-v04,rejected_full_shot,Cleaner persistent painterly finish and no occluding passerby versus Kling; hat nevertheless turns into pale forward brim. Not approved as final. Next test uses two actual keyframe endpoints and limits head turning rather than repeating single-frame freedom.
+FILMV04_S003F,S003F,generated_video,media/clips/film-v04/S003F_take01.mp4,,LibTV Seedance2.5 draft,详情见film-v04对应记录,film-v04,rejected_full_shot,入场披肩动作反向；240报价，余额差额一致但未逐任务账单核实
+FILMV04_WRAPOFF,S003,generated_still,media/stills/film-v04/S003-wrap-off-study01.png,,builtin imagegen,详情见film-v04对应记录,film-v04,study_only_not_endpoint,用户要求影片尾帧回原画，此研究图不用于尾帧
+FILMV04_WRAPON,S005,generated_still,media/stills/film-v04/S005-wrap-on-start01.png,,builtin imagegen,详情见film-v04对应记录,film-v04,static_candidate,覆肩起态；动态未验证
+FILMV04_END05,END,local_video,media/exports/ending-v05/tableau-to-original-wall.mp4,,FFmpeg,详情见film-v04对应记录,film-v04,superseded_by_v06,AI尾帧溶解存在比例差异
+FILMV04_END06,END,local_video,media/exports/ending-v06/original-painting-to-wall.mp4,,FFmpeg,详情见film-v04对应记录,film-v04,ending_component_candidate,中央来自原始照片；尚未与动态相接
+FILMV04_EXACTTAIL,S005,video_frame_reference,media/stills/film-v04/S005-exact-painting-target-v06.png,,FFmpeg frame extraction,详情见film-v04对应记录,film-v04,motion_endpoint_candidate,从END06第0帧提取，回画约束目标
+FILMV04_MUSICE,,edited_audio,media/audio/film-v04/music-structure-E-preview.m4a,,FFmpeg with user supplied song,详情见film-v04对应记录,film-v04,pending_listening,41.1秒技术验证通过，乐句及合片未验收
+FILMV04_ORIGINALSTART,S005,generated_still,media/stills/film-v04/S005-original-wrap-start01.png,,builtin imagegen,仅末镜起帧;参考真实原画目标,film-v04,static_candidate,手臂落下和覆肩状态已检查;动态未验证;不能冒称原画像素

@@ -1,9 +1,9 @@
 {
   "paid_generation_enabled": false,
   "preferred_model": "Seedance 2.5",
-  "reason": "S003F completed but user rejected reversed wrap action. Stop paid production until arrival action and painting endpoint are separated and revised. No recharge or retry.",
-  "balance_observed_credits": 332,
-  "balance_source": "Authenticated LibTV canvas UI membership details, 2026-10-12",
+  "reason": "Original-painting endpoint now defined; corrected wrap motion remains untested. Balance92 cannot fund full film. Await user funding decision; no automatic retry or recharge.",
+  "balance_observed_credits": 92,
+  "balance_source": "Authenticated canvas navigation balance after S003F completion, 2026-10-12",
   "single_run_quote": {
     "shot": "S003E",
     "model": "Seedance 2.5",
@@ -45,5 +45,16 @@
     "quoted_credits": 240,
     "actual_credits": null,
     "artistic_status": "rejected_reversed_wrap_action"
-  }
+  },
+  "previous_balance_observed_credits": 332,
+  "observed_balance_difference": 240,
+  "balance_difference_note": "Consistent with quoted S003F cost; not a per-task billing receipt",
+  "recharge_quote": {
+    "credits": 1500,
+    "CNY": 100,
+    "source": "Authenticated credits store custom input1500 after blur; displayed purchase amount100",
+    "date": "2026-10-12",
+    "purchased": false
+  },
+  "funding_question": "User asked whether to add100CNY/1500credits; awaiting response, do not purchase"
 }

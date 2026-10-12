@@ -1,0 +1,39 @@
+{
+  "status": "original_based_ending_component_pending_motion_join",
+  "video": "media/exports/ending-v06/original-painting-to-wall.mp4",
+  "video_sha256": "f197d1fb3b8d69a777336a7d25ca6a6a77ef39fc82e9bfb43b3c02b446ab7d6e",
+  "motion_endpoint_reference": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+  "reference_sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "180"
+      }
+    ],
+    "format": {
+      "duration": "7.500000"
+    }
+  },
+  "full_decode": "passed",
+  "render_script": "post/render-ending-original-v06.py",
+  "source": "media/references/R001-user-photo-original.jpg",
+  "side_wall_source": "media/references/P006-wall-extension-ai-v02.png",
+  "method": "All central painting/frame imagery from original photograph transformed as video; no AI-tableau dissolve. Reference extracted from frame0 of rendered clip.",
+  "visual_review": {
+    "no_observed_black_sidebars": true,
+    "full_frame_at_end": true,
+    "no_internal_AI_to_original_identity_swap": true,
+    "motion_to_ending_join_verified": false
+  },
+  "limits": [
+    "目标帧为16:9近景，裙摆下部和男伴头顶部分裁切，退开后完整可见",
+    "前段动态还未匹配此目标",
+    "照片经透视变换和视频编码，不是未经处理的原始像素",
+    "7.5秒仅为结尾组件，整片尚未完成"
+  ]
+}

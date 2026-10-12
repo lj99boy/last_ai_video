@@ -1,0 +1,23 @@
+{
+  "status": "static_candidate_before_original_endpoint",
+  "file": "media/stills/film-v04/S005-original-wrap-start01.png",
+  "sha256": "c8446707e1b2dc7f11e774f847d7fe68006ed7778c580a68b9983130d884b9c6",
+  "tool": "builtin imagegen",
+  "prompt": "S005-original-wrap-start-prompt.txt",
+  "reference": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+  "source_generation_file": "/Users/bytedance/.codex/generated_images/01a11267-144c-7530-b661-130342604e9c/exec-9d602f58-5df5-42fe-b766-263ed0f53450.png",
+  "purpose": "Only the final gesture shot: lower right hand and wrap still on shoulders before resolving into the original painting target",
+  "visual_review": {
+    "original_style_and_composition_recognizable": true,
+    "right_hand_lowered": true,
+    "wrap_covers_shoulders": true,
+    "original_corsage_side_preserved": true,
+    "motion_verified": false,
+    "user_approved": false
+  },
+  "limits": [
+    "局部AI编辑可能重绘脸与布料，并非原片逐像素一致",
+    "仅用于回画前末镜，不替代用户选定全片华丽油画质感",
+    "与相邻入场镜头的外披状态及尺度仍需统一"
+  ]
+}
