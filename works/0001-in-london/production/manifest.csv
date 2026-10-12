@@ -90,4 +90,5 @@ FILM01,,review_film,media/exports/film-v01/in-london-first-film-with-audio.mp4,,
 FILMV03_APPEARANCE01,S003,generated_still,media/stills/film-v03/S003-appearance-candidate01.png,,builtin imagegen,定向修胸花与帽发;姿态保持,film-v03,superseded_candidate,见film-v03/appearance-candidates.json;未定装未生成视频
 FILMV03_APPEARANCE02,S003,generated_still,media/stills/film-v03/S003-appearance-candidate02.png,,builtin imagegen,定向修胸花与帽发;姿态保持,film-v03,candidate_not_approved_for_video,见film-v03/appearance-candidates.json;未定装未生成视频
 MUSICV03SRC,,audio,media/audio/film-v03/young-and-beautiful-user-source.mp3,,user-provided recording; local FFmpeg excerpt,下一版音乐节奏候选,film-v03,user_selected_song,用户提供原版人声;音频仅本地;不公开上传
-MUSICV03B,,audio,media/audio/film-v03/music-selection-B-preview-v02.mp3,,user-provided recording; local FFmpeg excerpt,下一版音乐节奏候选,film-v03,working_excerpt_pending_listening,0:39.5–1:21;41.5秒;未锁画面/未校听乐句边界;试听版降低6dB留余量
+MUSICV03B,,audio,media/audio/film-v03/music-selection-B-preview-v02.mp3,,user-provided recording; local FFmpeg excerpt,下一版音乐节奏候选,film-v03,user_rejected_abrupt_opening,0:39.5–1:21;41.5秒;未锁画面/未校听乐句边界;试听版降低6dB留余量;用户指出开头突兀;不再作为直接开场
+MUSICV03C_OPENING,,audio_preview,media/audio/film-v03/music-opening-C-preview.mp3,,user-provided recording + existing restaurant ambience; local FFmpeg,仅15秒开头试听;原曲前奏0秒起;音乐延迟1.2秒并3秒渐入,film-v03-C,opening_preview_pending_user,未锁整片;预览末尾淡出不代表成片收尾;未新增生成费用

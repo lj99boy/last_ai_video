@@ -1,0 +1,49 @@
+{
+  "id": "MUSICV03C_OPENING",
+  "status": "opening_only_preview_pending_user",
+  "file": {
+    "path": "media/audio/film-v03/music-opening-C-preview.mp3",
+    "sha256": "e9760def8592b311f40c8f8dd8f09de86042c505e9e5a12f8557db4f1d96637a"
+  },
+  "duration_seconds": 15,
+  "music_source_start_seconds": 0,
+  "music_source_duration_seconds": 13.8,
+  "music_timeline_start_seconds": 1.2,
+  "music_fade_in_seconds": 3,
+  "music_gain_db": -6,
+  "room_source": "media/clips/film-v02/S001_take01.mp4",
+  "room_gain_linear": 0.22,
+  "room_fade_out_timeline_seconds": [
+    2,
+    5
+  ],
+  "preview_only_fade_out_seconds": [
+    14.4,
+    15
+  ],
+  "full_decode": "passed",
+  "measured_loudness": {
+    "input_i": "-25.20",
+    "input_tp": "-12.18",
+    "input_lra": "7.30",
+    "input_thresh": "-35.71",
+    "output_i": "-16.19",
+    "output_tp": "-2.13",
+    "output_lra": "3.70",
+    "output_thresh": "-26.30",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.81"
+  },
+  "full_audio_listening_verified": false,
+  "picture_locked": false,
+  "sources": [
+    {
+      "path": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+      "sha256": "a29a230533909ea4787f40f2324a7201dcd7ef93e76610a1de69c33dd2e093ab"
+    },
+    {
+      "path": "media/clips/film-v02/S001_take01.mp4",
+      "sha256": "66837097ed637ed9fa82af1474e5792299e612e8efeac09b62370b9b770f1fd2"
+    }
+  ]
+}

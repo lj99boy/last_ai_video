@@ -60,9 +60,10 @@
       "normalization_type": "dynamic",
       "target_offset": "-1.46"
     },
-    "status": "provisional_music_excerpt_not_picture_locked",
+    "status": "user_rejected_abrupt_opening",
     "full_audio_listening_verified": false,
-    "preview_gain_db": -6
+    "preview_gain_db": -6,
+    "user_feedback": "开头太突兀"
   },
   "superseded_trial": {
     "file": {
@@ -73,5 +74,7 @@
   },
   "public_upload": false,
   "music_committed_to_git": false,
-  "synced_picture_revision_rendered": false
+  "synced_picture_revision_rendered": false,
+  "current_opening_preview": "music-opening-C.json",
+  "full_score_selection_status": "not_locked; B cannot serve as direct opening"
 }
