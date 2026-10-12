@@ -1,7 +1,7 @@
 {
   "paid_generation_enabled": false,
   "preferred_model": "Seedance 2.5",
-  "reason": "Two complementary drafts completed for200 quoted credits. G candidate needs playback/cloth handoff review; H rejected for unclear threshold crossing. No HD upgrade or identical retry.",
+  "reason": "User rejected sparse13-second ending and requires overall editorial coherence; reconcile full-film rhythm before further paid generation",
   "balance_observed_credits": 2992,
   "balance_source": "Authenticated LibTV project page after both completed tasks",
   "single_run_quote": {
@@ -47,7 +47,7 @@
   },
   "previous_balance_observed_credits": 3072,
   "observed_balance_difference": 80,
-  "balance_difference_note": "Consistent with quoted S003F cost; not a per-task billing receipt",
+  "balance_difference_note": "Latest two task balance differences120 and80 agree with quotes; not per-task billing receipts",
   "recharge_quote": {
     "credits": 1500,
     "CNY": 100,

@@ -42,7 +42,7 @@
   "configuredPromptMatches": true,
   "readbackPrompt": "{{Node 6d673698-dccf-4c0f-b325-6ba7fca34f18}}\n{{Node c41d4deb-f17b-4eb5-bca8-db43820279da}}\n6 seconds. Image 1 is the starting frame; Image 2 is the exact final frame. Single continuous oil-painted shot. Start and end reference images define the same woman, gentleman, clothing and dining-room geometry. At the start the pale wrap already rests on her shoulders. She relaxes her arms. The gentleman draws the fabric gently BACKWARDS, away from the shoulder caps; the contact edge leaves her shoulders rather than climbing onto them. As the cloth falls behind her upper arms, she raises her anatomical RIGHT hand toward her temple, with her elbow moving outward, reaching the pose of the end reference. The gentleman supports the fabric behind her. Stop at this mid-removal pose, not at a fully gathered bundle. Never reverse the cloth to dress her again. Keep the corsage on her anatomical right chest and the compact dark tilted headwear unchanged. The camera gently retreats; preserve the end-reference composition. No cut, time jump, costume morph or new person. Maintain coherent oil brushwork with broad silver fold highlights; no net texture, fish scales, uniformly scattered glitter or photorealistic skin. Let physical action continue until the final settling moment; no multi-second freeze.",
   "quoteEvidence": "Authenticated visible node 003929a6-8399-4210-99c3-b4b99b28a4b9;6s480pframes2video count1 soundoff;120 credits",
-  "status": "completed_candidate_pending_playback_review",
+  "status": "technical_study_only_user_rejected_editorial_use",
   "taskId": "20261012195603551947550",
   "platformStatus": 2,
   "output": "media/clips/film-v04/S005G_take01.mp4",
@@ -71,7 +71,8 @@
     "identity": "no obvious new hat/corsage-side drift in inspected frames",
     "texture": "no newly imposed uniform dots or mesh observed at480p; not proof forHD",
     "join": "no obvious geometric jump in inspected frames across hard join to exact target; final real-time review pending",
-    "accepted_for_hd": false
+    "accepted_for_hd": false,
+    "user_review": "用户否决13秒编排的信息量和画面表现；不能沿用为成片候选，只保留原画接点技术研究"
   },
   "observedBalanceBefore": 3192,
   "observedBalanceAfter": 3072,
