@@ -1,0 +1,31 @@
+{
+  "paid_generation_enabled": false,
+  "reason": "Authorized one formal v03 dispatch is in progress. Further submissions and automatic retries prohibited.",
+  "allowed_shots": [],
+  "max_single_run_credits": 552,
+  "balance_observed_credits": 612,
+  "balance_is_live": false,
+  "whole_film_authorization": "User approved continuing meaningful economical production, half-dance proposal, both character appearances, natural motion and lightweight drape with original glints; no recharge, subscription, publication or blind automatic retry.",
+  "balance_observed_at": "2026-10-13T08:03:34.960849+00:00",
+  "balance_note": "After both formal generations; dated UI snapshot, not ongoing live value.",
+  "current_whole_film_quote": {
+    "configuration": "whole-film-v02-configuration.json",
+    "A": 552,
+    "total_current": 1104,
+    "balance_observed": 1116,
+    "B_final_reference_quote_pending": false,
+    "B_current_four_images": 552,
+    "B_note": "Actual A end frame bound before B; exact refreshed quote552; both dispatched once and completed."
+  },
+  "pending_v03_quote": {
+    "quotedCredits": 552,
+    "balanceObservedCredits": 12,
+    "shortfallCredits": 540,
+    "observedAt": "2026-10-13T07:29:25.661621+00:00",
+    "source": "exact configured node visible browser controls",
+    "settingsLabel": "16:9 · 720P · 12s · 1个",
+    "imageCount": 3,
+    "model": "2.5"
+  },
+  "pending_v03_node": "1c39a17b-b2c3-4f49-a188-37218c4d4e91"
+}

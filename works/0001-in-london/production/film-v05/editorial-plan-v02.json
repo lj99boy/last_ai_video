@@ -1,0 +1,121 @@
+{
+  "kind": "static_storyboard_with_original_music_not_finished_film",
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_note": "先以原曲连续开头建立结构对照；末尾暂淡出，乐句与听感未验收，不锁定成片时长。",
+  "shots": [
+    {
+      "id": "S001-detail",
+      "path": "media/stills/film-v04/S001-room01.png",
+      "frames": 24,
+      "crop": [
+        0.02,
+        0.3,
+        0.6,
+        0.6
+      ],
+      "purpose": "桌面银器与红灯先建立精致秩序",
+      "planned_motion": "从器物旁侧移揭示服务；此裁切只作景别占位",
+      "join": "前景桌面建立空间，切至右侧另一桌的服务；不是同桌动作连续"
+    },
+    {
+      "id": "S001-service",
+      "path": "media/stills/film-v04/S001-room01.png",
+      "frames": 48,
+      "purpose": "准确服务，有完成点即切",
+      "planned_motion": "杯底已经接桌，手指松开后自然撤回；背景人群继续活动",
+      "join": "杯面暖反光接窗边暖灯，不等侍者完整离开"
+    },
+    {
+      "id": "S007-window",
+      "path": "media/stills/film-v04/S007-window01.png",
+      "frames": 18,
+      "purpose": "由室内暖光连接夜街",
+      "planned_motion": "轻微横移或短环境动镜，非独立风景展示",
+      "join": "门外城市声提前进入，随后以同方向步伐跨门"
+    },
+    {
+      "id": "S008-outside",
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "frames": 24,
+      "purpose": "裙摆与步伐预告登场",
+      "planned_motion": "固定低位，相机不跨轴，人物真正跨过门槛",
+      "join": "与下一状态属于同一动作镜头；此处两张仅作起止说明"
+    },
+    {
+      "id": "S008-inside",
+      "path": "media/stills/film-v05/S008-inside-landing01.png",
+      "frames": 24,
+      "purpose": "前脚落在室内，完成空间动作",
+      "planned_motion": "首尾帧短样片，尾帧有室内着地而非原地踏步",
+      "join": "在行走中切至室内前侧，女主继续向餐厅深处走"
+    },
+    {
+      "id": "S003-entrance",
+      "path": "media/stills/film-v05/S003-arrival-identity02.png",
+      "frames": 120,
+      "purpose": "完整身段和银裙进入暖光，给主角表现空间",
+      "planned_motion": "相机从前侧后退跟随两步，桌椅产生视差；不要求片尾僵硬站稳",
+      "join": "她看向画左桌边；切邻桌向画右的短暂目光"
+    },
+    {
+      "id": "S004-glance",
+      "path": "media/stills/film-v05/S004-reaction01-user-selected.png",
+      "frames": 36,
+      "purpose": "漂亮男女旁观者的双人反应，映衬女主的吸引力",
+      "planned_motion": "女士先抬眼、男士顺着她的视线看向画右，短促自然；不演成震惊或围观",
+      "join": "共同目光接回女主从容继续；靠衣装、空间与前景披肩区分角色，实际接镜再判断相似性"
+    },
+    {
+      "id": "S003-return",
+      "path": "media/stills/film-v05/S003-arrival-identity02.png",
+      "frames": 60,
+      "crop": [
+        0.42,
+        0.02,
+        0.55,
+        0.55
+      ],
+      "purpose": "她从容继续，肩线、银裙与光变化可读",
+      "planned_motion": "优先取同一入场素材的另一段有效动作；不为填充时长付费新拍近景。当前裁切只是占位。",
+      "join": "近景强调胸花和衣料，接桌旁更宽构图；此接点需动态复核"
+    },
+    {
+      "id": "S005-settle",
+      "path": "media/stills/film-v04/S005-original-wrap-start01.png",
+      "frames": 72,
+      "purpose": "桌旁从容安顿，披肩向后离肩",
+      "planned_motion": "只选必要动作，右手开始趋近鬓边；不演脱衣全过程",
+      "join": "原画几何约束末态；与前镜的身份、帽型和色调仍需联合修正"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "frames": 12,
+      "purpose": "原画姿态被辨识，立即显框",
+      "planned_motion": "此静帧是最终真实落点，不能以长停顿掩盖动态失败",
+      "join": "逐帧匹配回墙第0帧，不使用仿画长溶解"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "frames": 66,
+      "purpose": "鲜活夜晚成为墙上的画，短收余韵",
+      "planned_motion": "本地原画透视退开，2.3秒运动加0.45秒收尾",
+      "join": "餐厅声远去，歌曲延续后结束；乐句听感待验收"
+    }
+  ],
+  "paid_generation_enabled": false,
+  "gates": [
+    "完整结构先审查，生成长度不等于选用长度",
+    "门槛与入场先验证；失败不升级",
+    "回原画身份接点未通过前不批量开跑",
+    "音频数值检查不等于实际校听",
+    "优先保留用户选定的男女双人反应；不为规避风险自动换成年长单人"
+  ],
+  "audience_goal": "用户明确作品也以赚取流量为目的；画面吸引力、观看推进与传播价值是创作目标，尚无实际流量验证。",
+  "timing_note": "本轮结构候选：女主全身首次出现从8.75秒前移至5.75秒。时长依据动作完成和乐句继续调整，不作为付费素材的固定长度。",
+  "audio_implementation_note": "目前仅原曲连续开头与前5秒低音量旧餐厅素材；镜头join中的街声、完整餐厅声场及回画声效属于待实现设计。"
+}

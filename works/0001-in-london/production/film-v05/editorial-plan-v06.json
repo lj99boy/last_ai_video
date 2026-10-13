@@ -1,0 +1,129 @@
+{
+  "kind": "mixed_motion_sample_and_static_storyboard_not_finished_film",
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_note": "先以原曲连续开头建立结构对照；末尾暂淡出，乐句与听感未验收，不锁定成片时长。",
+  "shots": [
+    {
+      "id": "S001-detail",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 42,
+      "crop": [
+        0.02,
+        0.3,
+        0.6,
+        0.6
+      ],
+      "purpose": "桌面银器与红灯先建立精致秩序",
+      "planned_motion": "取服务素材开头0–1.75秒的左桌局部，保留其镜头漂移与人群微动；裁切为景别选择。",
+      "join": "前景桌面建立空间，切至右侧另一桌的服务；不是同桌动作连续",
+      "source_start_frame": 0
+    },
+    {
+      "id": "S001-service",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 84,
+      "purpose": "准确服务，有完成点即切",
+      "planned_motion": "取1.75–5.25秒，杯已着桌，手指松开后撤回；背景继续活动。",
+      "join": "杯面暖反光接窗边暖灯，不等侍者完整离开",
+      "source_start_frame": 42
+    },
+    {
+      "id": "S007-window",
+      "path": "media/stills/film-v04/S007-window01.png",
+      "frames": 30,
+      "purpose": "由室内暖光连接夜街",
+      "planned_motion": "轻微横移或短环境动镜，非独立风景展示",
+      "join": "门外城市声提前进入，随后以同方向步伐跨门"
+    },
+    {
+      "id": "S008-outside",
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "frames": 30,
+      "purpose": "裙摆与步伐预告登场",
+      "planned_motion": "固定低位，相机不跨轴，人物真正跨过门槛",
+      "join": "与下一状态属于同一动作镜头；此处两张仅作起止说明"
+    },
+    {
+      "id": "S008-inside",
+      "path": "media/stills/film-v05/S008-inside-landing01.png",
+      "frames": 24,
+      "purpose": "前脚落在室内，完成空间动作",
+      "planned_motion": "首尾帧短样片，尾帧有室内着地而非原地踏步",
+      "join": "在行走中切至室内前侧，女主继续向餐厅深处走"
+    },
+    {
+      "id": "S003-entrance",
+      "path": "media/clips/film-v05/S003J_take01.mp4",
+      "frames": 132,
+      "purpose": "完整身段和银裙进入暖光，给主角表现空间",
+      "planned_motion": "相机从前侧后退跟随两步，桌椅产生视差；不要求片尾僵硬站稳 最终制作增加有触发的邻桌侧目：女主走近时，近桌一位客人稍转头抬眼，另一位稍后察觉；其余人继续交谈。S003J仅保留现有动态候选，未证明此反应已实现。",
+      "join": "她看向画左桌边；切邻桌向画右的短暂目光",
+      "source_start_frame": 0
+    },
+    {
+      "id": "S004-glance",
+      "path": "media/clips/film-v05/S004K_take01.mp4",
+      "frames": 36,
+      "purpose": "漂亮男女旁观者的双人反应，映衬女主的吸引力",
+      "planned_motion": "取0.75–2.25秒，前景披肩经过，女方轻微含笑、男方目光追随；起帧已在看她，不冒称此处首次察觉。",
+      "join": "在主镜里出现旁观者察觉的起势后，切这对男女已有的目光停留，再回女主持续行进；具体切点依实际表演，不机械固定5.5秒。",
+      "source_start_frame": 18
+    },
+    {
+      "id": "S003-return",
+      "path": "media/clips/film-v05/S003J_take01.mp4",
+      "frames": 30,
+      "purpose": "她从容继续，肩线、银裙与光变化可读",
+      "planned_motion": "从入场同一素材后段取停步、轻转向桌边的起势，随后在动作中切桌旁；不要仅重复昂首直行。近景减少男伴正脸占比。",
+      "join": "在6.75秒附近尚未明显垂头、伸手前切桌旁，避免把8秒末段低头再接昂首造成动作回跳；最终切点仍需桌旁动镜验证。",
+      "source_start_frame": 132
+    },
+    {
+      "id": "S005-settle",
+      "path": "media/stills/film-v05/S005-table-arrival01.png",
+      "frames": 54,
+      "purpose": "桌旁从容安顿，披肩向后离肩",
+      "planned_motion": "从昂首朝画左、双手低位的桌旁起态开始；微落视线，披肩向后离肩，右手到鬓边，以真实原画为尾帧；不等待脱完。",
+      "join": "静态桌旁位置和人物形态已有桥接候选；仍需动态检验，真实原画尾帧不改。"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "frames": 12,
+      "purpose": "原画姿态被辨识，立即显框",
+      "planned_motion": "此静帧是最终真实落点，不能以长停顿掩盖动态失败",
+      "join": "逐帧匹配回墙第0帧，不使用仿画长溶解"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "frames": 66,
+      "purpose": "鲜活夜晚成为墙上的画，短收余韵",
+      "planned_motion": "本地原画透视退开，2.3秒运动加0.45秒收尾",
+      "join": "餐厅声远去，歌曲延续后结束；乐句听感待验收"
+    }
+  ],
+  "paid_generation_enabled": false,
+  "gates": [
+    "完整结构先审查，生成长度不等于选用长度",
+    "门槛与入场先验证；失败不升级",
+    "回原画身份接点未通过前不批量开跑",
+    "音频数值检查不等于实际校听",
+    "优先保留用户选定的男女双人反应；不为规避风险自动换成年长单人"
+  ],
+  "audience_goal": "用户明确作品也以赚取流量为目的，并选定男女双人旁观者。吸引力属于创作目标；不能由此擅自推导缩短开场、加快剪辑等固定手段，尚无实际流量验证。",
+  "timing_note": "v06保留开场结构；服务与男女反应由真实动态素材替代占位。S003-return取5.5–6.75秒，避免8秒末段低头/伸手与桌旁昂首起态回跳。总时长取决于有效动作，非流量目标自动推导。",
+  "audio_implementation_note": "v06使用新S001K服务素材的前5.25秒餐厅声，原曲连续开头低音量进入；生成声音的内容与听感未实际校听，街声和回画声效未完成。",
+  "diner_attention_note": "用户提出在恰当时机让餐厅客人朝女主侧目。按她经过邻桌、进入暖光等可见触发安排少数人的错开反应，再衔接已选男女双人特写；具体时点随有效素材调整，不预设固定秒数或整齐转头。",
+  "room_audio": {
+    "path": "media/clips/film-v05/S001K_take01.mp4",
+    "source_start_seconds": 0,
+    "duration_seconds": 5.25,
+    "volume": 0.15,
+    "fade_out_start_seconds": 3.75,
+    "fade_out_duration_seconds": 1.5
+  }
+}

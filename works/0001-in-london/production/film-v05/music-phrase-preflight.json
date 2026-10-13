@@ -1,0 +1,49 @@
+{
+  "method": "local OpenAI Whisper base.en, word_timestamps, CPU, fp32",
+  "source": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "analyzed_range_seconds": [
+    0,
+    90
+  ],
+  "vocal_boundaries_seconds": {
+    "first_verse_phrase": [
+      14.48,
+      23.2
+    ],
+    "chorus_phrase_1": [
+      49.16,
+      55.5
+    ],
+    "chorus_phrase_2": [
+      57.44,
+      64.6
+    ],
+    "next_phrase_starts": 65.28
+  },
+  "selected_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 8.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 16.833333333333332
+    }
+  ],
+  "crossfade_seconds": 1.0,
+  "timeline_delay_seconds": 1.0,
+  "expected_duration_seconds": 25.333333333333332,
+  "limitations": [
+    "自动识别有词语错误和时间误差，只用于定位",
+    "用户已试听认可前奏转副歌和末尾收束；自动识别本身不是听觉验收，整片声画尚未验收",
+    "本地输入和转录仅存media，不上传音源"
+  ],
+  "official_method_source": "https://github.com/openai/whisper",
+  "user_listening_review": {
+    "response": "可以",
+    "scope": "这版约第8秒前奏转副歌、末尾收束听感",
+    "at": "2026-10-12T16:46:56.738992+00:00",
+    "artifact": "media/audio/film-v05-music-phrase-preview.m4a",
+    "full_film_acceptance": false
+  }
+}

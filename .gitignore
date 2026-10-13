@@ -30,9 +30,13 @@ models/
 *.webm
 *.wav
 *.mp3
+*.m4a
+*.aac
+*.ogg
 *.flac
 *.aiff
 *.drp
 *.dra
 *.prproj
 *.blend
+*.blend1

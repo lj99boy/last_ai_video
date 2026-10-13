@@ -1,0 +1,52 @@
+{
+  "source": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "source_sha256": "a29a230533909ea4787f40f2324a7201dcd7ef93e76610a1de69c33dd2e093ab",
+  "timeline_candidate": "production/film-v06/timing-candidate-v01.csv",
+  "fps": 24,
+  "frames": 832,
+  "duration_seconds": 34.666666666666664,
+  "segments": [
+    {
+      "start": 0,
+      "duration": 11.5
+    },
+    {
+      "start": 48.35,
+      "duration": 23.166666666666668
+    }
+  ],
+  "crossfade_seconds": 1,
+  "delay_seconds": 1,
+  "phrase_evidence": "media/audit/film-v05/last-ai-video-music-first90.json",
+  "vocal_boundaries": [
+    [
+      49.16,
+      55.5
+    ],
+    [
+      57.44,
+      64.6
+    ],
+    [
+      65.28,
+      70.6
+    ]
+  ],
+  "next_phrase_starts": 72.14,
+  "current_excerpt_ends": 71.5166666667,
+  "creator_listening_accepted": false,
+  "limitations": [
+    "ASR gives approximate phrase boundaries, not auditory seam validation",
+    "Timing candidate is adjustable; not a mandate to make every performance fit these lengths",
+    "Heroine acknowledgment and continuation are ungenerated, threshold/ending material continuity unresolved"
+  ],
+  "render": {
+    "path": "media/audio/film-v06/music-story-candidate-v01.m4a",
+    "sha256": "4dcfe9bf117b59e134dd01f1e341542e41863e6123f26f4af6c4d9cea9a6c542",
+    "duration_seconds": 34.666,
+    "sample_rate": 48000,
+    "channels": 2,
+    "full_decode": "passed",
+    "listening_review": "not yet performed"
+  }
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "S003-arrival-hat01",
+    "path": "media/stills/film-v05/S003-arrival-hat01.png",
+    "sha256": "b9243761898ef08665408ddeffa44dcafba83ee87bcbc9a74ff7b2212675734a",
+    "prompt": "S003-hat-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "static_candidate_hat_improved"
+  },
+  {
+    "id": "S008-inside-landing01",
+    "path": "media/stills/film-v05/S008-inside-landing01.png",
+    "sha256": "b079a6184336a503ad6e9c320ca087823bbabcc2a697d5c4a5ad2e55296c8755",
+    "prompt": "S008-endpoint-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "static_candidate_inside_landing"
+  },
+  {
+    "id": "S004-reaction01-rejected",
+    "path": "media/stills/film-v05/S004-reaction01-rejected.png",
+    "sha256": "959129ca018f11297c8a59bc3e7f73679484bf1851c983f4b2989b003e02c31a",
+    "prompt": "S004-reaction-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "user_selected_pair_composition_after_assistant_rejected",
+    "selected_path": "media/stills/film-v05/S004-reaction01-user-selected.png",
+    "review_note": "用户偏好漂亮男女双人及传播吸引力；相似性仅作实际接镜检查，不再视为直接弃用理由。"
+  },
+  {
+    "id": "S004-reaction02",
+    "path": "media/stills/film-v05/S004-reaction02.png",
+    "sha256": "e920802f84461ffdbf8b0ba4d211b5362a6c11d20cd52a0c0dab295c1cd5898a",
+    "prompt": "S004-reaction02-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "superseded_user_prefers_pair"
+  },
+  {
+    "id": "S003-arrival-identity02",
+    "path": "media/stills/film-v05/S003-arrival-identity02.png",
+    "sha256": "be4687d3adb66684cb301e558b0204072fd31a0d04d0e35376882680df94a4d6",
+    "prompt": "S003-identity02-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "candidate_companion_identity_improved_not_joint_motion_accepted"
+  },
+  {
+    "path": "media/stills/film-v05/S005-table-arrival01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-ed879156-cd04-4c8b-be83-d7b2a000a2dd.png",
+    "sha256": "059fd50944f9d8f1e076e61b93a4bca50f9184ce02c059a004f9304cbf436e34",
+    "prompt": "production/film-v05/S005-table-arrival-prompt.txt",
+    "status": "candidate_table_arrival_bridge",
+    "notes": "女主保持入场时昂首朝画左与双手低位，已到原画桌旁；背景几何来自原画，真实原画尾帧保持不变。动态与接点待验证。"
+  },
+  {
+    "path": "media/stills/film-v05/S008-inside-step02.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-e14599cd-bd50-400e-b854-089e063d4b53.png",
+    "sha256": "92bd2e3c01d7d998850360f6f5cd593e66a002061ec8e254dfc6b8e8b520f677",
+    "prompt": "production/film-v05/S008-inside-step02-prompt.txt",
+    "status": "candidate_pending_start_end_geometry_review",
+    "notes": "身体显著右移入内、男伴脚上槛；需检查门槛/门框背景是否固定，未生成视频。"
+  },
+  {
+    "path": "media/stills/film-v05/S005-table-arrival02.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-84884294-8b36-4fda-ab73-96d97f90b6a1.png",
+    "sha256": "4630f627425c712950caf6db288af2aa7355e1b8e1fb851d6afe6dd817bd383c",
+    "prompt": "production/film-v05/S005-table-arrival02-prompt.txt",
+    "status": "not_selected_hand_height_introduces_unnecessary_upward_cloth_motion",
+    "notes": "独立复核与主审均改选arrival01：原画自身有浅色后布面，不能只因色差认定第二衣物。02把握点降低，到原画需重新抬手，增加反向穿衣解释风险。未视频生成。"
+  }
+]

@@ -1,0 +1,6 @@
+# 制作记录统一LF；媒体仍由.gitignore管理，不纳入普通Git。
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.py text eol=lf

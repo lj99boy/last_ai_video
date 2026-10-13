@@ -1,0 +1,135 @@
+{
+  "kind": "mixed_motion_sample_and_static_storyboard_not_finished_film",
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_note": "本机Whisper base.en在用户源音频中定位两句副歌约49.16–55.5和57.44–64.6秒；保留前奏0–8.5秒，与48.35秒起副歌前的间隙交叠1秒，结束在下一句约65.28秒前。时间识别有误差，歌词不公开保存到Git；接缝/乐句余音须实际校听。",
+  "shots": [
+    {
+      "id": "S001-detail",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 42,
+      "crop": [
+        0.02,
+        0.3,
+        0.6,
+        0.6
+      ],
+      "purpose": "桌面银器与红灯先建立精致秩序",
+      "planned_motion": "取服务素材开头0–1.75秒的左桌局部，保留其镜头漂移与人群微动；裁切为景别选择。",
+      "join": "前景桌面建立空间，切至右侧另一桌的服务；不是同桌动作连续",
+      "source_start_frame": 0
+    },
+    {
+      "id": "S001-service",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 84,
+      "purpose": "准确服务，有完成点即切",
+      "planned_motion": "取1.75–5.25秒，杯已着桌，手指松开后撤回；背景继续活动。",
+      "join": "杯面暖反光接窗边暖灯，不等侍者完整离开",
+      "source_start_frame": 42
+    },
+    {
+      "id": "S007-window",
+      "path": "media/clips/film-v02/S007_take01.mp4",
+      "frames": 48,
+      "purpose": "由室内暖光连接夜街",
+      "planned_motion": "复用已有窗景0.5–1.75秒，街上行人与马车运动、镜头缓慢侧移；并排检查后可作当前动态候选。",
+      "join": "室内红灯与玻璃反光带到夜街，再切门外裙摆；不以新旧版本号决定弃用素材。",
+      "source_start_frame": 12
+    },
+    {
+      "id": "S008-threshold",
+      "path": "media/clips/film-v02/S008_take01.mp4",
+      "frames": 54,
+      "purpose": "门外裙摆与实际入内动作预告正面登场",
+      "planned_motion": "取旧片0.25–2.5秒下半身，裙摆和身体实际朝门内前进；裁切排除已失效帽发/肩部造型，保留粉披肩下缘和银裙。",
+      "join": "在女主仍向门内前进、男伴未完全遮挡前切室内正面登场；裁切后有效768×432，画质需在整片审看。",
+      "source_start_frame": 6,
+      "crop": [
+        0.25,
+        0.4,
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "S003-entrance",
+      "path": "media/clips/film-v05/S003J_take01.mp4",
+      "frames": 162,
+      "purpose": "完整身段和银裙进入暖光，给主角表现空间",
+      "planned_motion": "相机从前侧后退跟随两步，桌椅产生视差；不要求片尾僵硬站稳 最终制作增加有触发的邻桌侧目：女主走近时，近桌一位客人稍转头抬眼，另一位稍后察觉；其余人继续交谈。S003J仅保留现有动态候选，未证明此反应已实现。",
+      "join": "完整行走至6.75秒、尚未明显垂头伸手时切男女反应；反应镜头后转桌旁，让视点转换承接走到桌边。",
+      "source_start_frame": 0
+    },
+    {
+      "id": "S004-glance",
+      "path": "media/clips/film-v05/S004K_take01.mp4",
+      "frames": 50,
+      "purpose": "漂亮男女旁观者的双人反应，映衬女主的吸引力",
+      "planned_motion": "取0.5–2.583秒，披肩从前景经过，女方神态由注意转为轻微含笑，男方视线追随；与完整乐句一起检查。",
+      "join": "前景披肩经过，双人目光追随；随后切已到桌旁的女主，保持她从容的状态。与原先插在行走中段的方案作接镜比较。",
+      "source_start_frame": 12
+    },
+    {
+      "id": "S005-settle",
+      "path": "media/stills/film-v05/S005-table-arrival01.png",
+      "frames": 90,
+      "purpose": "桌旁从容安顿，披肩向后离肩",
+      "planned_motion": "预留3.75秒给同时发生的抬右手与披肩后滑，不附加重新抓布/提布。男伴从起态已高位持同一披肩后片，保持高度轻向后收；女主下颌微降，手至鬓边，未全脱即入画。",
+      "join": "静态桌旁位置和人物形态已有桥接候选；仍需动态检验，真实原画尾帧不改。"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "frames": 12,
+      "purpose": "原画姿态被辨识，立即显框",
+      "planned_motion": "此静帧是最终真实落点，不能以长停顿掩盖动态失败",
+      "join": "逐帧匹配回墙第0帧，不使用仿画长溶解"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "frames": 66,
+      "purpose": "鲜活夜晚成为墙上的画，短收余韵",
+      "planned_motion": "本地原画透视退开，2.3秒运动加0.45秒收尾",
+      "join": "餐厅声远去，歌曲延续后结束；乐句听感待验收"
+    }
+  ],
+  "paid_generation_enabled": false,
+  "gates": [
+    "完整结构先审查，生成长度不等于选用长度",
+    "门槛与入场先验证；失败不升级",
+    "回原画身份接点未通过前不批量开跑",
+    "音频数值检查不等于实际校听",
+    "优先保留用户选定的男女双人反应；不为规避风险自动换成年长单人"
+  ],
+  "audience_goal": "用户明确作品也以赚取流量为目的，并选定男女双人旁观者。吸引力属于创作目标；不能由此擅自推导缩短开场、加快剪辑等固定手段，尚无实际流量验证。",
+  "timing_note": "v07按完整表演与两句副歌的可用边界试剪25.333秒。窗景2秒、入场6.75秒、反应2.083秒、桌旁3.75秒，保留故事各环节。不是固定片长要求，未通过听感/动作的时间可再调整；生成时长与采用长度分开。",
+  "audio_implementation_note": "原曲前奏接两句完整副歌的候选编排，乐句边界来自本机识别，非耳听验收；服务环境声来自S001K前5.25秒，后续空间声层次尚待补齐。",
+  "diner_attention_note": "用户提出在恰当时机让餐厅客人朝女主侧目。按她经过邻桌、进入暖光等可见触发安排少数人的错开反应，再衔接已选男女双人特写；具体时点随有效素材调整，不预设固定秒数或整齐转头。",
+  "room_audio": {
+    "path": "media/clips/film-v05/S001K_take01.mp4",
+    "source_start_seconds": 0,
+    "duration_seconds": 5.25,
+    "volume": 0.15,
+    "fade_out_start_seconds": 3.75,
+    "fade_out_duration_seconds": 1.5
+  },
+  "generation_principle": "用户2026-10-13明确：减少视频生成测试和失败重试次数，不减少成片镜头数量、不降低表现。先整体思考、充分检验参考和动作约束，再执行必要生成。",
+  "continuity_note": "旧窗景/门槛仅因当前可用动作而进入复用审查；此选择不等于降低质量要求或以少生成镜头为目标。主镜480P及门槛裁切清晰度仍待整体评估，必要时为质量制作新的最终镜头。",
+  "music_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 8.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 16.833333333333332
+    }
+  ],
+  "music_crossfade_seconds": 1.0,
+  "music_fade_in_seconds": 1.5,
+  "music_fade_out_seconds": 0.5
+}

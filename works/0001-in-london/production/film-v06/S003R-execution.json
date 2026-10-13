@@ -1,0 +1,66 @@
+{
+  "shot": "S003R",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": false,
+  "estimatedCredits": 552,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "1bcaec9b-39fc-4a61-b2f8-169d058b094e",
+      "path": "media/stills/film-v06/S003-real-fabric04.png",
+      "sha256": "7f6a03bbb4d553e774dfa86282fe48e10392ad1405d9ed224b9ada41148e6497"
+    }
+  ],
+  "videos": [
+    {
+      "nodeId": "9804b1a9-23a3-4674-8d71-fa119df21e95",
+      "path": "media/clips/film-v06/S003M_take01.mp4",
+      "sha256": "2faf8d53d70c3a8f18b9dcb621dc70f833ebf72dfde93b145c30c19bab1a3622"
+    }
+  ],
+  "nodeId": "093887d1-8062-4fac-81b7-a2474e9879bf",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "mixed2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 6,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "1bcaec9b-39fc-4a61-b2f8-169d058b094e"
+    ],
+    "videoListOrder": [
+      "9804b1a9-23a3-4674-8d71-fa119df21e95"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 9804b1a9-23a3-4674-8d71-fa119df21e95}}\n{{Node 1bcaec9b-39fc-4a61-b2f8-169d058b094e}}\nCreate one six-second full-body tracking shot. Reference VIDEO supplies ONLY the accepted natural walking rhythm, alternating planted steps, body weight transfer and backward camera track. Reference IMAGE supplies the exact heroine and restaurant appearance and, critically, the newly corrected thin fluid silver satin gown. The gown must follow the smooth low-volume material in the IMAGE, not the stiff reflective dress in the source video.\n\nThe heroine walks continuously forward at the ordinary natural pace of the video. Keep her full hat, silhouette and hem visible; male companion follows behind. Preserve the image's face, decorated black hat, original neckline, red rose on her anatomical right chest (viewer left), pale blush wrap and natural proportions. Smooth lightweight silver cloth skims waist and hips with no stacked diagonal ridges; fine low-relief folds shift with each knee, and the narrow hem follows lightly, without heavy pooling. Pearly silver textile reflections, not plastic or foil. Keep the same camera direction, room geography, continuous live-action timing and painterly surface. No new action, stopping, slow motion, posing, nodding, cut, orbit, costume change, extra person or dialogue. Do not inherit the source video's rejected dress material.",
+  "status": "configured_for_quote_only",
+  "holdReason": "04 drape accepted, but user requests original broken glints. Replace material input and reassess heroine-led storyboard before run; current bound smooth04 is not the final requested material.",
+  "quoteEvidence": {
+    "observedAt": "2026-10-12T18:36:03.505065+00:00",
+    "source": "Exact node browser controls; CLI configuration/readback",
+    "model": "Seedance 2.5",
+    "modeType": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 6
+    },
+    "count": 1,
+    "inputVideoUiDurationSeconds": 6.1,
+    "inputImages": 1,
+    "credits": 552,
+    "balanceObserved": 1392,
+    "generationSubmitted": false
+  }
+}

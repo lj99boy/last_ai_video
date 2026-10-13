@@ -1,0 +1,14 @@
+shot,start_seconds,end_seconds,frames,source_status,purpose
+S001-detail,0.0,1.75,42,existing,桌面秩序
+S001-service,1.75,5.25,84,existing,服务完成
+S009-conversation,5.25,6.75,36,S004N first 1.5 sec,先建立桌边二人关系
+S007-window,6.75,8.75,48,existing,窗外夜色
+S008-threshold,8.75,11.0,54,needs material/quality review,跨门槛
+S003-entrance,11.0,16.5,132,gait accepted; fabric unresolved,完整身段先展示
+S004-recognition,16.5,19.5,72,S004N last 3 sec,认出并前倾
+S010-acknowledgment,19.5,22.5,72,not generated,女主点头并转回前方
+S003-pass,22.5,25.0,60,not generated,继续走向自己的桌子
+S011-withdrawal,25.0,27.6667,64,S011P candidate,男子收回动作，女子看回他
+S005-settle,27.6667,31.4167,90,existing pending material continuity,披肩后卸，抬手至鬓边
+S005-painting,31.4167,31.9167,12,original,原画姿态落点
+S006-reveal,31.9167,34.6667,66,existing,退开显框

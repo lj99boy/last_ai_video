@@ -1,0 +1,6 @@
+shot,start_seconds,end_seconds,frames,source,purpose,planned_motion,join
+S001-service,0.0,4.666666666666667,112,media/clips/film-v05/S001K_take01.mp4,服务动作建立晚宴空间,源1.333–6秒，保留侍者完成放置和收手,转向门外女主的主动邀请
+A-half-dance,4.666666666666667,14.791666666666666,243,media/clips/film-v06/whole-film-A-v02_take01-original.mp4,邀请、舞步、表情、门开四镜,保留舞步和回应，删除源10.125秒后的重复门框镜头,A尾部允许本地剪掉门框停顿或重复状态；与B实际起始的方向、松手阶段和前进动作共同选择切帧。保留A表演，不锁死288帧。
+B-entrance-painting,14.791666666666666,26.791666666666668,288,media/clips/film-v06/whole-film-B-v03_take01-painting-join.mp4,入场、侧过、原画姿态三镜,保留实际三镜：入场、白花先遮后露的侧面展示、到桌抬手；原速。白花由用户明确认可保留。,核对A→B同裙连续性；实际B终态与准确原画的脸、玫瑰、右肘、肩线及披肩位置对齐后选切点，不用叠化隐藏状态错误。
+S005-painting,26.791666666666668,27.041666666666668,6,media/previs/half-dance-v01/ending-first.png,准确原画短暂落点,采用显框视频首帧，保持0.25秒,与后续显框第一帧相同，避免另取构图造成跳变
+S006-reveal,27.041666666666668,31.666666666666668,111,media/exports/ending-v08/original-painting-to-wall.mp4,揭示墙上的原画,准确原画4.625秒显框，镜头4.175秒退至全框，末尾0.45秒收住,沿完整乐句收尾，不自动发布

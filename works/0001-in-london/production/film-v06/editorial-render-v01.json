@@ -1,0 +1,101 @@
+{
+  "output": "media/exports/film-v06/whole-film-structure-v01.mp4",
+  "sha256": "1bc278cdafec1a764cd9b1440a2e336567bcc87ba20827a99e15b36e43419565",
+  "duration_seconds": 34.666666666666664,
+  "frames": 832,
+  "static_placeholder_seconds": 5.5,
+  "original_painting_hold_seconds": 0.5,
+  "motion_sample_seconds": 25.916666666666664,
+  "original_wall_reveal_seconds": 2.75,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "832"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1625"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "13"
+      }
+    ],
+    "format": {
+      "duration": "34.667000"
+    }
+  },
+  "full_decode": "passed",
+  "music_listening_approved_by_user": false,
+  "full_film_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v06/S004N_take01.mp4",
+      "sha256": "36bc34ba3aebe7b325660b14ffd34f0585b70545027a30e93ac8c14700fdb1c5"
+    },
+    {
+      "path": "media/clips/film-v02/S007_take01.mp4",
+      "sha256": "0690f716f39c5322f16cd2dd1016b0243265c515cd307863dcd8a19b7c15d049"
+    },
+    {
+      "path": "media/clips/film-v02/S008_take01.mp4",
+      "sha256": "d891155665bf09e65a55969a55fa03af71779bb7f9f7dcb3fd58dbbe5bb07d80"
+    },
+    {
+      "path": "media/clips/film-v06/S003M_take01.mp4",
+      "sha256": "2faf8d53d70c3a8f18b9dcb621dc70f833ebf72dfde93b145c30c19bab1a3622"
+    },
+    {
+      "path": "media/clips/film-v06/S004N_take01.mp4",
+      "sha256": "36bc34ba3aebe7b325660b14ffd34f0585b70545027a30e93ac8c14700fdb1c5"
+    },
+    {
+      "path": "media/stills/film-v06/S010-acknowledgment-start01.png",
+      "sha256": "179d8c79ec23a9901be5b293f48075c93ef1f6e9f765a3be9cfd45927710de2f"
+    },
+    {
+      "path": "media/stills/film-v06/S003-real-fabric04.png",
+      "sha256": "7f6a03bbb4d553e774dfa86282fe48e10392ad1405d9ed224b9ada41148e6497"
+    },
+    {
+      "path": "media/clips/film-v06/S011P_take01.mp4",
+      "sha256": "445072f647df0b29317dec5741581ea16e19a2edd6b6e6efd930fe6d1c70c861"
+    },
+    {
+      "path": "media/clips/film-v05/S005L_take01.mp4",
+      "sha256": "1ad6bfc7ee906cf16d162de8f0960c84fe95f9ffd6f422c343d6df48ff356842"
+    },
+    {
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    },
+    {
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "sha256": "b4180f95e5814f537524f1afcbdcbffd3766ad78b8fcf9e03cbe771f58f1f432"
+    }
+  ],
+  "limitations": [
+    "含静帧占位，未完成",
+    "本版前奏0–11.5秒接48.35–71.5167秒，交叠1秒；新接缝未实际校听，不继承旧版音频验收。",
+    "沿用S001K前5.25秒餐厅声低音量，后段空间声仍待完成。新配乐及整片均未校听。",
+    "回原画前的身份与色调接点仍需修订",
+    "局部裁切仅验证景别；不作为高清动镜交付"
+  ]
+}

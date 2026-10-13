@@ -1,0 +1,76 @@
+{
+  "shot": "S004N",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 276,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "0737b9be-cd88-41d9-8b07-ec5253dbad6e",
+      "path": "media/stills/film-v06/S004-conversation-start01.png",
+      "sha256": "14b58ed311a6b65fcf2029e025aa6b49e5c475ce762af622c6d6e7aac5d73fd2"
+    }
+  ],
+  "nodeId": "faed8531-7905-48da-9dab-4d9169fa86e6",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 6,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "0737b9be-cd88-41d9-8b07-ec5253dbad6e"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 0737b9be-cd88-41d9-8b07-ec5253dbad6e}}\nOne continuous six-second medium two-shot in the same painterly restaurant, using the reference as the exact first frame. Preserve the same adult woman seated on screen LEFT and the same mustached man seated on screen RIGHT, their clothes, table, glasses, red lamp and chair positions. Camera remains steady at their seated eye level.\n\nFor the opening one and a half seconds they quietly converse with each other: small natural mouth and eye movements, relaxed mutual attention, both hands low. Then the man notices a familiar woman passing in the aisle offscreen to the RIGHT of the camera. His eyes move first, his face turns toward screen RIGHT, the conversation stops; a small brightening of recognition replaces his conversational expression. His hand leaves the area beside his glass without lifting the glass. He leans his torso clearly forward and slightly toward the aisle, as if ready to rise and greet her, but his hips remain planted on the chair seat and he never stands up. His head advances toward the table/aisle without rising to standing height. He holds that attentive forward seated posture at the end, looking offscreen RIGHT, waiting. The seated woman notices his interrupted attention and a beat later follows his gaze toward the same offscreen RIGHT, mildly curious. Keep her expression restrained, not jealous or angry.\n\nSubtle lifelike continuous movement, normal speed, not freeze-poses. No one enters the foreground. Glasses stay on the table, no spilling, no table movement, no chair sliding, no raised greeting hand, no standing, no sitting back yet. Background diners continue quiet natural activity. Preserve faces and ages, warm steady lighting, visible painterly surface and spatial continuity. No cuts, camera orbit, zoom, scene change, dialogue audio, captions or added people.",
+  "quoteEvidence": {
+    "observedAt": "2026-10-12T17:53:54.412183+00:00",
+    "source": "Exact LibTV canvas node generation control via Chrome DOM",
+    "nodeId": "faed8531-7905-48da-9dab-4d9169fa86e6",
+    "visibleSettings": "2.5 / 图生视频 / 16:9 · 720P · 6s · 1个",
+    "credits": 276,
+    "balance": 1852
+  },
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261013015403021357550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v06/S004N_take01.mp4",
+  "sha256": "36bc34ba3aebe7b325660b14ffd34f0585b70545027a30e93ac8c14700fdb1c5",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "145"
+      }
+    ],
+    "format": {
+      "duration": "6.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "review": {
+    "frameSequence": "2fps overview inspected. Mutual conversation remains through ~3s; man then turns screen right, leans forward toward aisle; woman follows his gaze. No complete standing seen.",
+    "trim": "opening ~0-1.5s usable as S009; recognition later ~3.0-6.0s as S004, determined by actual performance rather than requested timestamps",
+    "continuationFrame": "media/stills/film-v06/S004N-frame138.png",
+    "limits": "Full shot not yet creator accepted; pelvis obscured by chair, do not claim measured foot/hip contact."
+  },
+  "balanceAfterObserved": 1576,
+  "balanceDeltaObserved": 276,
+  "balanceEvidence": "Chrome canvas header after reload; not an itemized bill"
+}

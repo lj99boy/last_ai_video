@@ -1,0 +1,142 @@
+{
+  "S003M": {
+    "y": 600,
+    "images": [
+      "media/stills/film-v06/S003-walk-softcloth01.png"
+    ],
+    "prompt": "S003M-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 6,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S003M_take01.mp4"
+  },
+  "S004N": {
+    "y": 1450,
+    "images": [
+      "media/stills/film-v06/S004-conversation-start01.png"
+    ],
+    "prompt": "S004N-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 6,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S004N_take01.mp4"
+  },
+  "S010O": {
+    "y": 2300,
+    "images": [
+      "media/stills/film-v06/S010-acknowledgment-start01.png"
+    ],
+    "prompt": "S010O-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 4,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S010O_take01.mp4"
+  },
+  "S011P": {
+    "y": 3150,
+    "images": [
+      "media/stills/film-v06/S004N-frame138.png"
+    ],
+    "prompt": "S011P-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 4,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S011P_take01.mp4"
+  },
+  "S003Q": {
+    "y": 4000,
+    "images": [
+      "media/stills/film-v06/S003-light-silver-material01.png"
+    ],
+    "videos": [
+      {
+        "nodeId": "9804b1a9-23a3-4674-8d71-fa119df21e95",
+        "path": "media/clips/film-v06/S003M_take01.mp4",
+        "sha256": "2faf8d53d70c3a8f18b9dcb621dc70f833ebf72dfde93b145c30c19bab1a3622"
+      }
+    ],
+    "prompt": "S003Q-material-edit.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "videoEdit2video",
+      "duration": 0,
+      "resolution": "720p",
+      "ratio": "adaptive",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S003Q_take01.mp4"
+  },
+  "S003R": {
+    "y": 4850,
+    "images": [
+      "media/stills/film-v06/S003-real-fabric04.png"
+    ],
+    "videos": [
+      {
+        "nodeId": "9804b1a9-23a3-4674-8d71-fa119df21e95",
+        "path": "media/clips/film-v06/S003M_take01.mp4",
+        "sha256": "2faf8d53d70c3a8f18b9dcb621dc70f833ebf72dfde93b145c30c19bab1a3622"
+      }
+    ],
+    "prompt": "S003R-motion-reference.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "mixed2video",
+      "duration": 6,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S003R_take01.mp4"
+  },
+  "S013T": {
+    "y": 5700,
+    "images": [
+      "media/stills/film-v06/S013-heroine-focus03.png"
+    ],
+    "prompt": "S013T-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 6,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v06/S013T_take01.mp4"
+  }
+}

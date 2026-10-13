@@ -1,0 +1,69 @@
+{
+  "output": "media/exports/film-v06/whole-film-structure-v02.mp4",
+  "sha256": "551aa14086b34aedb922580aba66465117f25aeab93cc6e5de97d0a3c7da390d",
+  "duration_seconds": 31.666666666666668,
+  "frames": 760,
+  "static_placeholder_seconds": 0.0,
+  "original_painting_hold_seconds": 0.25,
+  "motion_sample_seconds": 28.666666666666668,
+  "original_wall_reveal_seconds": 2.75,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "760"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1485"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "5"
+      }
+    ],
+    "format": {
+      "duration": "31.667000"
+    }
+  },
+  "full_decode": "passed",
+  "music_listening_approved_by_user": false,
+  "full_film_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+      "sha256": "0a9dc63a0c8f4a2ac07dcf48add654c709c22fb3014419e3a090be03269d3467"
+    },
+    {
+      "path": "media/clips/film-v06/whole-film-B-v02_take01.mp4",
+      "sha256": "7d582d9a131e0bde5e750891db32e1220209b65d100e161fb7801128d6232f07"
+    },
+    {
+      "path": "media/previs/half-dance-v01/ending-first.png",
+      "sha256": "f557509146028a2043e468bbd26e6d08ef872d95f776b7186f111a7aebb7a5f9"
+    },
+    {
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "sha256": "b4180f95e5814f537524f1afcbdcbffd3766ad78b8fcf9e03cbe771f58f1f432"
+    }
+  ],
+  "limitations": [
+    "完整动态剪辑候选；画质、动作接镜与整片验收尚未通过",
+    "保留用户认可的前奏0–8.5秒、48.35秒入副歌及1秒交叠；向后延续至71.5167秒以容纳第三个完整乐句。旧接缝获认可，新末尾与整片声画未校听、未验收。",
+    "乐句边界沿用已记录的本机识别证据。新编排不冒充耳听验收；保留自然原速人物动作，不为音乐加速或慢放。",
+    "回原画前的身份与色调接点仍需修订",
+    "局部裁切仅验证景别；不作为高清动镜交付"
+  ]
+}

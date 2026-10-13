@@ -1,0 +1,39 @@
+{
+  "shot": "S010O",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": false,
+  "estimatedCredits": null,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "e88d76bc-622a-4b24-9cb4-04c40da2661f",
+      "path": "media/stills/film-v06/S010-acknowledgment-start01.png",
+      "sha256": "179d8c79ec23a9901be5b293f48075c93ef1f6e9f765a3be9cfd45927710de2f"
+    }
+  ],
+  "nodeId": "a91cccb0-3216-4b99-8cee-b72bdce0ad82",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "e88d76bc-622a-4b24-9cb4-04c40da2661f"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node e88d76bc-622a-4b24-9cb4-04c40da2661f}}\nA continuous four-second medium cinematic shot using the attached image as the exact first frame. The same elegant adult woman is moving unhurriedly forward through the restaurant; camera tracks smoothly with her at the same distance, showing her full hat, shoulders, fitted waist and hips. Her eyes are directed slightly down toward a seated acquaintance OFFSCREEN LEFT, never toward the man behind her. In the first second she holds this clear eye contact with a small composed warmth in her eyes. Then she gives ONE small but clearly readable courteous nod: chin lowers gently and returns to its original level. A restrained slight smile, no grin. As the nod completes, she turns her head and eyes smoothly back toward her direction of travel, forward just past the camera. She keeps moving forward; no pause to pose and no second nod. The final second shows her attention already returned to her own path.\n\nHer hands stay relaxed low, pale pink wrap stays over both shoulders and sways gently with her body; silver fabric stays supple with broad changing folds. Preserve exact face, auburn hair, black decorated hat, earrings, original gown neckline and cut, rose on anatomical RIGHT chest (viewer LEFT), and natural proportions. The companion remains behind and screen RIGHT, following her, never crossing her eyeline. Stable warm lighting, same green-gold restaurant and restrained oil-painted surface. Subtle continuous natural live-action motion, not a sequence of frozen poses. No camera orbit or zoom, no dramatic stop or turn, no dialogue, text, tears, bow, exaggerated emotion, new person, scene change or cut.",
+  "status": "configured_not_run_material_revision_required",
+  "holdReason": "User rejected plastic/heavy gown on source continuity; replace approved material reference before running."
+}

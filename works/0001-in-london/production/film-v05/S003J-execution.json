@@ -1,0 +1,96 @@
+{
+  "shot": "S003J",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 160,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "f71447d6-500b-4bcb-ae48-451933f6ebae",
+      "path": "media/stills/film-v05/S003-arrival-identity02.png",
+      "sha256": "be4687d3adb66684cb301e558b0204072fd31a0d04d0e35376882680df94a4d6"
+    }
+  ],
+  "configurationRecovery": {
+    "failedMode": "img2video",
+    "liveReadback": "node 3dba6ae1-8732-4b60-b8bc-1e0d81158f6c not found; CLI rejected unsupported mode before creation",
+    "correctModeFromSchema": "singleImage2video",
+    "generationAttempted": false
+  },
+  "networkRecovery": "Sandbox DNS failure during canvas GET; live name lookup confirmed node absent before controlled retry.",
+  "nodeId": "f88eb7d8-4a38-4b38-bda5-329bcb882bf8",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 8,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "f71447d6-500b-4bcb-ae48-451933f6ebae"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node f71447d6-500b-4bcb-ae48-451933f6ebae}}\nOne continuous 8-second painterly cinematic shot using the reference as its first frame. The woman and her companion walk naturally forward into the restaurant for two measured steps. A smooth gentle backward camera track from the same front-left viewpoint keeps her entire silver gown, hat and feet in frame; nearby table edges move in parallax while the distant room remains stable. The woman is poised, confident and quietly glamorous, looking slightly toward the tables on screen-left. Her hips advance with each step, the hem and pale pink wrap follow with weight and small delayed motion. The gentleman follows half a step behind her and takes real steps, not a frozen pose. Background diners remain discreetly alive. In the final two seconds she eases to a natural stop beside the near table, shifts her gaze slightly toward it and begins a small shoulder turn toward screen-left; her hands remain low. This final movement is the outgoing action for the next table-side shot. Her pale wrap stays OVER BOTH SHOULDERS throughout this entrance: no removing or putting on clothing in this shot. Keep exact identity, tilted decorated hat, anatomical right-chest rose (viewer left), fitted silver gown, quiet confidence, warm restaurant and oil-painted strokes. Silver highlights belong to folds, not uniform glitter or mesh. Do not zoom instead of moving the camera; no face changes, sudden lens change, extra limbs, foot skating, huge strides, exaggerated swaying, slow-motion freeze, low head, raised hand, new people, cuts, or scene transformation. Deliver graceful lived movement rather than an animated still.",
+  "quoteEvidence": {
+    "observed_at": "2026-10-12T15:27:33.063017+00:00",
+    "source": "exact visible LibTV node editor innerText",
+    "nodeId": "f88eb7d8-4a38-4b38-bda5-329bcb882bf8",
+    "model": "SD2.5(样片)",
+    "mode": "图生视频",
+    "settings": "16:9 · 480P · 8s · 1个",
+    "credits": 160,
+    "accountBalanceBefore": 2912,
+    "billingVerified": false
+  },
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261012232803596117550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v05/S003J_take01.mp4",
+  "sha256": "9cf2f7ea7f0febe3347e2f1fc1eb94464112ae9f324a11a4e572e2f474550856",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 854,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "193"
+      }
+    ],
+    "format": {
+      "duration": "8.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "balanceEvidence": {
+    "before": 2912,
+    "after": 2752,
+    "difference": 160,
+    "source": "same LibTV account visible balance",
+    "billingVerified": false
+  },
+  "artisticReview": {
+    "status": "candidate_for_edit_review_not_hd_approved",
+    "evidence": "media/audit/film-v05/S003J-contact.png (1.5fps), integrated structure-v05",
+    "findings": [
+      "前景桌椅明显视差，人物向前，背景保持可读",
+      "两人持续移动，后段视线下落并转向桌边",
+      "帽、胸花、银裙主特征延续；运动细节与披肩肩线需原速审阅",
+      "结尾转向较新桌旁静帧更低头，接点仍需动作选择"
+    ],
+    "real_time_playback_verified": false,
+    "upgradeAuthorized": false
+  }
+}

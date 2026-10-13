@@ -1,0 +1,75 @@
+{
+  "shot": "S011P",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 184,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "346df9ad-9281-4f76-a406-240e09742ea9",
+      "path": "media/stills/film-v06/S004N-frame138.png",
+      "sha256": "abbf1948be42fb8ee30d2220d58d8a02377e0e8e1eb93b1c1f10889f8a49db59"
+    }
+  ],
+  "nodeId": "79cbd4d1-3baf-4b2a-8e5f-d71be07bbd58",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "346df9ad-9281-4f76-a406-240e09742ea9"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 346df9ad-9281-4f76-a406-240e09742ea9}}\nOne continuous four-second medium two-shot using the attached image as the EXACT opening state. Same seated couple in the same painterly restaurant: woman on screen LEFT, mustached man on screen RIGHT. At the start the man is already leaning forward toward the aisle and looking OFFSCREEN RIGHT; his hips are still on the chair seat. He decides not to rise. Over the next two seconds he gently draws his upper body BACK from this forward lean, returning his weight into the chair and letting his shoulders settle against its back. He stays seated at the same height throughout. His small expectant smile subsides naturally; he lowers his gaze briefly toward his untouched glass, a quiet restrained reaction. No sorrowful performance. His hand relaxes on the table beside the glass.\n\nThe woman initially looks in the same offscreen RIGHT direction. As he settles back she turns her eyes and then her face toward HIM, noticing his change, a small thoughtful pause. She does not look at the camera and is not angry or jealous. Her hands stay low. End with him comfortably seated back and her looking at his face. This is ONE settling-back action, not standing up and then sitting down. Preserve exact faces, costumes, table props, red lamp, chair geometry, warm lighting and painted texture. Glasses remain standing on the table. No objects lifted, no moving furniture, no hand held at chin, no raised greeting, no extra person, no camera movement, no zoom, no cuts, no captions or dialogue. Natural continuous motion at normal speed.",
+  "quoteEvidence": {
+    "observedAt": "2026-10-12T18:07:57.427425+00:00",
+    "source": "Exact LibTV canvas node generation control via Chrome DOM",
+    "nodeId": "79cbd4d1-3baf-4b2a-8e5f-d71be07bbd58",
+    "visibleSettings": "2.5 / 图生视频 / 16:9 · 720P · 4s · 1个",
+    "credits": 184,
+    "balance": 1576
+  },
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261013020803271797550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v06/S011P_take01.mp4",
+  "sha256": "445072f647df0b29317dec5741581ea16e19a2edd6b6e6efd930fe6d1c70c861",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "97"
+      }
+    ],
+    "format": {
+      "duration": "4.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "balanceAfterObserved": 1392,
+  "balanceDeltaObserved": 184,
+  "balanceEvidence": "Chrome project header after refresh",
+  "review": {
+    "technical": "720P24fps97frames full decode passed",
+    "frameSequence": "2fps overview shows torso settling back into chair, man gaze lowering and woman looking toward him; no full standing seen",
+    "limits": "Normal-speed performance and continuity need full-film review."
+  }
+}

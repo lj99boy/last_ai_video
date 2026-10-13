@@ -1,0 +1,12 @@
+shot,start_seconds,end_seconds,frames,source,purpose,planned_motion,join
+S001-detail,0.0,1.0,24,media/stills/film-v04/S001-room01.png,桌面银器与红灯先建立精致秩序,从器物旁侧移揭示服务；此裁切只作景别占位,前景桌面建立空间，切至右侧另一桌的服务；不是同桌动作连续
+S001-service,1.0,3.0,48,media/stills/film-v04/S001-room01.png,准确服务，有完成点即切,杯底已经接桌，手指松开后自然撤回；背景人群继续活动,杯面暖反光接窗边暖灯，不等侍者完整离开
+S007-window,3.0,3.75,18,media/stills/film-v04/S007-window01.png,由室内暖光连接夜街,轻微横移或短环境动镜，非独立风景展示,门外城市声提前进入，随后以同方向步伐跨门
+S008-outside,3.75,4.75,24,media/stills/film-v04/S008-threshold01.png,裙摆与步伐预告登场,固定低位，相机不跨轴，人物真正跨过门槛,与下一状态属于同一动作镜头；此处两张仅作起止说明
+S008-inside,4.75,5.75,24,media/stills/film-v05/S008-inside-landing01.png,前脚落在室内，完成空间动作,首尾帧短样片，尾帧有室内着地而非原地踏步,在行走中切至室内前侧，女主继续向餐厅深处走
+S003-entrance,5.75,10.75,120,media/stills/film-v05/S003-arrival-identity02.png,完整身段和银裙进入暖光，给主角表现空间,相机从前侧后退跟随两步，桌椅产生视差；不要求片尾僵硬站稳,她看向画左桌边；切邻桌向画右的短暂目光
+S004-glance,10.75,12.25,36,media/stills/film-v05/S004-reaction01-user-selected.png,漂亮男女旁观者的双人反应，映衬女主的吸引力,女士先抬眼、男士顺着她的视线看向画右，短促自然；不演成震惊或围观,共同目光接回女主从容继续；靠衣装、空间与前景披肩区分角色，实际接镜再判断相似性
+S003-return,12.25,14.75,60,media/stills/film-v05/S003-arrival-identity02.png,她从容继续，肩线、银裙与光变化可读,优先取同一入场素材的另一段有效动作；不为填充时长付费新拍近景。当前裁切只是占位。,近景强调胸花和衣料，接桌旁更宽构图；此接点需动态复核
+S005-settle,14.75,17.75,72,media/stills/film-v04/S005-original-wrap-start01.png,桌旁从容安顿，披肩向后离肩,只选必要动作，右手开始趋近鬓边；不演脱衣全过程,原画几何约束末态；与前镜的身份、帽型和色调仍需联合修正
+S005-painting,17.75,18.25,12,media/stills/film-v04/S005-exact-painting-target-v06.png,原画姿态被辨识，立即显框,此静帧是最终真实落点，不能以长停顿掩盖动态失败,逐帧匹配回墙第0帧，不使用仿画长溶解
+S006-reveal,18.25,21.0,66,media/exports/ending-v07/original-painting-to-wall.mp4,鲜活夜晚成为墙上的画，短收余韵,本地原画透视退开，2.3秒运动加0.45秒收尾,餐厅声远去，歌曲延续后结束；乐句听感待验收

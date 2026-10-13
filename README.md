@@ -24,6 +24,7 @@ works/                   作品索引与各作品目录
 - [作品索引](works/README.md)
 - [第一部作品](works/0001-in-london/README.md)
 - [整体流程与分工](docs/workflow.md)
+- [画作到故事：当前制作方法](docs/painting-to-story-playbook.md) / [首作完整复盘](works/0001-in-london/delivery/retrospective-2026-10-13.md)
 - [第一版工具选型](docs/tooling.md)
 - [调研依据](docs/research.md)
 - [创作实践记录](docs/practice-notes.md)
@@ -32,6 +33,14 @@ works/                   作品索引与各作品目录
 - [仓库协作约定](AGENTS.md)
 
 新作品从 `templates/work/` 复制到 `works/0002-short-name/`，更新作品 README 和索引。作品编号稳定，标题可随创作调整。
+
+## 实际使用
+
+1. 新作品：复制 `templates/work/` 到一个未使用的作品目录，先填写创作简报和一页制作卡，再登记作品索引。模板中的“待讨论”不是已批准的脚本或付费授权。
+2. 继续首作：读[当前交付与复盘](works/0001-in-london/README.md)。v03已按用户意愿收束，旧方案和准备记录仅供追溯。
+3. 检查仓库：运行 `python3 tools/check_repository.py`。恢复本地媒体后可加 `--media`核对v03素材指纹；步骤见[本地重建说明](works/0001-in-london/delivery/reproduce-v03.md)。
+
+检查脚本使用Python标准库，不登录平台、不提交生成。媒体重建依赖FFmpeg及原始文件；克隆Git并不等于媒体已经恢复。历史生成执行器不属于默认启动流程。
 
 Git 保存文本、提示词、镜头表与素材索引。`media/` 中的原始素材、生成结果、剪辑工程和成片默认仅存本地，需要独立备份；GitHub 上看到目录不代表素材已上传。
 

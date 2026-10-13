@@ -1,0 +1,74 @@
+{
+  "stage": "delivered_iteration_closed_by_creator",
+  "createdAt": "2026-10-13T07:19:30.872612+00:00",
+  "projectId": "6b6cccb8f0d5497881f0058650000fb2",
+  "createAttempted": true,
+  "runAttempted": true,
+  "paidGenerationCalls": 1,
+  "references": [
+    "80b9da41-2e77-4293-81f9-1e3b9628e8dd",
+    "463c0c05-b849-4583-9e1b-7f9259049923",
+    "284987b3-f498-47cc-b80f-b57861c28ece"
+  ],
+  "masterPath": "media/stills/film-v06/B-v03-unified-fabric-final-pose.png",
+  "promptFile": "whole-film-B-v03-resolved.txt",
+  "promptSHA256": "10ce0be8c1a9596071257dee0f8a5ea5b2b80c4a1b1eeac857955997bb18f394",
+  "settings": {
+    "model": "Seedance 2.5",
+    "modeType": "image2video",
+    "count": 1,
+    "duration": 12,
+    "resolution": "720p",
+    "ratio": "16:9",
+    "enableSound": "off"
+  },
+  "balanceObserved": 612,
+  "rechargeAuthorized": false,
+  "automaticRetryAuthorized": false,
+  "acceptance": "new reference internally reviewed; not creator-approved fabric or motion",
+  "nodeId": "1c39a17b-b2c3-4f49-a188-37218c4d4e91",
+  "readbackVerified": true,
+  "quoteEvidence": {
+    "quotedCredits": 552,
+    "balanceObservedCredits": 612,
+    "shortfallCredits": 0,
+    "observedAt": "2026-10-13T08:03:34.960849+00:00",
+    "source": "refreshed exact node visible browser controls before formal execution",
+    "settingsLabel": "16:9 · 720P · 12s · 1个",
+    "imageCount": 3,
+    "model": "2.5"
+  },
+  "masterSHA256": "858b40c732976fca4f2cff54629cafbff6a520f8c66beed90449c00d92dce1dd",
+  "submittedAt": "2026-10-13T08:03:34.960849+00:00",
+  "authorization": "User confirmed recharge and explicitly instructed continuation of the agreed one-time formal generation then complete film edit.",
+  "quoteHistory": [
+    {
+      "quotedCredits": 552,
+      "balanceObservedCredits": 612,
+      "shortfallCredits": 0,
+      "observedAt": "2026-10-13T08:03:34.960849+00:00",
+      "source": "refreshed exact node visible browser controls before formal execution",
+      "settingsLabel": "16:9 · 720P · 12s · 1个",
+      "imageCount": 3,
+      "model": "2.5"
+    }
+  ],
+  "cliExitCode": 0,
+  "resultSummary": {
+    "nodeKey": "1c39a17b-b2c3-4f49-a188-37218c4d4e91",
+    "taskId": "20261013160303003577550",
+    "status": 2
+  },
+  "actualBalanceAfter": 60,
+  "observedNetCredits": 552,
+  "taskId": "20261013160303003577550",
+  "download": "media/clips/film-v06/whole-film-B-v03_take01.mp4",
+  "delivery": "media/exports/film-v06/in-london-half-dance-v03.mp4",
+  "closure": {
+    "date": "2026-10-13",
+    "userDecision": "目前就这样",
+    "qualityFullyApproved": false,
+    "published": false,
+    "furtherGenerationAuthorized": false
+  }
+}

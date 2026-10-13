@@ -1,0 +1,90 @@
+{
+  "output": "media/exports/film-v05/whole-film-structure-v04.mp4",
+  "sha256": "49e35fee8bef8fa6bed16239df8004b3f59c0014eebb7e24003d23d945d12ac6",
+  "duration_seconds": 24.5,
+  "frames": 588,
+  "static_placeholder_seconds": 21.75,
+  "original_wall_reveal_seconds": 2.75,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "588"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1149"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "2"
+      }
+    ],
+    "format": {
+      "duration": "24.500000"
+    }
+  },
+  "full_decode": "passed",
+  "human_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/stills/film-v04/S001-room01.png",
+      "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+    },
+    {
+      "path": "media/stills/film-v04/S001-room01.png",
+      "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+    },
+    {
+      "path": "media/stills/film-v04/S007-window01.png",
+      "sha256": "a1fed35f9fcb9fb52ec8ca31c987a145bf0490c40c0d7d5bc06b134d73937326"
+    },
+    {
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff"
+    },
+    {
+      "path": "media/stills/film-v05/S008-inside-landing01.png",
+      "sha256": "b079a6184336a503ad6e9c320ca087823bbabcc2a697d5c4a5ad2e55296c8755"
+    },
+    {
+      "path": "media/stills/film-v05/S003-arrival-identity02.png",
+      "sha256": "be4687d3adb66684cb301e558b0204072fd31a0d04d0e35376882680df94a4d6"
+    },
+    {
+      "path": "media/stills/film-v05/S004-reaction01-user-selected.png",
+      "sha256": "959129ca018f11297c8a59bc3e7f73679484bf1851c983f4b2989b003e02c31a"
+    },
+    {
+      "path": "media/stills/film-v05/S003-arrival-identity02.png",
+      "sha256": "be4687d3adb66684cb301e558b0204072fd31a0d04d0e35376882680df94a4d6"
+    },
+    {
+      "path": "media/stills/film-v05/S005-table-arrival01.png",
+      "sha256": "059fd50944f9d8f1e076e61b93a4bca50f9184ce02c059a004f9304cbf436e34"
+    },
+    {
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    },
+    {
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "sha256": "b4180f95e5814f537524f1afcbdcbffd3766ad78b8fcf9e03cbe771f58f1f432"
+    }
+  ],
+  "limitations": [
+    "此版含静帧占位，不能当成片或动作通过",
+    "音乐连续播放；当前结束点未完成乐句校听",
+    "环境音仅前5秒旧餐厅素材低音量淡出；街声、整片声场与回画声效尚未实现",
+    "回原画前的身份与色调接点仍需修订",
+    "局部裁切仅验证景别；不作为高清动镜交付"
+  ]
+}

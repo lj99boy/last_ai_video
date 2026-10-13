@@ -1,0 +1,30 @@
+{
+  "output": "media/exports/film-v05/in-london-review-v08.mp4",
+  "source": "media/exports/film-v05/whole-film-structure-v08.mp4",
+  "operation": "ffmpeg stream copy video/audio only; omit internal subtitle stream",
+  "sha256": "e4d324d7db7624d904da74092595349104084dcdddf5412c0caed49ec67e3074",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "608"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1188"
+      }
+    ],
+    "format": {
+      "duration": "25.333008"
+    }
+  },
+  "music_audition_accepted": true,
+  "full_film_user_acceptance": false,
+  "final_delivery": false
+}

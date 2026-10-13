@@ -1,0 +1,85 @@
+{
+  "output": "media/exports/film-v05/whole-film-structure-v08.mp4",
+  "sha256": "78f817b145405f9355dc99024279fee217e1223deb7e1e9d6fcd59af4ad111f0",
+  "duration_seconds": 25.333333333333332,
+  "frames": 608,
+  "static_placeholder_seconds": 0.0,
+  "original_painting_hold_seconds": 0.5,
+  "motion_sample_seconds": 22.083333333333332,
+  "original_wall_reveal_seconds": 2.75,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "608"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1188"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "9"
+      }
+    ],
+    "format": {
+      "duration": "25.333008"
+    }
+  },
+  "full_decode": "passed",
+  "music_listening_approved_by_user": true,
+  "full_film_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v02/S007_take01.mp4",
+      "sha256": "0690f716f39c5322f16cd2dd1016b0243265c515cd307863dcd8a19b7c15d049"
+    },
+    {
+      "path": "media/clips/film-v02/S008_take01.mp4",
+      "sha256": "d891155665bf09e65a55969a55fa03af71779bb7f9f7dcb3fd58dbbe5bb07d80"
+    },
+    {
+      "path": "media/clips/film-v05/S003J_take01.mp4",
+      "sha256": "9cf2f7ea7f0febe3347e2f1fc1eb94464112ae9f324a11a4e572e2f474550856"
+    },
+    {
+      "path": "media/clips/film-v05/S004K_take01.mp4",
+      "sha256": "922f5400905032638153d453774ccc27ac813abdcec6a3c317c2e85db7dc2a85"
+    },
+    {
+      "path": "media/clips/film-v05/S005L_take01.mp4",
+      "sha256": "1ad6bfc7ee906cf16d162de8f0960c84fe95f9ffd6f422c343d6df48ff356842"
+    },
+    {
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    },
+    {
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "sha256": "b4180f95e5814f537524f1afcbdcbffd3766ad78b8fcf9e03cbe771f58f1f432"
+    }
+  ],
+  "limitations": [
+    "完整动态剪辑候选；画质、动作接镜与整片验收尚未通过",
+    "保留原曲前奏0–8.5秒，与48.35秒起两句副歌交叠1秒，结束在下一句前。自动识别用于定位；用户已实际试听音频并反馈“可以”，作为当前配乐基准，非整片定稿。",
+    "原曲前奏接两句完整副歌的候选编排，乐句边界来自本机识别，非耳听验收；服务环境声来自S001K前5.25秒，后续空间声层次尚待补齐。",
+    "回原画前的身份与色调接点仍需修订",
+    "局部裁切仅验证景别；不作为高清动镜交付"
+  ]
+}

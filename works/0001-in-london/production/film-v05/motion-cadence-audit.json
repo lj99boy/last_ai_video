@@ -1,0 +1,14 @@
+{
+  "source": "media/clips/film-v05/S003J_take01.mp4",
+  "decoded_frames": 193,
+  "fps": 24,
+  "adjacent_pairs": 192,
+  "exact_duplicate_pairs_at_426x240": 0,
+  "adjacent_mean_absolute_luma_change_0_255": {
+    "min": 1.817654538341158,
+    "median": 3.6540786384976522,
+    "max": 5.748102503912363
+  },
+  "interpretation": "Only checks whole-frame duplicates. Camera movement can mask local character holds. Does not prove natural gait, cloth physics, or smooth perceived motion.",
+  "prompt_issue": "8-second shot specifies two measured steps and a stop in final two seconds; plausible over-slowing factor, not proven sole cause."
+}

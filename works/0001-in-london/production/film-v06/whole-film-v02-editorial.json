@@ -1,0 +1,85 @@
+{
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_crossfade_seconds": 1.0,
+  "music_fade_in_seconds": 1.5,
+  "music_fade_out_seconds": 0.5,
+  "kind": "whole_film_formal_production_editorial_candidate",
+  "paid_generation_enabled": false,
+  "music_note": "保留用户认可的前奏0–8.5秒、48.35秒入副歌及1秒交叠；向后延续至71.5167秒以容纳第三个完整乐句。旧接缝获认可，新末尾与整片声画未校听、未验收。",
+  "music_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 8.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 23.166666666666668
+    }
+  ],
+  "music_listening_approved": false,
+  "audio_implementation_note": "乐句边界沿用已记录的本机识别证据。新编排不冒充耳听验收；保留自然原速人物动作，不为音乐加速或慢放。",
+  "room_audio": {
+    "path": "media/clips/film-v05/S001K_take01.mp4",
+    "source_start_seconds": 1.3333333333333333,
+    "duration_seconds": 4.666666666666667,
+    "volume": 0.15,
+    "fade_out_start_seconds": 3.1666666666666665,
+    "fade_out_duration_seconds": 1.5
+  },
+  "duration_note": "31.6667秒候选；延长可复用服务行动以保留既有音乐接缝和完整乐句，不新增生成时长，亦非用户固定片长。",
+  "shots": [
+    {
+      "id": "S001-service",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 112,
+      "source_start_frame": 32,
+      "purpose": "服务动作建立晚宴空间",
+      "planned_motion": "源1.333–6秒，保留侍者完成放置和收手",
+      "join": "转向门外女主的主动邀请",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "A-half-dance",
+      "path": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+      "frames": 288,
+      "source_start_frame": 0,
+      "purpose": "邀请、舞步、表情、门开四镜",
+      "planned_motion": "以正式A实际产物为准；不得用代理模型或静帧填充",
+      "join": "结束的实际跨门状态提供B连续性参考",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "B-entrance-painting",
+      "path": "media/clips/film-v06/whole-film-B-v02_take01.mp4",
+      "frames": 288,
+      "source_start_frame": 0,
+      "purpose": "入场、侧过、原画姿态三镜",
+      "planned_motion": "以正式B实际产物为准；原速完整着装与轻薄碎闪",
+      "join": "核对女主位置、右手、披肩和最后取景后接准确原画",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/previs/half-dance-v01/ending-first.png",
+      "frames": 6,
+      "source_start_frame": 0,
+      "purpose": "准确原画短暂落点",
+      "planned_motion": "采用显框视频首帧，保持0.25秒",
+      "join": "与后续显框第一帧相同，避免另取构图造成跳变",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "frames": 66,
+      "source_start_frame": 0,
+      "purpose": "揭示墙上的原画",
+      "planned_motion": "复用2.75秒准确原画显框",
+      "join": "沿完整乐句收尾，不自动发布",
+      "review_label": "整体正式制作候选 · 未定稿"
+    }
+  ]
+}

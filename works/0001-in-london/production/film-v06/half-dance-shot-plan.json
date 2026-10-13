@@ -1,0 +1,142 @@
+{
+  "stage": "whole-film-spatial-previs-and-case-based-direction",
+  "updatedAt": "2026-10-13T05:23:27.673260+00:00",
+  "approvedCasting": "media/stills/film-v06/couple-casting01.png",
+  "theme": "她，让夜晚换了节奏",
+  "priority": "女主发起行动，摄影机跟随她，表情和原画落点属于她；男伴自然参与而无独立心理特写",
+  "cameraDocument": "development/whole-film-direction-v0.16.md",
+  "durationStatus": "30 seconds is a silent spatial draft, not an approved runtime; music and action determine final timing",
+  "beats": [
+    {
+      "id": "S001",
+      "timelineStart": 0,
+      "timelineEnd": 3,
+      "planningSeconds": 3,
+      "action": "服务动作",
+      "camera": "桌侧已有素材；不声称与下一镜有已验证视线匹配",
+      "production": "existing candidate: S001K 2.75–5.75s"
+    },
+    {
+      "id": "S012",
+      "timelineStart": 3,
+      "timelineEnd": 6,
+      "planningSeconds": 3,
+      "action": "她主动邀请",
+      "camera": "过男伴窄幅肩部，同时看她的脸和伸手；接触将发生时切",
+      "production": "new production input required"
+    },
+    {
+      "id": "S013a",
+      "timelineStart": 6,
+      "timelineEnd": 11,
+      "planningSeconds": 5,
+      "action": "行进与转身",
+      "camera": "侧前方全身伴随；男伴自然参与；允许她短暂侧后，不全程锁脸",
+      "production": "new production input required; rejected S013T not reused"
+    },
+    {
+      "id": "S013b",
+      "timelineStart": 11,
+      "timelineEnd": 13,
+      "planningSeconds": 2,
+      "action": "动作中转回来的神情",
+      "camera": "承接尚未结束的转身切近，她仍有肩部运动与呼吸",
+      "production": "same continuous action as S013a"
+    },
+    {
+      "id": "S014",
+      "timelineStart": 13,
+      "timelineEnd": 15,
+      "planningSeconds": 2,
+      "action": "门打开、她转向入口",
+      "camera": "门内朝外，门扇渐露人物；松手和转向承接舞步",
+      "production": "no arbitrary shawl reset"
+    },
+    {
+      "id": "S003",
+      "timelineStart": 15,
+      "timelineEnd": 20,
+      "planningSeconds": 5,
+      "action": "跨门、完整入场",
+      "camera": "前侧全身后退跟随；她不停下来摆拍，男伴后半步",
+      "production": "S003M approved gait only; old face and fabric not final"
+    },
+    {
+      "id": "S015",
+      "timelineStart": 20,
+      "timelineEnd": 23,
+      "planningSeconds": 3,
+      "action": "邻桌侧向经过",
+      "camera": "她穿过画面、持续前进；反应保留同框环境，不再反复切旁观者",
+      "production": "same corridor position and direction as S003"
+    },
+    {
+      "id": "S005",
+      "timelineStart": 23,
+      "timelineEnd": 27,
+      "planningSeconds": 4,
+      "action": "向后交披肩，右手到鬓边",
+      "camera": "动作收束至原画观看位置；这是人物段最终停顿",
+      "production": "new casting and fabric still required; exact pose match unresolved"
+    },
+    {
+      "id": "S006",
+      "timelineStart": 27,
+      "timelineEnd": 30,
+      "planningSeconds": 3,
+      "action": "准确原画显框",
+      "camera": "显框段首帧保持0.25秒，再接既有2.75秒运动",
+      "production": "existing candidate: ending-v07/original-painting-to-wall.mp4"
+    }
+  ],
+  "localPrevis": {
+    "path": "media/previs/half-dance-v01/whole-film-spatial-previs-v01.mp4",
+    "use": "camera positions, blocking, cuts only",
+    "prohibitedAs": "generation input, gait reference, cloth or beauty proof",
+    "paidGenerationCalls": 0
+  },
+  "candidateProductionGroups": [
+    {
+      "id": "A",
+      "seconds": 12,
+      "shots": [
+        "S012",
+        "S013a",
+        "S013b",
+        "S014"
+      ]
+    },
+    {
+      "id": "B",
+      "seconds": 12,
+      "shots": [
+        "S003",
+        "S015",
+        "S005"
+      ]
+    }
+  ],
+  "groupingStatus": "proposal only; current mode, reference binding, multi-shot timing compliance and exact quotes unverified; not a guarantee of two successful jobs",
+  "budgetScenario": {
+    "status": "historical estimate only, not a current quote or authorization",
+    "historicalComparableCreditsPerSecond": 46,
+    "proposedNewGenerationSeconds": 24,
+    "illustrativeTotalCredits": 1104,
+    "lastObservedBalanceCredits": 1116,
+    "illustrativeHeadroom": 12,
+    "warning": "No reliable retry allowance. Reference-video modes may cost more; do not spend against this estimate."
+  },
+  "acceptance": {
+    "representative": "Superseded as a production loop: S013T already exists; review locally once for reuse, no paid testing loop.",
+    "wholeFilm": "all actions and camera hierarchy plus music and original-painting transition; creator final approval",
+    "publication": "not authorized"
+  },
+  "executionPolicy": "Do not run per-shot tests. Resolve whole-film sequence, joins, continuity, music and total cost before necessary production. Use current assets when they satisfy final requirements; no new charge for validation alone.",
+  "paidGenerationEnabled": false,
+  "supersededConstraints": [
+    "male permanently outside frame except arm",
+    "female full body and readable face throughout dance",
+    "small arc followed by full stop in every shot",
+    "shawl reset to repair rejected S013T input"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "observedAt": "2026-10-12T18:36:03.505065+00:00",
+  "balanceCredits": 1392,
+  "materialApproval": "04 drape direction approved; broken glints revision required",
+  "routes": [
+    {
+      "shot": "S003Q",
+      "mode": "videoEdit2video",
+      "quoteCredits": 966,
+      "balanceAfterIfRun": 426,
+      "decision": "Do not run; rejected material input and excessive share of available budget. Motion preservation unverified."
+    },
+    {
+      "shot": "S003R",
+      "mode": "mixed2video",
+      "quoteCredits": 552,
+      "balanceAfterIfRun": 840,
+      "decision": "Preferred candidate after material approval; motion reference does not guarantee exact gait preservation."
+    },
+    {
+      "mode": "singleImage2video",
+      "recentComparableQuoteCredits": 276,
+      "quoteStatus": "Historical comparable S003M/S004N, not a fresh configured-node quote",
+      "decision": "Lower cost but no direct video motion reference; no automatic fallback."
+    }
+  ],
+  "planningOnly": {
+    "remainingCoreShots": [
+      "heroine acknowledgment",
+      "continued walk"
+    ],
+    "twoFourSecondShotsAtRecentQuote": 368,
+    "RPlusCoreTotal": 920,
+    "RPlusCoreBalanceRemaining": 472,
+    "limits": "Estimates use recent comparable184/4sec; each final configured shot requires its own quote. Costume continuity may require additional work. No promise all remaining shots fit."
+  },
+  "generationSubmitted": false
+}

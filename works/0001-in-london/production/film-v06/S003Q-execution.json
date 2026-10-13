@@ -1,0 +1,66 @@
+{
+  "shot": "S003Q",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": false,
+  "estimatedCredits": 966,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "891bf1ca-a928-4c7c-8454-c72f3f47a300",
+      "path": "media/stills/film-v06/S003-light-silver-material01.png",
+      "sha256": "205f1a304a224a83fbaee10e88c8980e75b6a6934b69502bf7534c98e22447b8"
+    }
+  ],
+  "videos": [
+    {
+      "nodeId": "9804b1a9-23a3-4674-8d71-fa119df21e95",
+      "path": "media/clips/film-v06/S003M_take01.mp4",
+      "sha256": "2faf8d53d70c3a8f18b9dcb621dc70f833ebf72dfde93b145c30c19bab1a3622"
+    }
+  ],
+  "nodeId": "60e5e332-c05e-4fb4-9cf9-e5464301ce0f",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "videoEdit2video",
+    "count": 1,
+    "settings": {
+      "ratio": "adaptive",
+      "resolution": "720p",
+      "duration": 0,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "891bf1ca-a928-4c7c-8454-c72f3f47a300"
+    ],
+    "videoListOrder": [
+      "9804b1a9-23a3-4674-8d71-fa119df21e95"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node 9804b1a9-23a3-4674-8d71-fa119df21e95}}\n{{Node 891bf1ca-a928-4c7c-8454-c72f3f47a300}}\nEdit the attached SOURCE VIDEO, preserving its existing six-second duration, every step and weight transfer, camera tracking, framing, character positions, facial identities, expressions, decorated hat, rose, pink wrap, restaurant and lighting. Do not invent a new walk. The attached IMAGE is a material guide ONLY for the silver gown; it must not replace the video motion or freeze the scene.\n\nChange only the heroine's gown from thick plastic-like reflective material into lightweight supple opaque silver silk with fine silver-thread lustre, matching the image guide. Preserve the fitted original cut and waist/hip silhouette. The fabric bends in shallow fine folds with each existing knee advance, falls softly between steps, and the short hem follows lightly with a small delay. Remove stiff broad foil facets, inflated ridges and bulky ankle pooling. Use soft pearly textile reflections with small broken silver highlights, not chrome, latex, plastic glare, sequins or a dull flat grey surface. Retain her ordinary walking cadence exactly, with planted feet and continuous weight transfer. No slow motion, stop motion, extra stops, changed gait, new slit, transparency, extra train, new clothing, altered figure, face drift, new camera movement or cuts. Preserve the oil-painted surface and the whole scene outside the gown. No text, no dialogue, no music.",
+  "status": "configured_not_run_reference_rejected",
+  "holdReason": "Material01 sheen accepted, cloth volume/body silhouette rejected. Do not run this candidate.",
+  "quoteEvidence": {
+    "observedAt": "2026-10-12T18:36:03.505065+00:00",
+    "source": "Exact node browser controls; CLI configuration/readback",
+    "model": "Seedance 2.5",
+    "modeType": "videoEdit2video",
+    "settings": {
+      "ratio": "adaptive",
+      "resolution": "720p",
+      "duration": 0
+    },
+    "count": 1,
+    "inputVideoUiDurationSeconds": 6.1,
+    "inputImages": 1,
+    "credits": 966,
+    "balanceObserved": 1392,
+    "generationSubmitted": false
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "stage": "whole_film_candidate_delivered_pending_creator_review",
+  "createdAt": "2026-10-13T05:33:13.798904+00:00",
+  "projectId": "6b6cccb8f0d5497881f0058650000fb2",
+  "inputs": {
+    "casting": {
+      "uploadAttempted": true,
+      "path": "media/stills/film-v06/couple-casting01.png",
+      "sha256": "46704721205c5858f892c3a151c07dabf4dbf0f53bece58602ac1489eb81d21d",
+      "nodeId": "80b9da41-2e77-4293-81f9-1e3b9628e8dd"
+    },
+    "painting": {
+      "uploadAttempted": true,
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69",
+      "nodeId": "e46b2281-04f5-4583-b21a-2c070b9fc90c"
+    },
+    "fabric": {
+      "nodeId": "1bcaec9b-39fc-4a61-b2f8-169d058b094e",
+      "path": "media/stills/film-v06/S003-real-fabric04.png",
+      "sha256": "7f6a03bbb4d553e774dfa86282fe48e10392ad1405d9ed224b9ada41148e6497",
+      "role": "drape and restaurant architecture only; not face or sparkle approval"
+    },
+    "continuityQuotePlaceholder": {
+      "nodeId": "a2ae58d4-14ea-4f50-96ae-7df8dcda41e1",
+      "path": "media/stills/film-v04/S001-room01.png",
+      "role": "quotation placeholder only, not the actual A ending and not authorized for B execution"
+    },
+    "continuity": {
+      "path": "media/stills/film-v06/whole-film-A-v02-end-frame0287.png",
+      "sha256": "5d46357161f6e4e7b0ddfad7c969e24d5252b780dede62529a41cb67e869e954",
+      "sourceFrame": 287,
+      "sourceVideo": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+      "role": "actual A ending; use as B opening continuity only",
+      "uploadAttempted": true,
+      "nodeId": "284987b3-f498-47cc-b80f-b57861c28ece"
+    }
+  },
+  "nodes": {
+    "A": {
+      "createAttempted": true,
+      "runAttempted": true,
+      "roles": [
+        "casting",
+        "fabric"
+      ],
+      "settings": {
+        "model": "Seedance 2.5",
+        "modeType": "image2video",
+        "duration": 12,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "enableSound": "off",
+        "count": 1,
+        "search_enabled": 0,
+        "autoCompliance": 1
+      },
+      "promptFile": "whole-film-A-v02-resolved.txt",
+      "promptSHA256": "cfaf4663330f2ea08ad574fabbff14e338b59fa038303f91c90a0e884fc2321e",
+      "nodeId": "145a5aa1-91e1-4349-ace2-baa10dd41c21",
+      "readback": {
+        "model": "Seedance 2.5",
+        "modeType": "image2video",
+        "settings": {
+          "ratio": "16:9",
+          "resolution": "720p",
+          "duration": 12,
+          "enableSound": "off"
+        },
+        "count": 1,
+        "imageListOrder": [
+          "80b9da41-2e77-4293-81f9-1e3b9628e8dd",
+          "1bcaec9b-39fc-4a61-b2f8-169d058b094e"
+        ],
+        "advancedSettings": {
+          "search_enabled": 0,
+          "autoCompliance": 1
+        }
+      },
+      "configuredPromptMatches": true,
+      "quoteEvidence": {
+        "observedAt": "2026-10-13T06:03:34.419897+00:00",
+        "source": "exact-node visible browser controls after CLI configuration",
+        "quotedCredits": 552,
+        "modelLabel": "2.5",
+        "modeLabel": "图片参考",
+        "settingsLabel": "16:9 · 720P · 12s · 1个",
+        "imageCount": 2,
+        "nodeId": "145a5aa1-91e1-4349-ace2-baa10dd41c21"
+      },
+      "submittedAt": "2026-10-13T06:03:34.419897+00:00",
+      "status": "completed_pending_whole_film_review",
+      "cliExitCode": 0,
+      "taskId": "20261013140303707257550",
+      "platformStatus": 2,
+      "output": {
+        "path": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+        "sha256": "0a9dc63a0c8f4a2ac07dcf48add654c709c22fb3014419e3a090be03269d3467",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "24/1",
+              "nb_read_frames": "289"
+            }
+          ],
+          "format": {
+            "duration": "12.041667"
+          }
+        },
+        "full_decode": "passed",
+        "artistic_acceptance": false,
+        "watermarkedCopy": "media/clips/film-v06/whole-film-A-v02_take01.mp4",
+        "downloadMethod": "official CLI --vip --without-ai-watermark after effective VIP membership verified"
+      },
+      "balanceAfterObserved": {
+        "credits": 564,
+        "before": 1116,
+        "delta": 552,
+        "observedAt": "2026-10-13T06:18:28.514860+00:00",
+        "source": "refreshed LibTV canvas visible account balance",
+        "limit": "not an itemized transaction statement"
+      },
+      "localReview": {
+        "method": "one-second contact sheet and final frames; local only",
+        "observed": "four views present: invitation, full-body turn including back view, facial response, entrance through door; ending retains hand contact",
+        "motion_fluidity_accepted": false,
+        "fabric_accepted": false,
+        "creator_accepted": false
+      }
+    },
+    "B": {
+      "createAttempted": true,
+      "runAttempted": true,
+      "roles": [
+        "casting",
+        "fabric",
+        "painting",
+        "continuity"
+      ],
+      "settings": {
+        "model": "Seedance 2.5",
+        "modeType": "image2video",
+        "duration": 12,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "enableSound": "off",
+        "count": 1,
+        "search_enabled": 0,
+        "autoCompliance": 1
+      },
+      "promptFile": "whole-film-B-v02-final-resolved.txt",
+      "promptSHA256": "218ebb50ce8503eb617ee774483a6b1aa96b19d664a19562aeb0058f4df505d6",
+      "nodeId": "b2e345b8-7279-473a-ba07-28e8e3712f72",
+      "readback": {
+        "model": "Seedance 2.5",
+        "modeType": "image2video",
+        "settings": {
+          "ratio": "16:9",
+          "resolution": "720p",
+          "duration": 12,
+          "enableSound": "off"
+        },
+        "count": 1,
+        "imageListOrder": [
+          "80b9da41-2e77-4293-81f9-1e3b9628e8dd",
+          "1bcaec9b-39fc-4a61-b2f8-169d058b094e",
+          "e46b2281-04f5-4583-b21a-2c070b9fc90c",
+          "284987b3-f498-47cc-b80f-b57861c28ece"
+        ],
+        "advancedSettings": {
+          "search_enabled": 0,
+          "autoCompliance": 1
+        }
+      },
+      "configuredPromptMatches": true,
+      "quoteHistory": [
+        {
+          "observedAt": "2026-10-13T05:46:49.048067+00:00",
+          "source": "exact-node visible browser controls after CLI configuration",
+          "quotedCredits": 552,
+          "modelLabel": "2.5",
+          "modeLabel": "图片参考",
+          "settingsLabel": "16:9 · 720P · 12s · 1个",
+          "imageCount": 3,
+          "nodeId": "b2e345b8-7279-473a-ba07-28e8e3712f72",
+          "scope": "B currently has three references; actual A ending still must be attached and price refreshed before B execution"
+        },
+        {
+          "observedAt": "2026-10-13T05:57:20.379315+00:00",
+          "source": "exact-node visible browser controls; four reference chips visible",
+          "quotedCredits": 552,
+          "modelLabel": "2.5",
+          "modeLabel": "图片参考",
+          "settingsLabel": "16:9 · 720P · 12s · 1个",
+          "imageCount": 4,
+          "nodeId": "b2e345b8-7279-473a-ba07-28e8e3712f72",
+          "scope": "fourth image is an existing room still for quotation only; must replace with actual A ending frame before B execution and confirm price has not changed"
+        }
+      ],
+      "promptNormalizationNote": "Opening the rich-text editor inserted spaces after reference chips; only those spaces differed. Saved exact current readback.",
+      "quoteEvidence": {
+        "observedAt": "2026-10-13T06:26:41.416638+00:00",
+        "quotedCredits": 552,
+        "imageCount": 4,
+        "nodeId": "b2e345b8-7279-473a-ba07-28e8e3712f72",
+        "source": "exact node after actual A ending reference replaced quotation placeholder",
+        "settingsLabel": "16:9 · 720P · 12s · 1个",
+        "balanceObservedCredits": 564
+      },
+      "submittedAt": "2026-10-13T06:26:41.416638+00:00",
+      "status": "completed_pending_whole_film_review",
+      "cliExitCode": 0,
+      "taskId": "20261013142603207427550",
+      "platformStatus": 2,
+      "output": {
+        "path": "media/clips/film-v06/whole-film-B-v02_take01.mp4",
+        "sha256": "7d582d9a131e0bde5e750891db32e1220209b65d100e161fb7801128d6232f07",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "r_frame_rate": "24/1",
+              "nb_read_frames": "289"
+            }
+          ],
+          "format": {
+            "duration": "12.041667"
+          }
+        },
+        "full_decode": "passed",
+        "artistic_acceptance": false,
+        "downloadMethod": "official CLI --vip --without-ai-watermark"
+      }
+    }
+  },
+  "paidGenerationCalls": 2,
+  "B_continuity_dependency": "Before formal B generation, bind a still from A actual cross-door ending as continuity reference and refresh exact quote; this does not authorize another paid test.",
+  "liveSchemaEvidence": {
+    "path": "media/audit/film-v06/whole-film-v02/live-schema.json",
+    "durationMin": 4,
+    "durationMax": 30,
+    "imageReferenceRange": [
+      1,
+      30
+    ],
+    "multiShotExactTimingGuaranteed": false
+  },
+  "balanceObserved": {
+    "credits": 1116,
+    "observedAt": "2026-10-13T06:03:34.419897+00:00",
+    "source": "fresh LibTV visible account balance before A formal production"
+  },
+  "totalQuotedCredits": 1104,
+  "balanceAfterIfBothQuotesHold": 12,
+  "rechargeAuthorized": false,
+  "automaticRetryAuthorized": false,
+  "B_reservedCredits": 552,
+  "downloadMembershipEvidence": {
+    "effective": true,
+    "accountLevel": 40,
+    "source": "official CLI account info; no account identifiers stored"
+  },
+  "balanceAfterBothObserved": {
+    "credits": 12,
+    "observedAt": "2026-10-13T06:43:09.553085+00:00",
+    "source": "refreshed LibTV visible canvas balance",
+    "delta": 1104,
+    "limit": "not itemized bill"
+  },
+  "delivery": "media/exports/film-v06/in-london-half-dance-v02.mp4"
+}

@@ -1,0 +1,187 @@
+{
+  "kind": "story_previsualization_with_explicit_static_placeholders_not_final",
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_note": "本版前奏0–11.5秒接48.35–71.5167秒，交叠1秒；新接缝未实际校听，不继承旧版音频验收。",
+  "paid_generation_enabled": false,
+  "gates": [
+    "完整结构先审查，生成长度不等于选用长度",
+    "门槛与入场先验证；失败不升级",
+    "回原画身份接点未通过前不批量开跑",
+    "音频数值检查不等于实际校听",
+    "优先保留用户选定的男女双人反应；不为规避风险自动换成年长单人"
+  ],
+  "audience_goal": "用户明确作品也以赚取流量为目的，并选定男女双人旁观者。吸引力属于创作目标；不能由此擅自推导缩短开场、加快剪辑等固定手段，尚无实际流量验证。",
+  "timing_note": "832帧，34.667秒，实际素材与明确占位的剧情预演；片长可随实际表演调整。",
+  "audio_implementation_note": "沿用S001K前5.25秒餐厅声低音量，后段空间声仍待完成。新配乐及整片均未校听。",
+  "diner_attention_note": "用户提出在恰当时机让餐厅客人朝女主侧目。按她经过邻桌、进入暖光等可见触发安排少数人的错开反应，再衔接已选男女双人特写；具体时点随有效素材调整，不预设固定秒数或整齐转头。",
+  "room_audio": {
+    "path": "media/clips/film-v05/S001K_take01.mp4",
+    "source_start_seconds": 0,
+    "duration_seconds": 5.25,
+    "volume": 0.15,
+    "fade_out_start_seconds": 3.75,
+    "fade_out_duration_seconds": 1.5
+  },
+  "generation_principle": "用户2026-10-13明确：减少视频生成测试和失败重试次数，不减少成片镜头数量、不降低表现。先整体思考、充分检验参考和动作约束，再执行必要生成。",
+  "continuity_note": "入场使用获认可步态的原视频，其被否决服装仍可见；回应/前行使用两张不同衣料静帧占位。不能当作服装连续性或新材料动态通过。",
+  "music_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 11.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 23.166666666666668
+    }
+  ],
+  "music_crossfade_seconds": 1.0,
+  "music_fade_in_seconds": 1.5,
+  "music_fade_out_seconds": 0.75,
+  "music_listening_approved": false,
+  "shots": [
+    {
+      "id": "S001-detail",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 42,
+      "crop": [
+        0.02,
+        0.3,
+        0.6,
+        0.6
+      ],
+      "purpose": "桌面秩序",
+      "planned_motion": "取服务素材开头0–1.75秒的左桌局部，保留其镜头漂移与人群微动；裁切为景别选择。",
+      "join": "前景桌面建立空间，切至右侧另一桌的服务；不是同桌动作连续",
+      "source_start_frame": 0,
+      "source_status": "existing"
+    },
+    {
+      "id": "S001-service",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 84,
+      "purpose": "服务完成",
+      "planned_motion": "取1.75–5.25秒，杯已着桌，手指松开后撤回；背景继续活动。",
+      "join": "杯面暖反光接窗边暖灯，不等侍者完整离开",
+      "source_start_frame": 42,
+      "source_status": "existing"
+    },
+    {
+      "path": "media/clips/film-v06/S004N_take01.mp4",
+      "source_start_frame": 0,
+      "planned_motion": "交谈实际素材；建立女左男右座位关系",
+      "join": "交谈后转入口，不暗示他已认出女主",
+      "id": "S009-conversation",
+      "frames": 36,
+      "purpose": "先建立桌边二人关系",
+      "source_status": "S004N first 1.5 sec"
+    },
+    {
+      "id": "S007-window",
+      "path": "media/clips/film-v02/S007_take01.mp4",
+      "frames": 48,
+      "purpose": "窗外夜色",
+      "planned_motion": "复用已有窗景0.5–2.5秒，街上行人与马车运动、镜头缓慢侧移；并排检查后可作当前动态候选。",
+      "join": "室内红灯与玻璃反光带到夜街，再切门外裙摆；不以新旧版本号决定弃用素材。",
+      "source_start_frame": 12,
+      "source_status": "existing"
+    },
+    {
+      "id": "S008-threshold",
+      "path": "media/clips/film-v02/S008_take01.mp4",
+      "frames": 54,
+      "purpose": "跨门槛",
+      "planned_motion": "取旧片0.25–2.5秒下半身，裙摆和身体实际朝门内前进；裁切排除已失效帽发/肩部造型，保留粉披肩下缘和银裙。",
+      "join": "在女主仍向门内前进、男伴未完全遮挡前切室内正面登场；裁切后有效768×432，画质需在整片审看。",
+      "source_start_frame": 6,
+      "crop": [
+        0.25,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "source_status": "needs material/quality review"
+    },
+    {
+      "path": "media/clips/film-v06/S003M_take01.mp4",
+      "source_start_frame": 0,
+      "planned_motion": "用户认可原速步态；当前银裙塑料和厚重问题未解决",
+      "join": "5.5秒连续展示后切男子认出",
+      "review_label": "入场步态已认可 · 银裙材质待修",
+      "id": "S003-entrance",
+      "frames": 132,
+      "purpose": "完整身段先展示",
+      "source_status": "gait accepted; fabric unresolved"
+    },
+    {
+      "path": "media/clips/film-v06/S004N_take01.mp4",
+      "source_start_frame": 72,
+      "planned_motion": "男子转向画右并前倾，同桌女子随后注意",
+      "join": "男子看画右，对接女主看画左；不以提示时间替代实际时间",
+      "id": "S004-recognition",
+      "frames": 72,
+      "purpose": "认出并前倾",
+      "source_status": "S004N last 3 sec"
+    },
+    {
+      "path": "media/stills/film-v06/S010-acknowledgment-start01.png",
+      "planned_motion": "待拍：小点头并转回前方。本段是静帧，不能证明表演",
+      "join": "需要承接男子目光，再回行进方向",
+      "review_label": "静帧占位 · 待拍女主点头回应",
+      "id": "S010-acknowledgment",
+      "frames": 72,
+      "purpose": "女主点头并转回前方",
+      "source_status": "not generated"
+    },
+    {
+      "path": "media/stills/film-v06/S003-real-fabric04.png",
+      "planned_motion": "待拍：她继续向自己的桌子前行，完整身形保持可见。静帧也未获材质认可",
+      "join": "继续走之后切男子收回动作；占位不能验证真实位移",
+      "review_label": "静帧占位 · 待拍继续前行 · 材质未确认",
+      "id": "S003-pass",
+      "frames": 60,
+      "purpose": "继续走向自己的桌子",
+      "source_status": "not generated"
+    },
+    {
+      "path": "media/clips/film-v06/S011P_take01.mp4",
+      "source_start_frame": 0,
+      "planned_motion": "由前倾重心后收，女子看回男子；实际候选待完整接镜审查",
+      "join": "S004N实际第138帧驱动该镜，因女主两段反打形成动作省略",
+      "id": "S011-withdrawal",
+      "frames": 64,
+      "purpose": "男子收回动作，女子看回他",
+      "source_status": "S011P candidate"
+    },
+    {
+      "id": "S005-settle",
+      "path": "media/clips/film-v05/S005L_take01.mp4",
+      "frames": 90,
+      "purpose": "披肩后卸，抬手至鬓边",
+      "planned_motion": "取0.25–4.0秒：右手抬至鬓边，披肩向后离肩，落到原画；不另插静帧冒充动作。尾段姿态稳定，是否压缩停留由整片观看决定。",
+      "join": "男女反应后切已到桌旁的女主；S005L已接入，抽帧动作方向成立。原画落点和整片观感待用户审阅。",
+      "source_start_frame": 6,
+      "source_status": "existing pending material continuity"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "frames": 12,
+      "purpose": "原画姿态落点",
+      "planned_motion": "此静帧是最终真实落点，不能以长停顿掩盖动态失败",
+      "join": "逐帧匹配回墙第0帧，不使用仿画长溶解",
+      "source_status": "original"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "frames": 66,
+      "purpose": "退开显框",
+      "planned_motion": "本地原画透视退开，2.3秒运动加0.45秒收尾",
+      "join": "原画落点后显框；音乐末尾收束已单独试听认可，整片声画结合待审。",
+      "source_status": "existing"
+    }
+  ]
+}

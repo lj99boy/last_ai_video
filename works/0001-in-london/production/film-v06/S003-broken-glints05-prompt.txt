@@ -1,0 +1,5 @@
+Edit target: S003-real-fabric04.png. Supporting reference: R001-user-photo-original.jpg, original painting gown reflections only.
+
+Keep the first image's thin, smooth, low-volume drape and exact body silhouette. Restore the original painting's delicate, irregular broken silver glints on the cloth surface, with quiet cool silver-gray intervals between highlights. Surface reflection only: no raised ridges, diagonal bands, thick sequins, foil, scales or added cloth volume. Do not brighten the whole gown uniformly. Maintain natural waist and hips, shallow flowing vertical folds, narrow lightly touching hem, neckline, rose side, hat, face, pose, pink wrap, following man, room and framing. No change outside the silver textile. Single 16:9 painterly frame, no text.
+
+Built-in imagegen expanded execution prompt and resulting image are recorded in image-assets.json.

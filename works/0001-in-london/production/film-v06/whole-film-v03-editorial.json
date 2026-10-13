@@ -1,0 +1,95 @@
+{
+  "fps": 24,
+  "music": "media/audio/film-v03/young-and-beautiful-user-source.mp3",
+  "music_start_seconds": 1.0,
+  "music_source_start_seconds": 0,
+  "music_crossfade_seconds": 1.0,
+  "music_fade_in_seconds": 1.5,
+  "music_fade_out_seconds": 0.5,
+  "kind": "whole_film_v03_actual_edit",
+  "paid_generation_enabled": false,
+  "music_note": "保留用户认可的前奏0–8.5秒、48.35秒入副歌及1秒交叠；向后延续至71.5167秒以容纳第三个完整乐句。旧接缝获认可，新末尾与整片声画未校听、未验收。",
+  "music_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 8.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 23.166666666666668
+    }
+  ],
+  "music_listening_approved": false,
+  "audio_implementation_note": "乐句边界沿用已记录的本机识别证据。新编排不冒充耳听验收；保留自然原速人物动作，不为音乐加速或慢放。",
+  "room_audio": {
+    "path": "media/clips/film-v05/S001K_take01.mp4",
+    "source_start_seconds": 1.3333333333333333,
+    "duration_seconds": 4.666666666666667,
+    "volume": 0.15,
+    "fade_out_start_seconds": 3.1666666666666665,
+    "fade_out_duration_seconds": 1.5
+  },
+  "duration_note": "总31.6667秒。A删45帧门框重复，画作显框增加45帧以完成已用音乐乐句；人物全程原速，无冻结补帧。",
+  "shots": [
+    {
+      "id": "S001-service",
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "frames": 112,
+      "source_start_frame": 32,
+      "purpose": "服务动作建立晚宴空间",
+      "planned_motion": "源1.333–6秒，保留侍者完成放置和收手",
+      "join": "转向门外女主的主动邀请",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "A-half-dance",
+      "path": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+      "frames": 243,
+      "source_start_frame": 0,
+      "purpose": "邀请、舞步、表情、门开四镜",
+      "planned_motion": "保留舞步和回应，删除源10.125秒后的重复门框镜头",
+      "join": "A尾部允许本地剪掉门框停顿或重复状态；与B实际起始的方向、松手阶段和前进动作共同选择切帧。保留A表演，不锁死288帧。",
+      "review_label": "整体正式制作候选 · 未定稿",
+      "source_range_status": "actual_selected"
+    },
+    {
+      "id": "B-entrance-painting",
+      "path": "media/clips/film-v06/whole-film-B-v03_take01-painting-join.mp4",
+      "frames": 288,
+      "source_start_frame": 0,
+      "purpose": "入场、侧过、原画姿态三镜",
+      "planned_motion": "保留实际三镜：入场、白花先遮后露的侧面展示、到桌抬手；原速。白花由用户明确认可保留。",
+      "join": "核对A→B同裙连续性；实际B终态与准确原画的脸、玫瑰、右肘、肩线及披肩位置对齐后选切点，不用叠化隐藏状态错误。",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "S005-painting",
+      "path": "media/previs/half-dance-v01/ending-first.png",
+      "frames": 6,
+      "source_start_frame": 0,
+      "purpose": "准确原画短暂落点",
+      "planned_motion": "采用显框视频首帧，保持0.25秒",
+      "join": "与后续显框第一帧相同，避免另取构图造成跳变",
+      "review_label": "整体正式制作候选 · 未定稿"
+    },
+    {
+      "id": "S006-reveal",
+      "path": "media/exports/ending-v08/original-painting-to-wall.mp4",
+      "frames": 111,
+      "source_start_frame": 0,
+      "purpose": "揭示墙上的原画",
+      "planned_motion": "准确原画4.625秒显框，镜头4.175秒退至全框，末尾0.45秒收住",
+      "join": "沿完整乐句收尾，不自动发布",
+      "review_label": "整体正式制作候选 · 未定稿"
+    }
+  ],
+  "timing_status": "selected_from_actual_generated_material",
+  "completion_audit": "whole-film-v03-readiness-audit.md",
+  "user_latest_decision": "2026-10-13：白花前景可以保留，增加神秘感；先遮后露不再视为必须删除的硬伤。",
+  "review_limitations": [
+    "用户按v03决定本轮收束；不自动视为所有质量项通过或已发布",
+    "入场银裙仍有较宽亮带；衣料柔软观感未确认完全解决",
+    "实际侧面镜头含白花先遮后露，用户明确允许保留",
+    "本地重建只复现剪辑，不产生新的原速观看或听感验收"
+  ]
+}

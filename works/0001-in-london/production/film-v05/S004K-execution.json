@@ -1,0 +1,76 @@
+{
+  "shot": "S004K",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 184,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "d72faea7-dbba-4391-a03f-37c76ca9f613",
+      "path": "media/stills/film-v05/S004-reaction01-user-selected.png",
+      "sha256": "959129ca018f11297c8a59bc3e7f73679484bf1851c983f4b2989b003e02c31a"
+    }
+  ],
+  "nodeId": "fc9d22a5-3db5-4c07-9f13-a8d8073119a3",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "d72faea7-dbba-4391-a03f-37c76ca9f613"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node d72faea7-dbba-4391-a03f-37c76ca9f613}}\nOne continuous 4-second restrained reaction shot, preserving the supplied oil-painted composition and these exact two attractive seated diners. BOTH PEOPLE ALREADY LOOK TOWARD SCREEN-RIGHT in the first frame. Continue that attention instead of making them turn their heads again: the woman gives a barely warmer appreciative smile and a small natural blink, her glass-side fingers briefly pause; the man holds his quietly interested glance and slightly relaxes the hand beside his cheek. Their eyes follow the passing woman's movement subtly toward the right, with no large head rotation. The pale pink-clad foreground figure at the far RIGHT edge moves past slowly and partly clears the edge; never turn this foreground sliver into a new face or a second woman. The diners remain seated, elegant and composed; background conversations and small movements continue. Keep the camera almost still with a very gentle breathing drift, no push into faces. Preserve facial identity, period clothing, natural oil-painted brushwork, warm lamps, table geometry and glass shapes. No speaking, jealousy, comic reaction, shock, exaggerated grin, mass turning, extra limbs, face morphing, glitter, mesh, freeze or cut.",
+  "quoteEvidence": {
+    "observed_at": "2026-10-12T15:50:54.165598+00:00",
+    "source": "exact LibTV node editor",
+    "nodeId": "fc9d22a5-3db5-4c07-9f13-a8d8073119a3",
+    "settings": "Seedance 2.5; singleImage2video; 16:9 720P 4s 1; audio off",
+    "credits": 184,
+    "billingVerified": false
+  },
+  "status": "candidate_for_editorial_review",
+  "taskId": "20261012235103790757550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v05/S004K_take01.mp4",
+  "sha256": "922f5400905032638153d453774ccc27ac813abdcec6a3c317c2e85db7dc2a85",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "97"
+      }
+    ],
+    "format": {
+      "duration": "4.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "balanceAudit": {
+    "observed_after_both_runs": 2312,
+    "observed_before_both_runs": 2752,
+    "net_decrease": 440,
+    "combined_quotes": 460,
+    "difference_from_quoted_decrease": 20,
+    "observed_at": "2026-10-12T16:03:44.394366+00:00",
+    "note": "同一账户刷新余额；两镜净减少比报价合计少20，原因未核实，不能据此分配逐任务实际扣费。"
+  }
+}

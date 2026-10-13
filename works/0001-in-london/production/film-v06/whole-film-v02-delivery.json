@@ -1,0 +1,68 @@
+{
+  "output": "media/exports/film-v06/in-london-half-dance-v02.mp4",
+  "sha256": "3f30a4ef9a85d38e36922ac94049e7f325c0dfbadc3a313bb812f9acb30234b7",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "760"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "1485"
+      }
+    ],
+    "format": {
+      "duration": "31.666667"
+    }
+  },
+  "full_decode": "passed",
+  "frames": 760,
+  "source_generation_count": 2,
+  "retries": 0,
+  "paid_credits_balance_delta": 1104,
+  "balance_after_observed": 12,
+  "balance_observed_at": "2026-10-13T06:43:09.553085+00:00",
+  "cost_limit": "balance difference, not itemized bill or RMB cost",
+  "local_edit": "last 0.5s of B blends to exact painting; 0.25s exact hold then 2.75s original reveal; no retiming",
+  "subtitle_tracks": 0,
+  "static_motion_placeholders": 0,
+  "creator_accepted": false,
+  "motion_fluidity_verified": false,
+  "whole_film_listening_verified": false,
+  "known_limitations": [
+    "Silver dress has broad satin highlights; requested broken sparkle is not consistently retained.",
+    "Photographic A/B first views change to painterly target near B 8s; style and hat continuity are not seamless.",
+    "Local final dissolve reduces the pose jump but does not prove shawl gesture or full continuity correct."
+  ],
+  "creator_feedback": {
+    "improvement": "灵动性和镜头表现力丰富了",
+    "final_accepted": false,
+    "issues": [
+      {
+        "time": "15–18s",
+        "issue": "切换生硬"
+      },
+      {
+        "time": "middle",
+        "issue": "服装质感不对"
+      },
+      {
+        "time": "around21s",
+        "issue": "展示女主时被前景遮挡"
+      },
+      {
+        "time": "around27s",
+        "issue": "回油画动作错误"
+      }
+    ]
+  }
+}

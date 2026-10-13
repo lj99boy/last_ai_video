@@ -1,0 +1,95 @@
+{
+  "shot": "S008I",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 80,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "ff9a070e-ec55-4a3c-a3c7-869c1b2e6199",
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff"
+    },
+    {
+      "nodeId": "7e082dc8-6edd-4dff-9fd8-18fb095f9cfa",
+      "path": "media/stills/film-v05/S008-inside-landing01.png",
+      "sha256": "b079a6184336a503ad6e9c320ca087823bbabcc2a697d5c4a5ad2e55296c8755"
+    }
+  ],
+  "nodeId": "4e782e83-19fe-4793-87bf-3d564870e95e",
+  "readback": {
+    "model": "Seedance 2.5（样片模式）",
+    "modeType": "frames2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "480p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "ff9a070e-ec55-4a3c-a3c7-869c1b2e6199",
+      "7e082dc8-6edd-4dff-9fd8-18fb095f9cfa"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node ff9a070e-ec55-4a3c-a3c7-869c1b2e6199}}\n{{Node 7e082dc8-6edd-4dff-9fd8-18fb095f9cfa}}\nSingle continuous 4-second oil-painted shot. The two reference frames show the same fixed low-angle camera before and after ONE stride into the restaurant. Interpolate a physically clear walking action, not a dissolve or sliding still. The woman lifts her leading shoe, moves it over the sill, places it firmly onto the interior floor, transfers her body weight forward and lifts the trailing heel. Her hips and silver gown advance with that step, the train follows naturally over the sill. The gentleman follows half a step behind, never crosses in front. Finish inside at the supplied end frame. Keep the camera completely fixed; street, doorway and lamp do not move or warp. No marching in place, backwards step, foot skating, cloth melting or extra legs. Preserve the starting painting's broken silver highlights tied to folds, pale wrap and natural brushwork; no new mesh, glitter dots or photorealistic surface. No added person, cut or camera transition. Continue natural physical movement until reaching the inside landing; do not freeze early.",
+  "quoteEvidence": {
+    "observed_at": "2026-10-12T14:53:43.331495+00:00",
+    "source": "LibTV visible editor DOM and screenshot",
+    "nodeId": "4e782e83-19fe-4793-87bf-3d564870e95e",
+    "model": "SD2.5(样片)",
+    "mode": "首尾帧",
+    "settings": "16:9 · 480P · 4s · 1个",
+    "sound": "off (CLI readback, muted UI icon)",
+    "credits": 80,
+    "accountBalanceBefore": 2992,
+    "billingVerified": false
+  },
+  "status": "completed_pending_artistic_review",
+  "taskId": "20261012225303043847550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v05/S008I_take01.mp4",
+  "sha256": "0053c0adc390d16a29b7d8b847a8e304de4f00a4ee77ad2f5562ce6495449cca",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 852,
+        "height": 480,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "97"
+      }
+    ],
+    "format": {
+      "duration": "4.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "balanceEvidence": {
+    "before": 2992,
+    "after": 2912,
+    "difference": 80,
+    "source": "same account visible LibTV balance before and after completed task",
+    "billingVerified": false
+  },
+  "artisticReview": {
+    "status": "not_accepted",
+    "evidence": "media/audit/film-v05/S008I-contact.png (3fps)",
+    "findings": [
+      "鞋向室内位置移动；起止空间差异可见",
+      "前段裙摆明显上提，需要排除布料收缩代替步态",
+      "男伴跟步不充分，尚不能证明自然连续跨门槛"
+    ],
+    "real_time_playback_verified": false,
+    "decision": "不升级、不重试；保留诊断素材，先推进整片接点与主镜"
+  }
+}

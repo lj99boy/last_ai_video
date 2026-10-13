@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "user_approved": {
+    "motion_and_soft_fabric_optimization": true,
+    "story_option": "A: 一场没有发生的重逢",
+    "heroine_visual_priority": "突出原画式着装和身段的瞬间惊艳；完整登场与落回原画两次展示",
+    "S003M_gait": true,
+    "material01_sheen": true,
+    "real_fabric04_drape_direction": true,
+    "half_dance_proposal": "用户确认“这个提案可以的，没有违背我上面的要求”；保留并细化，核心仍是惊艳的女主，非以浪漫插曲为主旨。具体分镜与最终故事组合未验收。",
+    "couple_casting": {
+      "asset": "media/stills/film-v06/couple-casting01.png",
+      "creator_feedback": "好的，两个人物可以了",
+      "scope": "男女主的人物形象与搭配获认可，作为后续分镜和视频的人物基准；不扩展为该图衣料、动态、全身比例或成片验收。"
+    },
+    "whole_film_v02_progress": "用户反馈：有改善，灵动性和镜头表现力丰富了；仅认可改善，不是整片验收。",
+    "S015_arc_follow_proposal": "用户：好的可以，带着其他问题继续完整优化；2026-10-13认可弧线跟拍并授权与另外三处一并优化。"
+  },
+  "not_approved_or_proven": [
+    "具体分镜美学验收",
+    "新材质下的动态步态与布料表现（原S003M步态已获认可）",
+    "剧情人物的婚姻或旧情关系设定",
+    "最终成片与发布"
+  ],
+  "paid_video_generation_enabled": false,
+  "purpose_of_current_stage": "whole film candidate review; no further paid generation",
+  "user_rejected": {
+    "S003M_fabric": "plastic and too heavy; preserve accepted gait while revising material",
+    "material01_volume_and_figure": "Gloss accepted, but dress still looks heavy and heroine appears wider."
+  },
+  "user_requested_revision": {
+    "fabric": "保留轻薄垂坠，再补回原画的碎闪",
+    "story_camera": "旁观者镜头太多；从其他视角表现，重新挖掘共同目标和原作",
+    "creative_expansion": "借鉴最初参考片从原画拓展行动、情绪与镜头的能力，不把其浪漫主题移作本片目标；半支舞可以作为突出女主的表现手段。",
+    "casting": "男伴要更帅，参考原画感觉的帅；女主也要是超级大美女级别。允许提升双人形象，保留原画气质与女主视觉主导，不将新候选冒充已验收。",
+    "camera": "镜头视角更灵动，要有正面以外的方向；由导演主动设计，而不是等用户逐镜指出。",
+    "heroine_dominance_every_beat": "用户明确要求每个部分都弱化男伴、突出女主。保留已认可的英俊男伴，弱化的是叙事与画面权重；动作、视线、构图、灯光、焦点、剪辑与情绪落点均围绕女主。",
+    "whole_film_first_cost_control": "用户明确：积分很贵，不要拿积分反复检查；要有整体视角，尽量整体成片一步到位。停止付费单镜试验循环，先整体确定故事、镜头衔接、人物主次、衣料状态、音乐与复用素材，核算缺失部分总费用，再按完整成片计划制作。",
+    "case_research_before_generation": "用户指出当前视频缺乏灵动且已花费数百元，要求实际研究原片、LibTV及成熟Skill案例；本轮只研究，不提交生成。",
+    "whole_film_v02_four_issues": [
+      "15–18秒切换生硬",
+      "服装中间部分质感不对",
+      "21秒附近本应展示女主却被前景遮挡",
+      "27秒左右过渡回油画动作错误"
+    ],
+    "S015_camera_exploration": "用户建议探索旋转或其他更抓人的展示方案；不是指定必须旋转。导演推荐侧面到前侧的小弧线跟拍，见S015-arc-follow-proposal.md，尚未生成或验收。"
+  },
+  "next_creative_stage": "v03三项整片边界补入：A尾部切点可调、A/B材质一致、实际终态到原画后期。全部四处问题在完整声画中解决并经用户定稿后结束制作，不默认再开优化轮次。尚未新视频生成；新增积分费用仍待用户决定。",
+  "current_blocking_proposal": "development/whole-film-direction-v0.16.md",
+  "current_camera_proposal": "development/whole-film-direction-v0.16.md",
+  "paid_video_generation_scope": "none currently enabled",
+  "current_production_policy": "development/whole-film-production-policy-v0.15.md",
+  "current_case_audit": "docs/directing-case-audit-2026-10-13.md",
+  "superseded_execution_constraints": [
+    "男伴永久留在画外只显示手臂",
+    "在整个舞蹈段同时硬锁女主全身完整、脸始终可读、短弧线和结尾停稳"
+  ],
+  "current_story_proposal": "《偷来半支舞》：女主主动改变晚宴前的一刻；旧重逢第一案作为历史认可保留，不自动拼入本版。",
+  "current_local_previs": {
+    "path": "media/previs/half-dance-v01/whole-film-spatial-previs-v01.mp4",
+    "scope": "spatial planning only, not a film candidate",
+    "creator_accepted": false
+  },
+  "current_formal_configuration": "production/film-v06/whole-film-v03-configuration.json",
+  "current_editorial_plan": "production/film-v06/whole-film-v03-editorial.json",
+  "current_delivery": "production/film-v06/whole-film-v02-delivery.json",
+  "completion_criteria": "production/film-v06/whole-film-v03-readiness-audit.md"
+}

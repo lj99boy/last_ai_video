@@ -1,0 +1,31 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_read_frames": "760"
+    },
+    {
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 2,
+      "r_frame_rate": "0/0",
+      "nb_read_frames": "1485"
+    }
+  ],
+  "format": {
+    "duration": "31.666667"
+  },
+  "full_decode": "passed",
+  "sha256": "d800933a28253fc5dba81c1f33750ab8818cc72cd00b6f7211abe97d4dd7e7ff",
+  "output": "media/exports/film-v06/in-london-half-dance-v03.mp4",
+  "userAcceptance": false,
+  "paidGenerationCount": 1,
+  "creditsBefore": 612,
+  "creditsAfter": 60,
+  "observedNetCredits": 552
+}

@@ -1,0 +1,10 @@
+{
+  "paid_generation_enabled": false,
+  "reason": "Superseded by film-v06: user approved story A and heroine visual-priority/motion optimization; old v05 tasks must not restart.",
+  "allowed_shots": [],
+  "max_single_run_credits": 184,
+  "balance_observed_credits": 2128,
+  "balance_is_live": false,
+  "whole_film_authorization": "User authorized continued meaningful economical production; no recharge, no automatic retry",
+  "balance_observed_at": "2026-10-12T16:58:54.553782+00:00"
+}

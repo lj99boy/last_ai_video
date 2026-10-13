@@ -1,0 +1,200 @@
+[
+  {
+    "id": "story-six-beats01",
+    "path": "media/stills/film-v06/story-six-beats01.png",
+    "sha256": "70407a179c7d5416e5f78d87617d7281f7456ece4940381b0c686aa4eaae0b02",
+    "prompt": "production/film-v06/storyboard-six-beats-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "narrative_previs_only_not_video_input",
+    "review": "direction.md and README.md"
+  },
+  {
+    "id": "S003-walk-softcloth01",
+    "path": "media/stills/film-v06/S003-walk-softcloth01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-32134fcc-1f88-446a-ae1f-a9d57cc3353c.png",
+    "sha256": "266534caadc404a79b532c3cb3912c57f5e3cb367348299021b7ce0206c525b8",
+    "prompt": "production/film-v06/S003-softcloth-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "static_candidate_for_walking_preflight_not_motion_accepted",
+    "review": {
+      "identity": "hat, face, rose side and following companion visually retained",
+      "silhouette": "head-to-toe figure, fitted waist/hips and hem remain readable",
+      "fabric": "broader rounded folds and reduced shard-like texture compared with v05; silver sheen retained",
+      "gait_start": "front shoe visible beneath hem with implied bent knee; trailing hem has contact with floor",
+      "limits": "still image cannot prove weight-transfer sequence, foot contact over time, soft cloth dynamics or freedom from stutter"
+    }
+  },
+  {
+    "id": "S004-conversation-start01",
+    "path": "media/stills/film-v06/S004-conversation-start01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-65d8c7f2-f715-401d-99bb-6f36a896f8f3.png",
+    "sha256": "14b58ed311a6b65fcf2029e025aa6b49e5c475ce762af622c6d6e7aac5d73fd2",
+    "prompt": "production/film-v06/S004-conversation-start-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "selected_production_start_frame",
+    "review": {
+      "identities": "selected auburn woman left and mustached man right retained",
+      "start": "mutual gaze, hands down, coupe glasses on table, man seated and not leaning forward",
+      "removal": "passing foreground heroine removed; aisle visible",
+      "limit": "chair partially hides pelvis; video must preserve seated body height"
+    }
+  },
+  {
+    "id": "S010-acknowledgment-start01",
+    "path": "media/stills/film-v06/S010-acknowledgment-start01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-12283ce0-ae4f-4f4d-9311-096b912ec42d.png",
+    "sha256": "179d8c79ec23a9901be5b293f48075c93ef1f6e9f765a3be9cfd45927710de2f",
+    "prompt": "production/film-v06/S010-acknowledgment-start-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "selected_production_start_frame",
+    "review": {
+      "framing": "hat to hips, waist and shoulders readable",
+      "gaze": "screen left and slightly down toward offscreen seated man; companion remains behind on right",
+      "continuity": "face, red chest rose side, black decorated hat and wrap over shoulders retained; fine hat decoration detail is regenerated",
+      "limits": "nod and forward gaze not yet performed"
+    }
+  },
+  {
+    "id": "S003-light-silver-material01",
+    "path": "media/stills/film-v06/S003-light-silver-material01.png",
+    "sha256": "205f1a304a224a83fbaee10e88c8980e75b6a6934b69502bf7534c98e22447b8",
+    "prompt": "production/film-v06/S003-light-silver-material-prompt.txt",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-38c1ace9-1174-4021-b1a5-dae3205adee0.png",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "rejected_for_volume",
+    "review": "Reduced large plastic specular facets and shallower folds; fine silver sheen remains. Still cannot prove lightweight motion.",
+    "creatorReview": "光泽可以，但是显厚重，而且女主感觉变胖了"
+  },
+  {
+    "id": "S003-light-silver-silhouette02",
+    "path": "media/stills/film-v06/S003-light-silver-silhouette02.png",
+    "sha256": "283a06b7f1a14c282f79da3072b948ce7d52ab86110bd9a2bca20b4782735f5a",
+    "prompt": "production/film-v06/S003-light-silver-silhouette02-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "under_review_not_video_input",
+    "review": "Hem is narrower than material01; torso/hip silhouette and wrap volume remain very similar. Do not claim full correction or spend on video before resolving this."
+  },
+  {
+    "id": "S003-shallow-folds03",
+    "path": "media/stills/film-v06/S003-shallow-folds03.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-ba96d834-b926-40ab-8387-06464dcd3d76.png",
+    "sha256": "e8a9951770a9a4804303e70f206ee32b43981c6ccac5d73c4742b57425e37a50",
+    "prompt": "production/film-v06/S003-shallow-folds03-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "insufficient_material_change_not_selected",
+    "review": "Fine texture changed, but thick diagonal folds and continuous thigh sheen remain too similar. Do not claim creator acceptance or submit video; no identical-prompt retry."
+  },
+  {
+    "id": "S003-real-fabric04",
+    "path": "media/stills/film-v06/S003-real-fabric04.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-f5c8a19e-a302-4018-882d-7c6ba3e0f04e.png",
+    "sha256": "7f6a03bbb4d553e774dfa86282fe48e10392ad1405d9ed224b9ada41148e6497",
+    "prompt": "production/film-v06/S003-real-fabric04-prompt.txt",
+    "supporting_reference": "production/film-v06/fabric-reference.json",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "drape_direction_accepted_glints_revision_requested",
+    "review": "Visible removal of dense diagonal ridges across waist and hips; smoother low-volume satin drape and narrow hem. Less broken sparkle than original painting; creator should judge material direction before video.",
+    "creatorReview": "保留轻薄垂坠，再补回原画的碎闪"
+  },
+  {
+    "id": "S003-broken-glints05",
+    "path": "media/stills/film-v06/S003-broken-glints05.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-0fe4a377-0cdb-4302-a534-10291431c2c0.png",
+    "sha256": "9070e77bfe83a1b7cce80a28202e964e1e52537e80e354df8ef49330366b6e3b",
+    "prompt": "production/film-v06/S003-broken-glints05-execution-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "rejected_by_visual_review_not_video_input",
+    "review": "Drape retained but reflections form large angular scale-like patches. Does not satisfy fine broken original glints; no video run."
+  },
+  {
+    "id": "S003-fine-glints06",
+    "path": "media/stills/film-v06/S003-fine-glints06.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-b7a7d5a1-d946-4936-a169-135dbee82abc.png",
+    "sha256": "2627f566c944b5deadc92f57694fe784899ee2894a957d29343b4b2362f1ada5",
+    "prompt": "production/film-v06/S003-fine-glints06-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "material_candidate_not_creator_accepted",
+    "review": "Finer granular highlights, shallow smooth drape and overall silhouette visually retained. Less faceted than05; still more uniform and bright than original, and no dynamic validation."
+  },
+  {
+    "id": "couple-casting01",
+    "path": "media/stills/film-v06/couple-casting01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-2adfb067-65db-4a60-b13f-25e9f58e4658.png",
+    "sha256": "46704721205c5858f892c3a151c07dabf4dbf0f53bece58602ac1489eb81d21d",
+    "prompt": "production/film-v06/companion-casting01-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "creator_approved_character_reference",
+    "review": "Both faces clearly visible in medium two-shot. Companion has leaner defined face, neat moustache and tailored upright bearing. Heroine retains red hair, hat, rose side and silver/pink palette, with refined facial features and long neck. Creator approved both character appearances and pairing. This changed crop cannot verify full-body silhouette or gait. Wrap appears crisp and dress highlights remain broad; this casting still does not supersede the accepted lightweight drape direction or constitute fabric approval.",
+    "creatorReview": "好的，两个人物可以了",
+    "approved_scope": "Both character appearances and pairing; not fabric, full-body proportions, motion or final film."
+  },
+  {
+    "id": "half-dance-board01",
+    "path": "media/stills/film-v06/half-dance-board01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-3920044e-f9b4-46e1-a37a-71678250578b.png",
+    "sha256": "26a7bbcbe30173738e9cf2f9a1cd83f53d689b81a91b18e9b8d2672e9ecf6fc0",
+    "prompt": "production/film-v06/half-dance-board01-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "narrative_previs_only_not_video_input",
+    "review": "Six intended beats present, approved faces recognizable and same entrance motif connects porch/interior. Generated sheet is 16:9 overall rather than requested 2x3 of 16:9 panels; individual frames are too wide and crop feet/hem. Invitation uses the nearer left arm rather than requested anatomical right; hand linkage cannot be considered verified. Pink wrap remains crisp/angular. Do not upscale/crop this into production inputs. Develop a standalone full-body dance start with visible feet, clear hold and softer wrap."
+  },
+  {
+    "id": "S013-dance-start01",
+    "path": "media/stills/film-v06/S013-dance-start01.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-3c8284e1-f8b9-4621-8f1d-c6dbc8d69170.png",
+    "sha256": "4ab558333daf6a761a87faa6dc6ee9c0eacb2c6e34ad974d7351629f730b605d",
+    "prompt": "production/film-v06/S013-dance-start01-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "composition_revision_required_not_video_input",
+    "review": {
+      "camera": "Clear oblique/profile view of heroine, facing partner rather than camera; foreground column and visible restaurant door create depth. Not a repeated frontal portrait.",
+      "casting": "Approved pair recognizable in the new angle; no new casting approval claimed.",
+      "framing": "Entire hat, train and shoe level visible with ground below; one heroine shoe visible, other hidden by skirt. No proof of correct weight transfer over time.",
+      "hands": "Joined pair of hands visible below shoulders; other lady hand reaches his upper arm/shoulder and other man hand at her back. Small overlapping fingers need close inspection before animation.",
+      "cloth": "Wrap surface less accordion-like than contact sheet, long hem lies on ground instead of flaring rigidly. Wrap is already below shoulders, conflicting with planned later off-shoulder action; resolve continuity before video. Silver surface still dense and bright, not final material approval.",
+      "environment": "Same door motif and cool/warm contrast; generated reflective paving despite dry-floor request. No rain is shown. Exact door clearance still requires production blocking.",
+      "limits": "Static starting candidate only. No motion, turn, cloth physics, full film or exact original-painting transition verified.",
+      "heroine_hierarchy": "Latest user correction: weaken male prominence and emphasize heroine in every section. This candidate gives man comparable/full height and a more complete frontal face while heroine is in profile. It does not meet the required subject hierarchy; retain as diagnostic, do not generate video from it."
+    }
+  },
+  {
+    "id": "S013-heroine-focus02",
+    "path": "media/stills/film-v06/S013-heroine-focus02.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-d37a79e8-50d6-4602-83dd-7c2592012ad2.png",
+    "sha256": "eaf73a5eaed81bcf90d63bd0c9175ba54482e6750cf8fea0f375c6f0f64a093c",
+    "prompt": "production/film-v06/S013-heroine-focus02-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "male_foreground_too_large_not_video_input",
+    "review": "Heroine face and full figure now legible, partner face reduced; however near-camera male body occupies too much of frame, rather than requested narrow right edge. Long arm separation also shifts from close dance hold to open hold. Main visual hierarchy not yet solved; next edit targets actual framing/placement, not faces. No video run."
+  },
+  {
+    "id": "S013-heroine-focus03",
+    "path": "media/stills/film-v06/S013-heroine-focus03.png",
+    "source": "/Users/bytedance/.codex/generated_images/01a13033-7ecc-7a31-b5a7-a6d4c5614269/exec-2019183c-e67f-4211-9749-4fd844a27738.png",
+    "sha256": "9d3bb8acb1a72b732779c5f27eaaf927c1eba600e6fd4c64f818e4a72a10c9db",
+    "prompt": "production/film-v06/S013-heroine-focus03-prompt.txt",
+    "tool": "builtin imagegen",
+    "cost": null,
+    "status": "selected_representative_start_not_creator_final_approval",
+    "review": {
+      "hierarchy": "Heroine only fully displayed figure; male reduced to sleeve/hand at right frame edge. Approved face, hat, rose side recognizable; full train and shoe level included.",
+      "action": "Open hand connection rather than original closed dance hold. Use as an open turning phrase: free hand relaxes, connected hand stays low; no lift or underarm spin. Her initial gaze left can return to partner.",
+      "fabric": "Thin lower skirt drape and fine sparkle readable but dynamic softness unproven; wrap still on upper arms. Use a natural gathering gesture in S014 before final backwards removal, do not claim shoulders remained covered throughout.",
+      "limits": "Static artistic selection by assistant for representative production, not creator final approval; no motion proof. Hand/cloth continuity remains a required video review criterion."
+    }
+  }
+]

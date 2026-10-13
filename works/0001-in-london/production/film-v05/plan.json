@@ -1,0 +1,95 @@
+{
+  "S008I": {
+    "y": 4400,
+    "images": [
+      "media/stills/film-v04/S008-threshold01.png",
+      "media/stills/film-v05/S008-inside-landing01.png"
+    ],
+    "prompt": "S008I-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "frames2video",
+      "duration": 4,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v05/S008I_take01.mp4"
+  },
+  "S003J": {
+    "y": 5000,
+    "images": [
+      "media/stills/film-v05/S003-arrival-identity02.png"
+    ],
+    "prompt": "S003J-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5（样片模式）",
+      "modeType": "singleImage2video",
+      "duration": 8,
+      "resolution": "480p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v05/S003J_take01.mp4"
+  },
+  "S001K": {
+    "y": 5600,
+    "images": [
+      "media/stills/film-v04/S001-room01.png"
+    ],
+    "prompt": "S001K-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 6,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "on",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v05/S001K_take01.mp4"
+  },
+  "S004K": {
+    "y": 6200,
+    "images": [
+      "media/stills/film-v05/S004-reaction01-user-selected.png"
+    ],
+    "prompt": "S004K-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "singleImage2video",
+      "duration": 4,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v05/S004K_take01.mp4"
+  },
+  "S005L": {
+    "y": 6800,
+    "images": [
+      "media/stills/film-v05/S005-table-arrival01.png",
+      "media/stills/film-v04/S005-exact-painting-target-v06.png"
+    ],
+    "prompt": "S005L-motion.txt",
+    "settings": {
+      "model": "Seedance 2.5",
+      "modeType": "frames2video",
+      "duration": 4,
+      "resolution": "720p",
+      "ratio": "16:9",
+      "enableSound": "off",
+      "searchEnabled": 0,
+      "count": 1
+    },
+    "output": "media/clips/film-v05/S005L_take01.mp4",
+    "preflight_note": "已有S005G已检验抬手/披肩后滑基本机制，旧13秒编排被拒；本次按全片动作功能重做起态与4秒素材。使用arrival01高位握点；标准720P一次制作，避免同一动作再走样片后升级两次。尚未运行。"
+  }
+}

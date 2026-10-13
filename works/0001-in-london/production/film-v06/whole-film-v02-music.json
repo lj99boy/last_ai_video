@@ -1,0 +1,32 @@
+{
+  "path": "media/audio/film-v06/music-half-dance-v02.m4a",
+  "sha256": "c1da65c3a64bba7c92ef2911ae6cb151fda246298f3d78a8621c26a5663c540c",
+  "seconds": 31.666666666666668,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "31.666000"
+    }
+  },
+  "full_decode": "passed",
+  "music_segments": [
+    {
+      "source_start_seconds": 0,
+      "duration_seconds": 8.5
+    },
+    {
+      "source_start_seconds": 48.35,
+      "duration_seconds": 23.166666666666668
+    }
+  ],
+  "original_seam_parameters_preserved": true,
+  "new_ending_listening_accepted": false,
+  "paid_generation_calls": 0
+}

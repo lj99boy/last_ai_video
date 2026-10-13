@@ -1,0 +1,103 @@
+{
+  "shot": "S005L",
+  "authorization": "Existing user authorization for meaningful economical production; whole-film preflight and independent action review completed; no automatic retries.",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 184,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "ef650f35-61ab-4708-9b10-de1e08941ecb",
+      "path": "media/stills/film-v05/S005-table-arrival01.png",
+      "sha256": "059fd50944f9d8f1e076e61b93a4bca50f9184ce02c059a004f9304cbf436e34"
+    },
+    {
+      "nodeId": "c41d4deb-f17b-4eb5-bca8-db43820279da",
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    }
+  ],
+  "unused_input_note": "arrival02 uploaded but not selected because hand-height reversal risk; no video task was created with it.",
+  "nodeId": "db8d1948-c1e2-4d1a-8466-6b0624597fb3",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "frames2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 4,
+      "enableSound": "off"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "ef650f35-61ab-4708-9b10-de1e08941ecb",
+      "c41d4deb-f17b-4eb5-bca8-db43820279da"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node ef650f35-61ab-4708-9b10-de1e08941ecb}}\n{{Node c41d4deb-f17b-4eb5-bca8-db43820279da}}\nOne continuous 4-second oil-painted film shot. The FIRST reference is the exact initial staging; the LAST reference is the precise final painting composition. Fixed camera and table geometry, same woman, man, hat, rose and dress throughout. One simultaneous graceful action begins immediately. The woman gently lowers her gaze and raises her anatomical RIGHT hand (viewer LEFT), bending the elbow outward until the hand reaches the hair behind her ear, as in the final reference. Her left hand stays low. From the very first frame the companion ALREADY HOLDS the rear panel of the SAME wrap at approximately its final shoulder-height position. He maintains that hand height and draws the fabric gently BACKWARD, away from her shoulders, without lifting it. The pale ivory panel in his hand is the back/lining of the same blush-pink wrap, joined behind her body; no second garment. The top edge slips OFF the shoulder caps while her upper arms emerge; the fabric continues to hang loosely from the upper arms as in the supplied final painting. Do not fully remove it or gather it into a bundle. Do not reach again, raise cloth toward her shoulders, redress her, or pull her arm. A subtle weight shift accompanies her raised hand. She reaches the final pose naturally near the end, without a long freeze. Background diners continue restrained motion until this moment. Preserve painterly brushwork and the same character identity; let the lowered face and posture meet the final reference naturally rather than sliding or morphing her features. No cuts, dissolves, camera zoom, costume redesign, hand-held flowers, extra fingers, glitter patterns, mesh, black borders or backward playback.",
+  "quoteEvidence": {
+    "observed_at": "2026-10-12T16:42:45.500004+00:00",
+    "source": "exact authenticated LibTV node editor",
+    "nodeId": "db8d1948-c1e2-4d1a-8466-6b0624597fb3",
+    "credits": 184,
+    "accountBalanceBefore": 2312,
+    "settings": "Seedance 2.5; frames2video;4s;720P;16:9;count1;soundoff",
+    "billingVerified": false
+  },
+  "preflight": {
+    "whole_film_plan": "whole-film-preflight.md",
+    "adjacent_edit": "editorial-plan-v07.json",
+    "start_review": "arrival01 selected; original high grip preserved; arrival02 rejected before generation",
+    "prior_motion_evidence": "S005G proved arm rise/backward shoulder clearance at sample level; long former editorial use rejected, not reused",
+    "new_action": "simultaneous arm rise/backward release,4sec,fixed camera to original",
+    "review_by": "root and review_film_v05",
+    "mode": "one standard720P production attempt; not an extra low-res test"
+  },
+  "status": "candidate_for_whole_film_review",
+  "taskId": "20261013004203891417550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v05/S005L_take01.mp4",
+  "sha256": "1ad6bfc7ee906cf16d162de8f0960c84fe95f9ffd6f422c343d6df48ff356842",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "97"
+      }
+    ],
+    "format": {
+      "duration": "4.041667"
+    }
+  },
+  "fullDecode": "passed",
+  "artisticReview": {
+    "basis": "4fps contact sheet, no original-speed playback claim",
+    "arm": "right arm rises once from low position to hair",
+    "wrap": "shoulder becomes visible; high grip retained, no upward redressing seen in sampled frames",
+    "background": "fixed camera and tables retained",
+    "tail": "settles before end; must assess tail pause in full edit",
+    "decision": "integrate existing take; no regeneration or upgrade",
+    "userAcceptance": false
+  },
+  "balanceAudit": {
+    "observed_at": "2026-10-12T16:58:54.553782+00:00",
+    "before": 2312,
+    "after": 2128,
+    "net_decrease": 184,
+    "quote": 184,
+    "matches_quote": true,
+    "source": "refreshed authenticated LibTV project header",
+    "per_task_bill_verified": false
+  }
+}

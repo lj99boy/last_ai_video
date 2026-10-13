@@ -1,0 +1,69 @@
+{
+  "output": "media/exports/film-v06/whole-film-structure-v03.mp4",
+  "sha256": "0c17585353664daf55f489bf982c32a7482852547920b41966275aee9583d725",
+  "duration_seconds": 31.666666666666668,
+  "frames": 760,
+  "static_placeholder_seconds": 0.0,
+  "original_painting_hold_seconds": 0.25,
+  "motion_sample_seconds": 26.791666666666668,
+  "original_wall_reveal_seconds": 4.625,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "760"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1485"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "5"
+      }
+    ],
+    "format": {
+      "duration": "31.667000"
+    }
+  },
+  "full_decode": "passed",
+  "music_listening_approved_by_user": false,
+  "full_film_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/clips/film-v05/S001K_take01.mp4",
+      "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838"
+    },
+    {
+      "path": "media/clips/film-v06/whole-film-A-v02_take01-original.mp4",
+      "sha256": "0a9dc63a0c8f4a2ac07dcf48add654c709c22fb3014419e3a090be03269d3467"
+    },
+    {
+      "path": "media/clips/film-v06/whole-film-B-v03_take01-painting-join.mp4",
+      "sha256": "e0d809e71c8d5420f106362d38cf92ac0ccce7dfbb109a003fad0cb633d6b931"
+    },
+    {
+      "path": "media/previs/half-dance-v01/ending-first.png",
+      "sha256": "f557509146028a2043e468bbd26e6d08ef872d95f776b7186f111a7aebb7a5f9"
+    },
+    {
+      "path": "media/exports/ending-v08/original-painting-to-wall.mp4",
+      "sha256": "0459bcc652303ac0f05db530ee037cf7f29ba05928b571820bfec1a897cf1aa7"
+    }
+  ],
+  "limitations": [
+    "完整动态剪辑候选；创作者未验收",
+    "已检查全片抽帧与关键接点；未冒充原速连续观看或耳听",
+    "入场银裙仍有较宽亮带；衣料柔软观感未确认完全解决",
+    "实际侧面镜头含白花先遮后露，用户已明确允许保留",
+    "真人与准确原画并非逐像素一致，末端采用状态正确的短转画"
+  ]
+}

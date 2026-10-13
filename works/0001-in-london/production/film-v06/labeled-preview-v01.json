@@ -1,0 +1,48 @@
+{
+  "output": "media/exports/film-v06/whole-film-structure-v01-labeled.mp4",
+  "sha256": "0a5380485fd42fc4454822735c29842efd9838d6906d8768419181abe87020e8",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "832"
+      },
+      {
+        "codec_type": "audio",
+        "nb_read_frames": "1625"
+      }
+    ],
+    "format": {
+      "duration": "34.666667"
+    }
+  },
+  "full_decode": "passed",
+  "source": "media/exports/film-v06/whole-film-structure-v01.mp4",
+  "labels": [
+    [
+      "preview",
+      "剧情预演 · 非成片 · 衣料与接镜待审",
+      "lt(t,19.5)+gte(t,25)"
+    ],
+    [
+      "ack",
+      "静帧占位 1/2 · 待拍：女主轻点头，转回前方",
+      "gte(t,19.5)*lt(t,22.5)"
+    ],
+    [
+      "pass",
+      "静帧占位 2/2 · 待拍：女主继续走 · 本图位置仍需前移",
+      "gte(t,22.5)*lt(t,25)"
+    ]
+  ],
+  "purpose": "Permanent review labels make static placeholders explicit even in players ignoring subtitle tracks.",
+  "audio_peak_dbfs": -3.4,
+  "audio_mean_dbfs": -15.5,
+  "auditory_review": false,
+  "normal_speed_motion_review": false,
+  "creator_acceptance": false
+}

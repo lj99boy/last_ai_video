@@ -1,0 +1,90 @@
+{
+  "output": "media/exports/film-v05/whole-film-structure-v01.mp4",
+  "sha256": "9b87def6af8439c7ab029c194d7fe561e52a507c6d44fb79a29367d460b50ef1",
+  "duration_seconds": 24.5,
+  "frames": 588,
+  "static_placeholder_seconds": 21.75,
+  "original_wall_reveal_seconds": 2.75,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_read_frames": "588"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "nb_read_frames": "1149"
+      },
+      {
+        "codec_type": "subtitle",
+        "nb_read_frames": "2"
+      }
+    ],
+    "format": {
+      "duration": "24.500000"
+    }
+  },
+  "full_decode": "passed",
+  "human_listening_verified": false,
+  "motion_verified": false,
+  "user_acceptance": false,
+  "sources": [
+    {
+      "path": "media/stills/film-v04/S001-room01.png",
+      "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+    },
+    {
+      "path": "media/stills/film-v04/S001-room01.png",
+      "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+    },
+    {
+      "path": "media/stills/film-v04/S007-window01.png",
+      "sha256": "a1fed35f9fcb9fb52ec8ca31c987a145bf0490c40c0d7d5bc06b134d73937326"
+    },
+    {
+      "path": "media/stills/film-v04/S008-threshold01.png",
+      "sha256": "2c2879c2edab111af54a186e646d0a3cba7422c80d4f1483c160764d96735cff"
+    },
+    {
+      "path": "media/stills/film-v05/S008-inside-landing01.png",
+      "sha256": "b079a6184336a503ad6e9c320ca087823bbabcc2a697d5c4a5ad2e55296c8755"
+    },
+    {
+      "path": "media/stills/film-v05/S003-arrival-hat01.png",
+      "sha256": "b9243761898ef08665408ddeffa44dcafba83ee87bcbc9a74ff7b2212675734a"
+    },
+    {
+      "path": "media/stills/film-v05/S004-reaction02.png",
+      "sha256": "e920802f84461ffdbf8b0ba4d211b5362a6c11d20cd52a0c0dab295c1cd5898a"
+    },
+    {
+      "path": "media/stills/film-v05/S003-arrival-hat01.png",
+      "sha256": "b9243761898ef08665408ddeffa44dcafba83ee87bcbc9a74ff7b2212675734a"
+    },
+    {
+      "path": "media/stills/film-v04/S005-original-wrap-start01.png",
+      "sha256": "c8446707e1b2dc7f11e774f847d7fe68006ed7778c580a68b9983130d884b9c6"
+    },
+    {
+      "path": "media/stills/film-v04/S005-exact-painting-target-v06.png",
+      "sha256": "da27328cd3852365f9425a4a313552288b27c13d8893376138acfb0e0b48cb69"
+    },
+    {
+      "path": "media/exports/ending-v07/original-painting-to-wall.mp4",
+      "sha256": "b4180f95e5814f537524f1afcbdcbffd3766ad78b8fcf9e03cbe771f58f1f432"
+    }
+  ],
+  "limitations": [
+    "此版含静帧占位，不能当成片或动作通过",
+    "音乐从原曲开头连续播放；当前结束点未完成乐句校听",
+    "回原画前的身份与色调接点仍需修订",
+    "局部裁切仅验证景别；不作为高清动镜交付"
+  ],
+  "superseded_reason": "用户选择男女双人旁观者，老年单人版不再采用；开场跨桌关系也已纠正。"
+}

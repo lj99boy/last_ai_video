@@ -1,0 +1,84 @@
+{
+  "shot": "S001K",
+  "authorization": "User active goal: produce complete film with audio using existing workflow; no recharge/subscription",
+  "createAttempted": true,
+  "runAttempted": true,
+  "estimatedCredits": 276,
+  "actualCredits": null,
+  "actualCNY": null,
+  "inputs": [
+    {
+      "nodeId": "a2ae58d4-14ea-4f50-96ae-7df8dcda41e1",
+      "path": "media/stills/film-v04/S001-room01.png",
+      "sha256": "f114fdc510df8777de18d7059a099b54e646dbfa0e913ad8d068aca612542531"
+    }
+  ],
+  "nodeId": "cf065d00-6e3f-417b-8ba9-fadb74e80c02",
+  "readback": {
+    "model": "Seedance 2.5",
+    "modeType": "singleImage2video",
+    "count": 1,
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 6,
+      "enableSound": "on"
+    },
+    "advancedSettings": {
+      "search_enabled": 0,
+      "autoCompliance": 1
+    },
+    "imageListOrder": [
+      "a2ae58d4-14ea-4f50-96ae-7df8dcda41e1"
+    ]
+  },
+  "configuredPromptMatches": true,
+  "readbackPrompt": "{{Node a2ae58d4-14ea-4f50-96ae-7df8dcda41e1}}\nOne continuous 6-second oil-painted cinematic shot starting exactly from the supplied frame. A professional waiter finishes serving a glass at the RIGHT foreground table. The glass BASE IS ALREADY RESTING ON THE TABLE in the first frame. He gently releases his fingertips from the stem and withdraws that hand naturally, keeping the glass upright and stationary; the other hand keeps his tray level. He then straightens slightly, ready to continue service. Never lift the glass, put it down again, move it to a different table, pour liquid, or exchange objects. A restrained slow sideways camera drift reveals foreground-to-background parallax while keeping the serving hand and glass clearly readable. The restaurant continues quietly around him: small conversation gestures, a diner lifting a glass, soft warm light. No one reacts to an arriving woman yet; the heroine is not in this shot. Preserve all identities, clothing, tableware, layout and rich hand-painted oil texture of the reference. Reflections belong to the original lights, with no new glitter, mesh or crawling dots. No freeze, cuts, face changes, melting fingers or duplicated objects. Audio: restrained indoor dining-room murmur without intelligible words, faint cutlery and a delicate glass contact, cloth rustle; no music, voiceover or dramatic sound effects.",
+  "quoteEvidence": {
+    "observed_at": "2026-10-12T15:46:51.671851+00:00",
+    "source": "exact LibTV node editor",
+    "nodeId": "cf065d00-6e3f-417b-8ba9-fadb74e80c02",
+    "settings": "Seedance 2.5; singleImage2video; 16:9 720P 6s 1; audio on",
+    "credits": 276,
+    "accountBalanceBefore": 2752,
+    "billingVerified": false
+  },
+  "status": "candidate_for_editorial_review",
+  "taskId": "20261012234703645317550",
+  "platformStatus": 2,
+  "output": "media/clips/film-v05/S001K_take01.mp4",
+  "sha256": "750291455842adc404dcb852802415834b6f61f1ec3cd271bdea4eec3a703838",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "nb_read_frames": "145"
+      },
+      {
+        "codec_type": "audio",
+        "sample_rate": "32000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_read_frames": "189"
+      }
+    ],
+    "format": {
+      "duration": "6.048000"
+    }
+  },
+  "fullDecode": "passed",
+  "balanceAudit": {
+    "observed_after_both_runs": 2312,
+    "observed_before_both_runs": 2752,
+    "net_decrease": 440,
+    "combined_quotes": 460,
+    "difference_from_quoted_decrease": 20,
+    "observed_at": "2026-10-12T16:03:44.392813+00:00",
+    "note": "同一账户刷新余额；两镜净减少比报价合计少20，原因未核实，不能据此分配逐任务实际扣费。"
+  }
+}
