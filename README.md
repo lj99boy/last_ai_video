@@ -26,6 +26,7 @@ works/                   作品索引与各作品目录
 - [整体流程与分工](docs/workflow.md)
 - [画作到故事：当前制作方法](docs/painting-to-story-playbook.md) / [首作完整复盘](works/0001-in-london/delivery/retrospective-2026-10-13.md)
 - [工具费用与操作记录](docs/libtv-costs-and-operations.md)
+- [即梦执行侧替换评估（2026-10-15）](docs/jimeng-execution-feasibility-2026-10-15.md)
 - [创作实践记录](docs/practice-notes.md)
 - [导演方法公开调研](docs/directing-research-2026-10-11.md) / [导演检查表](docs/directing-review.md)
 - [仓库协作约定](AGENTS.md)
