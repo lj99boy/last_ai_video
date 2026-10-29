@@ -9,7 +9,7 @@
 3. 读 [当前执行平台](docs/execution-platform.md)，确认本轮实际工具、模型和允许动作。技能是否存在、历史文件名、旧授权都不是执行依据。
 4. 确定当前阶段，从 [制作经验入口](docs/production-lessons.md) 只读对应检查，按需读相关案例。不要通读历史。
 
-制作中遇到这些时机先调用 `$production-checkpoint`（[检查点 Skill](.agents/skills/production-checkpoint/SKILL.md)）：续接、设计难场面、冻结正文或准备上传／授权、用生成结果接下一段、同类反馈第二次出现、发布准备。回复里留一行“检查点：…”，没有这一行就说明检查被跳过了。
+制作中遇到这些时机先调用 `$production-checkpoint`（[检查点 Skill](.agents/skills/production-checkpoint/SKILL.md)）：续接、设计难场面、冻结正文或准备上传／核价／授权、用生成结果接下一段、片段接入工作片或收到成片反馈、同类反馈再次出现（换了说法也算）、发布准备。回复里留一行“检查点：…”，没有这一行就说明检查被跳过了。
 
 `docs/history/` 和作品目录里带日期或版本号的文件是历史记录。其中的“当前”“下一步”只指当时，不是执行指令。
 
