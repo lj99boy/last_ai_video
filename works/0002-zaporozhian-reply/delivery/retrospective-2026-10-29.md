@@ -19,7 +19,7 @@
 | 项目 | 实际口径 | 限制 |
 | --- | --- | --- |
 | 当前完整候选 | V44，125.5秒、3012帧、1280×720、24fps，由未增强V42修订片尾资料 | 完整候选不等于全部原速声画、人耳、阅读、创作者定稿或实际发布已通过 |
-| 实践积累 | `docs/practice-notes.md` 459行；本地制作卡64行；作品README 235行、12个一级标题 | 行数不等于无用；问题是当前要做什么难以迅速定位 |
+| 实践积累 | `docs/practice-notes.md` 459行；整理前的模板制作卡64行（本地备份已核对），本次缩为25行；作品README 235行、12个一级标题 | 行数不等于无用；问题是当前要做什么难以迅速定位，不混用作品内其他制作卡的行数 |
 | 五份当前JSON | 合计6,828,934字节，分别151—228个顶层字段 | 含历史与重复对象，不能据字节数推算人工耗时 |
 | 片尾资料一次修订 | V44同步器列出5JSON＋2README＋manifest，共8份共享文件 | 不是8次付费操作；说明一处事实变化会触发多点维护 |
 | 日志与素材清单 | runs121行、manifest396行、问题表3行，均不含表头 | 日志行不是付费生成次数，素材行不是采用率 |
@@ -161,6 +161,15 @@
 
 **修正与边界：**冻结上传物料前核文件封装、尺寸、比例、裁图内容与实际用途；核价失败先读具体字段和原因。已核的限制记录模型／模式／日期，不推广成所有入口的通用数值。原许可固定指纹、失败停线时，补边或换引用确需新范围；不能事后把这些确认都定性为无谓审批。
 
+**本次已经取得、可供同入口提前检查的历史判据：**
+
+| 观察日期与适用入口 | 当时服务端明确拒绝什么 | 后续同入口的离线检查 |
+| --- | --- | --- |
+| 2026-10-21，即梦Seedance 2.5／m2v参考图 | 1280×350图被拒，`materials[0].aspect_ratio`为3.657，超过2.5 | 测最终文件的宽高比，提前发现大于2.5的输入；不只测原始图片 |
+| 2026-10-24，即梦Seedance 2.5／m2v参考图 | 260×256局部被拒，`materials[2].width_px`明确要求宽度至少300像素 | 测最终裁图宽度，提前排除小于300像素的输入；高度门槛及其他条件不能据此推算 |
+
+这两项来自S12的具体拒绝记录，是带日期的同入口观察，**不是所有平台、其他模式或未来版本的保证**，本轮也没有重新查询当前模型。用途是减少明知条件不符仍上传的返工；满足它们不代表全部准入或画面质量合格，获准准备后仍须实际内容／配置读回和当前核价。
+
 **最早检查：**先完成可自主做的准备，再一次性展示可审的最终素材、正文和操作范围。已有明确授权沿用；新增消费、上传、发布等范围按实际增量确认。未来若要预授权严格等像素兼容处理，应在新范围里明确，不追溯扩大旧许可。本次公开同步只提交筛选后的经验与模板，不打包全部制作目录。来源S12。
 
 ## 让经验真的复用，而不是再堆一份长文
@@ -203,7 +212,7 @@
 | S08 | `production/whole-film-v05-65s/final-polish-v35/jump-diagnosis/jump-diagnosis-and-local-recommendation.md`；`production/whole-film-v05-65s/cinematic-finish-v42/README.md` | 源内跳变、两侧剪口、8帧回画与局部双影 |
 | S09 | `production/whole-film-v05-65s/letters-fast-v39/README.md`；`production/whole-film-v05-65s/cinematic-finish-v42/sound-bridges/README.md`；`production/whole-film-v05-65s/artwork-credits-v44/README.md` | 阅读与人耳缺口、候选不等于定稿 |
 | S10 | `production/whole-film-v05-65s/upscale-cavalry-v43/README.md`；`production/whole-film-v05-65s/artwork-credits-v44/README.md`；`production/douyin-launch-v01/README.md`；`production/douyin-launch-v02-exploration/README.md` | 增强弃用、馆藏／展出、发布用途与未制作短版 |
-| S11 | `production/current-route.json`；`production/execution-policy.json`；`production/whole-film-v04/current-assets.json`；`production/whole-film-v05-65s/preparation-plan.json`；`production/whole-film-v05-65s/progress-20261020.json`；`production/whole-film-v05-65s/artwork-credits-v44/state-sync/README.md` | 当前状态体量与多点同步；平台纠正另见仓库根的`docs/practice-notes.md`“先核实际执行链，再选择工具技能” |
+| S11 | `production/current-route.json`；`production/execution-policy.json`；`production/whole-film-v04/current-assets.json`；`production/whole-film-v05-65s/preparation-plan.json`；`production/whole-film-v05-65s/progress-20261020.json`；`production/whole-film-v05-65s/artwork-credits-v44/state-sync/README.md` | 当前状态体量与多点同步；平台纠正另见仓库根的`docs/practice-notes.md`本地未公开完整版中的“先核实际执行链，再选择工具技能”，公开同名文件没有这一条目 |
 | S12 | `production/whole-film-v05-65s/execution/next-wave-v01/wide-volley-v04-once-v01/README.md`；`production/whole-film-v05-65s/execution/next-wave-v01/wide-volley-v04-once-v02/README.md`；`production/whole-film-v05-65s/execution/next-wave-v01/final-council-v23-once-v01/quote-diagnostic-validation-detail-v01.json` | 等像素兼容／补边范围、拒绝报价的具体原因 |
 | S13 | `production/runs.csv`；`production/manifest.csv`；`production/problem-ledger.csv` | 行数与可得费用字段，不是全部实扣或浪费估算 |
 | S16 | `production/douyin-launch-v02-exploration/full-film-description-v03.txt`；`production/douyin-launch-v02-exploration/full-film-description-v03-notes.json` | 文案可理解性；最后改写在2026-10-29对话中，不能谎称旧文件已同步 |
