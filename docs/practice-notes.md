@@ -2,6 +2,8 @@
 
 记录能复用的方法及其证据。方案推导与实际生成经验分开；下文按时间保留历史，旧阶段的“尚未验证”与方案不能自动作为当前要求。
 
+**2026-10-29复用入口：**先按[制作阶段选择检查](production-lessons.md)，需要了解根因再读[第二作完整复盘](../works/0002-zaporozhian-reply/delivery/retrospective-2026-10-29.md)。日期记录用于追溯，不要求每次通读；早期“下一步”不是现行指令。
+
 ## 当前方法入口 · 2026-10-13
 
 [首作完整复盘](../works/0001-in-london/delivery/retrospective-2026-10-13.md) → [画作到故事制作方法](painting-to-story-playbook.md) → [新片制作卡](../templates/work/preproduction/production-readiness.md)。重点是研究必须落到实际输入、按问题累计试错、先组织整片、样片按信息价值决定。首作 v03 已交付并结束本轮修改，已知问题见[交付说明](../works/0001-in-london/delivery/README.md)；方法的质量和节省效果仍需下一部验证。

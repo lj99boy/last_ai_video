@@ -15,6 +15,7 @@
 - [视觉设定与参考](preproduction/visual-bible.md)
 - [分镜表](preproduction/shots.csv)
 - [开工与正式制作卡](preproduction/production-readiness.md)
+- [按当前阶段使用经验](../../docs/production-lessons.md)（先选阶段，再读相关案例，不通读整库）
 - [素材清单](production/manifest.csv)
 - [生成与费用记录](production/runs.csv)
 - [跨镜号问题与成本记录](production/problem-ledger.csv)

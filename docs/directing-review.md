@@ -1,5 +1,7 @@
 # 绘画短片：导演检查表
 
+先用[按阶段的制作经验](production-lessons.md)选择本轮核心问题，本页按需展开。技术复核与导演复核应回答不同问题，不能靠增加同类检查者代替人物因果、正常速度和听感判断。反例见[第二作复盘](../works/0002-zaporozhian-reply/delivery/retrospective-2026-10-29.md)。
+
 用于分镜设计与整片审看，按作品的观看重点选择检查项。方法来源见[早期公开调研](directing-research-2026-10-11.md)，制作流程见[画作到故事制作方法](painting-to-story-playbook.md)。
 
 ## 每个镜头先写这张卡
