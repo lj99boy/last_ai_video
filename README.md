@@ -15,7 +15,7 @@
 | 组织参考素材与段落 | [参考驱动的制作](docs/reference-production.md)、[参考流水线工具](tools/README-reference-pipeline.md) |
 | 开新作品 | [作品模板](templates/work/README.md)，其中[一页制作卡](templates/work/preproduction/production-readiness.md)记录每轮短结论 |
 
-代理协作规则见 [AGENTS.md](AGENTS.md)。
+代理协作规则见 [AGENTS.md](AGENTS.md)。制作中的关键决定由 [制作检查点 Skill](.agents/skills/production-checkpoint/SKILL.md) 触发对应检查（Codex 中可用 `$production-checkpoint` 显式调用）。
 
 ## 2. 作品层：做过什么
 

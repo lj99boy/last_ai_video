@@ -16,6 +16,17 @@ names = subprocess.check_output(
     ['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'], cwd=ROOT
 ).decode().split('\0')
 errors, counts = [], {'text_files': 0, 'local_links': 0, 'local_media_links': 0, 'media_checked': 0}
+
+
+def anchors(path, cache={}):
+    """显式锚点与按GitHub规则生成的标题锚点。"""
+    if path not in cache:
+        text = path.read_text(encoding='utf-8')
+        slugs = {re.sub(r'[^\w\- ]', '', title.strip().lower()).replace(' ', '-')
+                 for title in re.findall(r'^#{1,6} (.+)$', text, re.M)}
+        cache[path] = slugs | set(re.findall(r'<a id="([^"]+)"', text))
+    return cache[path]
+
 for name in sorted(set(filter(None, names))):
     path = ROOT / name
     if not path.is_file() or path.suffix not in ('.md', '.json', '.csv', '.py'):
@@ -25,7 +36,7 @@ for name in sorted(set(filter(None, names))):
         content = path.read_text(encoding='utf-8')
         # 能力层和入口不应依赖某台机器的目录结构；作品历史记录保留原文。
         capability = name in ('README.md', 'AGENTS.md') or name.endswith('/README.md') and name.count('/') == 2 \
-            or name.startswith(('docs/', 'templates/', 'tests/', 'openspec/')) \
+            or name.startswith(('docs/', 'templates/', 'tests/', 'openspec/', '.agents/')) \
             or name.startswith('tools/') and name != 'tools/check_repository.py'
         if capability and re.search(r'/Users/[^/\s`]+/|/home/[^/\s`]+/|[A-Za-z]:\\Users\\', content):
             errors.append(f'{name}: contains a machine-specific absolute path')
@@ -52,8 +63,25 @@ for name in sorted(set(filter(None, names))):
                 counts['local_links'] += 1
                 if not target.exists():
                     errors.append(f'{name}: missing local link {link}')
+                elif '#' in link and target.suffix == '.md' and link.split('#', 1)[1] not in anchors(target):
+                    errors.append(f'{name}: missing anchor {link}')
     except (ValueError, SyntaxError, UnicodeError) as exc:
         errors.append(f'{name}: {exc}')
+
+# 检查点Skill只负责触发，时机名称必须与制作经验入口的表格一致，避免两边各自演变。
+skill = ROOT / '.agents/skills/production-checkpoint/SKILL.md'
+if skill.is_file():
+    text = skill.read_text(encoding='utf-8')
+    front = re.match(r'---\nname: (\S+)\ndescription: (.+?)\n---\n', text, re.S)
+    if not front or front.group(1) != skill.parent.name or len(front.group(2)) > 1024:
+        errors.append(f'{skill.relative_to(ROOT)}: frontmatter needs matching name and description within 1024 characters')
+    lessons = (ROOT / 'docs/production-lessons.md').read_text(encoding='utf-8')
+    stages = set(re.findall(r'^\| ([^|]+?) \| [^|]+ \| [^|]+ \|$', lessons.split('## 六个触发时机', 1)[1].split('\n## ', 1)[0], re.M))
+    used = set(re.findall(r'^\| [^|]+ \| ([^|]+?) \|$', text.split('## 1. 判断时机', 1)[1].split('\n## ', 1)[0], re.M))
+    stages -= {'何时使用', '---'}
+    used -= {'时机（制作经验入口表格中的行）', '---'}
+    if stages != used:
+        errors.append(f'{skill.relative_to(ROOT)}: stages differ from docs/production-lessons.md: {sorted(stages ^ used)}')
 
 if args.media:
     manifest = json.loads((ROOT / 'works/0001-in-london/delivery/media-manifest-v03.json').read_text())

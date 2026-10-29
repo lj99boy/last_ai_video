@@ -1,0 +1,6 @@
+interface:
+  display_name: "制作检查点"
+  short_description: "在关键制作决定前带入当前阶段的检查和案例"
+  default_prompt: "使用 $production-checkpoint 判断当前制作阶段，读对应检查和案例，用当前材料回答后再继续。"
+policy:
+  allow_implicit_invocation: true
