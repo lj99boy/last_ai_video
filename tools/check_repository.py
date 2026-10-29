@@ -23,6 +23,12 @@ for name in sorted(set(filter(None, names))):
     counts['text_files'] += 1
     try:
         content = path.read_text(encoding='utf-8')
+        # 能力层和入口不应依赖某台机器的目录结构；作品历史记录保留原文。
+        capability = name in ('README.md', 'AGENTS.md') or name.endswith('/README.md') and name.count('/') == 2 \
+            or name.startswith(('docs/', 'templates/', 'tests/', 'openspec/')) \
+            or name.startswith('tools/') and name != 'tools/check_repository.py'
+        if capability and re.search(r'/Users/[^/\s`]+/|/home/[^/\s`]+/|[A-Za-z]:\\Users\\', content):
+            errors.append(f'{name}: contains a machine-specific absolute path')
         if path.suffix == '.json':
             json.loads(content)
         elif path.suffix == '.py':

@@ -1,5 +1,7 @@
 # 即梦执行侧替换评估
 
+> 历史能力与接入调查。下文“当前”和“尚未接通”只指所标日期；本账号后续已真实执行。现阶段采用、权限和待办从作品当前入口（本地记录 `production/README.md`）读取，不从本报告恢复旧预算或方案。
+
 核查日期：2026-10-15。范围：评估后续作品的图片/视频生成能否从 LibTV 转到即梦，保留共创、导演稿、素材归档和本地剪辑。本文是有日期的调查结论，不代表已迁移或已授权付费。
 
 ## 判断
@@ -38,11 +40,11 @@
 
 上表“命令存在”来自实际 `schema/help`；远端行为、扣费协议来自官方说明，尚未以登录或付费任务验证。具体 Seedance 版本、12 秒/720P/16:9 与多图组合必须以登录后的模型规格为准，不能从通用命令参数推定可用。
 
-现有作品的实际配置以 [A/B v02 记录](../works/0001-in-london/production/film-v06/whole-film-v02-configuration.json) 和 [B v03 记录](../works/0001-in-london/production/film-v06/whole-film-v03-configuration.json) 为依据：最终采用的 A 为两图、B v03 为三图，均 12 秒、720P、16:9、一次一条、声音关闭。B 的连续性参考含 A 的真实结束静帧。早期 [execute.py](../works/0001-in-london/production/film-v06/execute.py) 不能代表整部最终成片的全部执行过程。
+现有作品的实际配置以 [A/B v02 记录](../../works/0001-in-london/production/film-v06/whole-film-v02-configuration.json) 和 [B v03 记录](../../works/0001-in-london/production/film-v06/whole-film-v03-configuration.json) 为依据：最终采用的 A 为两图、B v03 为三图，均 12 秒、720P、16:9、一次一条、声音关闭。B 的连续性参考含 A 的真实结束静帧。早期 [execute.py](../../works/0001-in-london/production/film-v06/execute.py) 不能代表整部最终成片的全部执行过程。
 
 ## 接入范围
 
-保留已确定的创作简报、导演稿、人物与衣料参考、每段叙事职责、镜头衔接、素材指纹和 [本地剪辑交付](../works/0001-in-london/delivery/reproduce-v03.md)。已交付作品继续归档，不为验证即梦重新生成。
+保留已确定的创作简报、导演稿、人物与衣料参考、每段叙事职责、镜头衔接、素材指纹和 [本地剪辑交付](../../works/0001-in-london/delivery/reproduce-v03.md)。已交付作品继续归档，不为验证即梦重新生成。
 
 需要更换的是生成入口、素材/节点 ID、提示词引用语法、模型参数、报价和任务状态/下载处理。现有脚本没有通用平台接口，不能只替换 CLI 路径。后续实现宜增加一个小型即梦执行器，保留 LibTV 历史记录，不先搭大型多平台框架。
 
@@ -81,3 +83,15 @@
 5. 若决定采用，第一笔生成优先服务下一部作品的正式段落。仅当仍有会改变制作选择的关键动态未知时，考虑能入片或迁移的代表段落，并明确上限；不为“证明平台能生视频”额外购买试片。
 
 在接通、核价和导出条件明确前，LibTV 保持可回退入口。制作质量继续依赖整片设计、参考职责、动作可行性和剪辑衔接；平台迁移解决执行与成本选择，不能代替这些工作。
+
+## 2026-10-16 后续执行证据
+
+本报告上方是2026-10-15的接入前调查，不再作为本账号未接通的当前结论。作品0002已在官方账号许可下接通、保存／读回草稿、逐节点核价，并唯一完成G05正式生成及下载；后续制作另获十段各一次／总1600积分许可，当时实际状态见历史续拍包（本地记录 `production/continuation-v01/README.md`）。会员、实际引用、逐次价格、消费上限和最终采用仍分别核实，不能把一次成功外推为所有动作／俄语表演已可靠。
+
+G05的官方账号级“导出内容去除AI生成水印”原为关闭。创作者明确同意页面说明和账号级改变后，已开启、保存并重新打开读回；同一资源的官方网页重导出无左上可见标识。CLI1.0.3随后下载与新网页文件同SHA，故**本账号此次CLI继承保存的导出偏好已实测**，无需独立去水印flag，也无需重生成。解码音轨及帧时间保持一致；服务端重编码造成轻微像素差异，不宣称无损。即梦品牌水印权益与AI生成明标识设置分别判断。完整许可和验证见G05官方导出证据（本地记录 `production/G05-take01/official-watermark-export-v02.json`）。
+
+本机后续执行曾出现受限进程`auth account`返回`cli.authentication_required`，而官方`auth login`只读回可复用的有效登录、直接账号读取成功；在具备既有Keychain读取权限的执行环境中，同一操作器核验及G06提交成功。不能只据一次受限环境的`loggedIn=false`就认定账号授权过期；先定向核登录／账号实际返回和执行权限，不反复设备授权或强制清除profile。此为本机条件观察，不保证所有同名错误均由沙箱引起。
+
+## 2026-10-24 定向报价与多参考实测
+
+第二作BC两镜采用Seedance 2.5／m2v／16:9／6秒480p／1条，实际提供2图及1份4秒白模视频。三份上传均经下载后严格内容核验，全文配置与引用读回一致；本次同一原个人的合格报价为90积分，后续运行上限收紧到90，唯一提交并成功下载145原生帧。见准备证据（本地记录 `production/whole-film-v05-65s/execution/next-wave-v01/battle-rhythm-BC-v20-once-v01/prepare-result.json`）、执行证据（本地记录 `production/whole-film-v05-65s/execution/next-wave-v01/battle-rhythm-BC-v20-once-v01/run-only-v01/run-result.json`）及原片证据（本地记录 `production/whole-film-v05-65s/execution/next-wave-v01/battle-rhythm-BC-v20-once-v01/run-only-v01/output-media-evidence.json`）。90是本次报价预留，未查余额或核最终净扣，不外推其他配置、日期或所有账户。技术导出成功也不等于动作或整片验收。

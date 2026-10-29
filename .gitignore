@@ -40,3 +40,6 @@ models/
 *.prproj
 *.blend
 *.blend1
+
+# 本机约定，只在所有者环境中使用。
+*.local.md

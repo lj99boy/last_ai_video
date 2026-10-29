@@ -1,6 +1,6 @@
 # 早期工具选型与验证记录
 
-历史范围：2026-10-10 至 2026-10-11。下文保留接入初期的状态与候选方案；“尚未实测”“尚未购买”均指当时。后续执行证据见[费用与操作记录](libtv-costs-and-operations.md)，当前成片与实际剪辑路径见[首作入口](../works/0001-in-london/README.md)。价格、模型别名与账户权限不作为实时信息。
+历史范围：2026-10-10 至 2026-10-11。下文保留接入初期的状态与候选方案；“尚未实测”“尚未购买”均指当时。后续执行证据见[费用与操作记录](libtv-costs-and-operations.md)，当前成片与实际剪辑路径见[首作入口](../../works/0001-in-london/README.md)。价格、模型别名与账户权限不作为实时信息。
 
 | 环节 | 首选 | 状态与边界 |
 | --- | --- | --- |
@@ -45,7 +45,7 @@
 
 授权包含账户读取、项目读写、媒体上传、生成任务及导出。首次等待超时后已重新发起；不要保存带临时鉴权参数的 URL。当前会话工具列表尚未出现 LibTV 工具；授权后仍需验证插件刷新和实际工具调用，不能仅凭 mcp get 的 enabled 宣布可用。
 
-已完成的概念图使用内置图片工具，与 LibTV 视频实测分开记录，见 [V001](../works/0001-in-london/production/V001-review.md)。
+已完成的概念图使用内置图片工具，与 LibTV 视频实测分开记录，见 [V001](../../works/0001-in-london/production/V001-review.md)。
 
 ## 2026-10-11 · 官方 CLI 接通
 
@@ -53,4 +53,4 @@
 
 官方 CLI 能读取已有网页创建的画布，已复用“01 关键帧与试拍”。查询发现 Seedance 2.5 样片模式支持 480p、4–30 秒，Kling 3.0 支持 5–15 秒；仅为 schema 能力，不代表画质或价格已经实测。General image Pro 的 modelKey 是 nebula-ultra，其 schema 内部名称不同；不推断为某个上游品牌型号。schema 未给出单次积分报价，仍需核实后提交生成。
 
-操作细节见 [CLI 接入记录](../works/0001-in-london/production/libtv-connection.md)。
+操作细节见 [CLI 接入记录](../../works/0001-in-london/production/libtv-connection.md)。

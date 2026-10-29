@@ -1,0 +1,7 @@
+# 完整执行目录只在本地保存；公开内容为 README.md 与制作复盘。
+/*
+!/.gitignore
+!/README.md
+!/delivery/
+/delivery/*
+!/delivery/retrospective-2026-10-29.md
